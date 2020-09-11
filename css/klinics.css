@@ -1,0 +1,380 @@
+.first-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 17.2rem;
+    width: 157rem;
+    max-width: 98%;
+}
+
+body {
+    background: white;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 33%;
+    margin-left: 13rem;
+}
+
+.h1 {
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+.contacts__info {
+    margin: 3.5rem 0;
+    padding: 1.8rem 0;
+    width: 100%;
+    border-top: 1px solid #ece8f2;
+    border-bottom: 1px solid #ece8f2;
+}
+
+.contacts__item {
+    margin: 1.5rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts__item strong {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.contacts__item span {
+    text-align: left;
+    width: 50%;
+    font-size: 2rem;
+}
+
+.h3 {
+    font-size: 2.2rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+
+.contacts__description {
+    font-size: 1.8rem;
+    color: #978da1;
+}
+
+.points {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25.5rem;
+    width: 130rem;
+}
+
+.point {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-shadow: 26px 26px 47px 9px rgba(117, 117, 117, 0.07);
+    -moz-box-shadow: 26px 26px 47px 9px rgba(117, 117, 117, 0.07);
+    box-shadow: 26px 26px 47px 9px rgba(117, 117, 117, 0.07);
+    padding: 3rem;
+    border-radius: 2rem;
+    width: 19%;
+    background: white;
+}
+
+.point__title {
+    font-size: 2.4rem;
+    font-weight: 900;
+    margin: 1rem 0;
+}
+
+.point__address div {
+    font-size: 2rem;
+    font-weight: 900;
+    margin: 1rem 0;
+}
+
+.point__address span {
+    font-size: 1.9rem;
+    padding: 0.7rem 0;
+}
+
+.b__caption {
+    font-size: 1.8rem;
+}
+
+.klinics-article__container {
+    width: 130rem;
+}
+
+.map {
+    border-radius: 4rem;
+    overflow: hidden;
+    z-index: 2;
+    height: 57rem;
+    width: 75rem;
+    -webkit-box-shadow: 26px 26px 47px 9px rgba(117, 117, 117, 0.07);
+    -moz-box-shadow: 26px 26px 47px 9px rgba(117, 117, 117, 0.07);
+    box-shadow: 26px 26px 47px 9px rgba(117, 117, 117, 0.07);
+}
+
+.article__padding-top {
+    padding-top: 22rem;
+}
+
+@media (max-width: 48em) {
+    .first-block {
+        flex-direction: column;
+        padding: 21rem 5% 0 5%;
+        width: 90%;
+    }
+
+    .contacts {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .h1 {
+        font-size: 5.9rem;
+    }
+
+    .contacts__info {
+        border-top: 2px solid #ece8f2;
+        border-bottom: 2px solid #ece8f2;
+        padding: 2.6rem 0;
+        margin: 3.5rem 0 6rem 0;
+    }
+
+    .contacts__item strong {
+        font-size: 3.5rem;
+    }
+
+    .contacts__item span {
+        font-size: 3.5rem;
+    }
+
+    .contacts__item {
+        margin: 3rem 0;
+    }
+
+    .h3 {
+        font-size: 3.55rem;
+        margin-bottom: 2rem;
+    }
+
+    .contacts__description {
+        font-size: 3.15rem;
+    }
+
+    .btn {
+        width: 35rem;
+        height: 10rem;
+        border-radius: 7rem;
+    }
+
+    .btn--icon {
+        padding-left: 3rem;
+        font-size: 3rem;
+    }
+
+    .btn--icon::before {
+        width: 4.8rem;
+        right: 2rem;
+        height: 4.8rem;
+    }
+
+    .btn--icon::after {
+        right: 3.7rem;
+        width: 1.2rem;
+        height: 2.2rem;
+    }
+
+    .main-info__btn {
+        margin-top: 6rem;
+        margin-left: 0;
+    }
+
+    .map {
+        width: 100%;
+        margin-top: 10rem;
+    }
+
+    .points {
+        flex-direction: column;
+        padding: 11rem 5%;
+        width: 90%;
+    }
+
+    .point {
+        width: 90%;
+        margin-bottom: 5rem;
+    }
+
+    .point__title {
+        font-size: 4.7rem;
+        margin: 2rem 0 3rem 0;
+    }
+
+    .point__address div {
+        font-size: 4rem;
+    }
+
+    .point__address span {
+        font-size: 3.7rem;
+    }
+
+    .point__address {
+        margin-bottom: 2rem;
+    }
+
+    .article__padding-top {
+        width: 90%;
+        max-width: unset;
+        padding-top: 8rem;
+    }
+
+    .b__img-wrap {
+        height: auto;
+        margin-bottom: 13rem;
+    }
+
+    .klinics-article__container {
+        width: 100%;
+    }
+
+    .b__caption {
+        font-size: 2.4rem;
+        margin-bottom: 2rem;
+    }
+
+    .b__title {
+        font-size: 5.3rem;
+        margin-bottom: 3rem;
+    }
+
+    .desc {
+        font-size: 2.9rem;
+    }
+
+    .btn {
+        width: 100%;
+        font-size: 3.7rem;
+        margin-bottom: 2rem;
+    }
+
+    .b__btn-wrap {
+        margin-top: 7.5rem;
+    }
+
+    .btn--tel {
+        background-size: 7rem 7rem;
+    }
+
+    .footer__logo img {
+        width: unset;
+    }
+
+    .b {
+        padding-bottom: 15rem;
+    }
+
+    .first-btn {
+        width: 35rem;
+        font-size: 3rem;
+    }
+
+
+
+
+    .s07-k {
+        display: none;
+    }
+
+    .r-20-k {
+        display: none;
+    }
+
+    .b__figure-dots::before {
+        bottom: -5.8rem;
+        width: 23.5rem;
+        height: 22.4rem;
+    }
+
+
+
+
+
+
+    .menu-toggle {
+        width: 7rem;
+        height: 3.3rem;
+    }
+
+    .logo::before {
+        width: 5.5rem;
+        height: 5.5rem;
+    }
+
+    .logo__title-img {
+        left: 4.2rem;
+        width: 17.4rem;
+        height: 3.5rem;
+    }
+
+    .header__link-call-back-img {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .logo__title-img-footer {
+        left: -0.4rem;
+    }
+
+    .footer__logo-img {
+        width: 8rem;
+        margin-top: 0;
+    }
+
+    .footer__logo img {
+        width: 23rem;
+        height: auto;
+    }
+
+    .footer__logo span {
+        font-size: 2.1rem;
+    }
+
+    .footer__about p {
+        font-size: 3rem;
+    }
+
+    .footer__about span {
+        font-size: 2.3rem;
+    }
+
+    .footer__social img {
+        width: 3.8rem;
+    }
+
+    .footer__request-text strong {
+        font-size: 3.6rem;
+    }
+
+    .footer__request-text span {
+        font-size: 2.5rem;
+    }
+
+    .footer__button a span {
+        font-size: 2.2rem;
+    }
+
+    .footer__button a div {
+        padding: 1.5rem 1.8rem;
+    }
+    .footer__button img {
+        width: 1.2rem;
+    }
+    .footer__button a{
+        margin-top: 2rem;
+    }
+    .main{
+        overflow: hidden;
+    }
+}

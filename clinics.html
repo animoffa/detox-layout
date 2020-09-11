@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="index.js"></script>
+
+    <link rel="stylesheet" href="css/styleindex.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/service.css"/>
+    <link rel="stylesheet" href="css/clinics.css"/>
+    <link rel="stylesheet" href="css/clinicsbackground.css"/>
+    <link rel="stylesheet" href="css/footer.css"/>
+    <link rel="preload" href="fonts/FuturaPT/book/FuturaPT-Book.woff2" as="font" type="font/woff2" crossorigin="">
+</head>
+<body>
+<header class="header">
+    <div class="header__container container-outside">
+        <div class="header__wrapper">
+            <div class="header__mobile-top">
+                <button class="header__menu-toggle menu-toggle">
+                    <span>Открыть меню</span>
+                </button>
+
+                <a class="header__logo logo" href="index.html">
+                    <h2 class="logo__title visually-hidden">Очищение</h2>
+                    <img class="logo__title-img" src="img/svg/logo-title.svg" alt="Очищение" width="190" height="32">
+                    <img class="logo__title-img logo__title-img--white" src="img/svg/logo-title-white.svg" alt="Очищение" width="190" height="32">
+                    <p class="logo__description">детоксикация при любых видах зависимости</p>
+                </a>
+
+                <a class="header__link-call-back js-modal-callback" href="#">
+                    <img class="header__link-call-back-img" src="img/svg/phone.svg" alt="Обратный звонок" width="32" height="32">
+                </a>
+            </div>
+
+            <nav class="header__main-nav main-nav">
+                <form class="main-nav__search search" action=".php" method='POST'>
+                    <input class="search__input" type="search" name="SEARCH" placeholder="Поиск по сайту...">
+                </form>
+                <ul class="main-nav__list main-nav__list--primary">
+                    <li class="main-nav__item--primary">
+                        <ul class="main-nav__list--secondary">
+                            <li class="main-nav__item">
+                                <a class="main-nav__link" href="clinics.html">Клиники</a>
+                            </li>
+                            <li class="main-nav__item">
+                                <a class="main-nav__link" href="services.html">Наркомания</a>
+                            </li>
+                            <li class="main-nav__item">
+                                <a class="main-nav__link main-nav-sub" href="alco.html">Алкоголизм</a>
+                                <ul class="main-nav__sublist">
+                                    <li class="main-nav__subitem">
+                                        <a class="main-nav__sublink" href="articles.html">Детоксикация от героиновой наркомании</a>
+                                    </li>
+                                    <li class="main-nav__subitem">
+                                        <a class="main-nav__sublink" href="service.html">Детоксикация от спайсовой наркомании</a>
+                                    </li>
+                                    <li class="main-nav__subitem">
+                                        <a class="main-nav__sublink" href="clinic.html">Детоксикация от солевой наркомании</a>
+                                    </li>
+                                    <li class="main-nav__subitem">
+                                        <a class="main-nav__sublink" href="service-detail.html">Детоксикация от Альфа-ПВП</a>
+                                    </li>
+                                    <li class="main-nav__subitem">
+                                        <a class="main-nav__sublink" href="service-detail.html">УБОД</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="main-nav__item--primary">
+                        <ul class="main-nav__list--secondary">
+                            <li class="main-nav__item">
+                                <a class="main-nav__link" href="clinics.html">Подросткам</a>
+                            </li>
+                            <li class="main-nav__item">
+                                <a class="main-nav__link" href="publishes.html">Публикации</a>
+                            </li>
+                            <li class="main-nav__item">
+                                <a class="main-nav__link" href="contacts.html">Контакты</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <div id="nav-decoration" class="main-nav__decoration"></div>
+                <button class="main-nav__btn-search js-modal-search" title="Поиск">Поиск</button>
+            </nav>
+
+            <div class="header__phone-wrapper">
+                <a class="header__phone" href="tel:+78009009090">8 (800) 636-54-12</a>
+                <p class="header__phone-text">Круглосуточно, анонимно</p>
+            </div>
+        </div>
+    </div>
+</header>
+<img src="./img/cloud-mob.png" alt="cloud" class="cloud-mob">
+<div class="container main">
+    <section class="header-section">
+        <div class="header-section__block">
+            <div class="header-section__block-subtitle">Гарантия анонимности</div>
+            <div class="header-section__block-title">Наркологические клиники</div>
+            <div class="header-section__block-description">Клиники по всей России, бесплатная консультация врача,
+                круглосуточная помощь!
+            </div>
+            <div class="footer__button header-section__button">
+                <a><span>Оставить заявку</span>
+                    <div><img src="img/svg/arrow-short-green.svg" alt=">"/></div>
+                </a>
+            </div>
+        </div>
+        <img src="./img/cloud.png" alt="cloud" class="cloud">
+        <svg class="main-info__ruffles-d main-info__ruffles-d-2 ruffles r-45-c" width="30" height="30" aria-hidden="true" role="presentation">
+            <use xlink:href="#ruffle-o-green">
+                <svg id="ruffle-o-green">
+                    <circle cx="14" cy="14" r="10" stroke="url(#g-green)" stroke-width="4.4px" fill="none"></circle>
+                </svg>
+            </use>
+        </svg>
+        <svg class="main-info__ruffles-d main-info__ruffles-d-2 ruffles r-45" width="30" height="30" aria-hidden="true" role="presentation">
+
+            <use xlink:href="#ruffle-o-green">
+                <svg id="ruffle-o-green">
+                    <circle cx="14" cy="14" r="10" stroke="url(#g-green)" stroke-width="4.4px" fill="none"></circle>
+                </svg>
+            </use>
+        </svg>
+        <svg class="main-info__ruffles-d main-info__ruffles-d-2 ruffles r-45-c2" width="30" height="30" aria-hidden="true" role="presentation">
+            <use xlink:href="#ruffle-o-green">
+                <svg id="ruffle-o-green">
+                    <circle cx="14" cy="14" r="10" stroke="url(#g-green)" stroke-width="4.4px" fill="none"></circle>
+                </svg>
+            </use>
+        </svg>
+        <svg class="main-info__ruffles-d main-info__ruffles-d-2 ruffles r-45-c3" width="30" height="30" aria-hidden="true" role="presentation">
+            <use xlink:href="#ruffle-o-green">
+                <svg id="ruffle-o-green">
+                    <circle cx="14" cy="14" r="10" stroke="url(#g-green)" stroke-width="4.4px" fill="none"></circle>
+                </svg>
+            </use>
+        </svg>
+        <div class=" figure figure-k" aria-hidden="true"></div>
+        <svg class="main-info__ruffles-d main-info__ruffles-d-2 ruffles r-45 r-45-k" width="30" height="30" aria-hidden="true" role="presentation">
+            <use xlink:href="#ruffle-o-green">
+                <svg id="ruffle-o-green">
+                    <circle cx="14" cy="14" r="10" stroke="url(#g-green)" stroke-width="4.4px" fill="none"></circle>
+                </svg>
+            </use>
+        </svg>
+        <svg class=" main-info__ruffles-m-2 ruffles ruffles--blue-1 ri37 r-20 r-20-k" width="15" height="15" aria-hidden="true" role="presentation">
+            <use xlink:href="#ruffle-x"></use>
+        </svg>
+        <svg class=" main-info__ruffles-m-2 ruffles ruffles--blue-1 ri37 r-20 r-20-c" width="15" height="15" aria-hidden="true" role="presentation">
+            <use xlink:href="#ruffle-x"></use>
+        </svg>
+        <svg class=" main-info__ruffles-m-2 ruffles ruffles--blue-1 ri37 r-20 r-20-c2" width="15" height="15" aria-hidden="true" role="presentation">
+            <use xlink:href="#ruffle-x"></use>
+        </svg>
+        <svg class=" main-info__ruffles-m-2 ruffles ruffles--blue-1 ri37 r-20 r-20-c3" width="15" height="15" aria-hidden="true" role="presentation">
+            <use xlink:href="#ruffle-x"></use>
+        </svg>
+        <svg class=" main-info__ruffles-m-2 ruffles ruffles--blue-1 ri37 r-20 r-222 r-222-k" width="15" height="15" aria-hidden="true" role="presentation">
+            <use xlink:href="#ruffle-x"></use>
+        </svg>
+        <svg class=" main-info__ruffles-m-2 ruffles ruffles--blue-1 ri37 r-20 r-2223 r-2223-k" width="15" height="15" aria-hidden="true" role="presentation">
+            <use xlink:href="#ruffle-x"></use>
+        </svg>
+        <svg class=" main-info__ruffles-m-2 ruffles ruffles--blue-1 ri37 r-20 r-2223 r-2223-k2" width="15" height="15" aria-hidden="true" role="presentation">
+            <use xlink:href="#ruffle-x"></use>
+        </svg>
+        <svg class=" main-info__ruffles-m-2 ruffles ruffles--blue-1 ri37 r-20 r-2223 r-2223-k3" width="15" height="15" aria-hidden="true" role="presentation">
+            <use xlink:href="#ruffle-x"></use>
+        </svg>
+        <svg class=" main-info__ruffles-m-2 ruffles ruffles--blue-1 ri37 r-20 r-2223 r-2223-k4" width="15" height="15" aria-hidden="true" role="presentation">
+            <use xlink:href="#ruffle-x"></use>
+        </svg>
+
+        <svg class="ruffles ruffles--dark-blue t829 x-224 r-6022" width="20" height="20" aria-hidden="true" role="presentation">
+            <use xlink:href="#ruffle-x"></use>
+        </svg>
+        <svg class="ruffles ruffles--dark-blue t829 x-224 r-6023" width="20" height="20" aria-hidden="true" role="presentation">
+            <use xlink:href="#ruffle-x"></use>
+        </svg>
+
+        <svg class="main-info__ruffles-m-4 ruffles ri23 r-60 s07 s07-k" width="30" height="30" aria-hidden="true" role="presentation">
+            <use xlink:href="#ruffle-o-blue"></use>
+        </svg>
+
+        <svg class="ruffles ruffles--dark-blue t829 x-224 r-60 r-60-k" width="20" height="20" aria-hidden="true" role="presentation">
+            <use xlink:href="#ruffle-x"></use>
+        </svg>
+    </section>
+    <section class="list">
+        <div class="list__header">
+            <div class="list__subtitle">Начните лечение уже сегодня!</div>
+            <div class="list__title">Каталог клиник</div>
+            <div id="choice-region" class="choice list__choice">
+                <div>
+                <img src="./img/location.svg" alt="">
+                <span>Выберите регион</span>
+                </div>
+                <img src="./img/svg/arrow-short-green.svg" id="arrow-region" alt="">
+            </div>
+            <div id="open-choice-region" class="list__open-choice hider">
+                <ul id="region">
+                    <li >Москва и МО</li>
+                    <li>Санкт-Петербург</li>
+                    <li>Екатеринбург</li>
+                    <li>Уфа</li>
+                    <li>Воронеж</li>
+                </ul>
+            </div>
+        </div>
+        <div class="map">
+            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A21722e1d3d8c384af8c88b79637ac52a83e171cb93eea2b47e0259a8868c3c19&amp;width=1313&amp;height=433&amp;lang=ru_RU&amp;scroll=true"></script>
+        </div>
+        <div class="list__items">
+            <div class="list__item">
+                <div class="list__item-type">
+                    <img src="./img/star.svg" alt="star">
+                    <span>Комфорт</span>
+                </div>
+                <img src="./img/clinic-moscow1.png" alt="" class="clinic">
+                <img src="./img/mob-clinic.png" alt="" class="mob-clinic">
+                <div class="list__item-inner">
+                    <div class="list__item-city">г. Москва</div>
+                    <div class="list__item-address">ул. Большая Академическая, 13А</div>
+                    <div class="list__item-price"><strong>от 3000 ₽</strong><span>/ в сутки</span></div>
+                </div>
+            </div>
+            <div class="list__item">
+                <div class="list__item-type">
+                    <img src="./img/star.svg" alt="star">
+                    <span>Стандарт</span>
+                </div>
+                <img src="./img/clinic-ecaterinburg.png" alt="" class="clinic">
+                <img src="./img/mob-clinic.png" alt="" class="mob-clinic">
+                <div class="list__item-inner">
+                    <div class="list__item-city">г. Екатеринбург</div>
+                    <div class="list__item-address">ул. Большая Академическая, 13А</div>
+                    <div class="list__item-price"><strong>от 3000 ₽</strong><span>/ в сутки</span></div>
+                </div>
+            </div>
+            <div class="list__item">
+                <div class="list__item-type">
+                    <img src="./img/star.svg" alt="star">
+                    <span>VIP</span>
+                </div>
+                <img src="./img/clinic-saint-petersburg.png" alt="" class="clinic">
+                <img src="./img/mob-clinic.png" alt="" class="mob-clinic">
+                <div class="list__item-inner">
+                    <div class="list__item-city">г. Санкт-Петербург</div>
+                    <div class="list__item-address">ул. Большая Академическая, 13А</div>
+                    <div class="list__item-price"><strong>от 3000 ₽</strong><span>/ в сутки</span></div>
+                </div>
+            </div>
+            <div class="list__item">
+                <div class="list__item-type">
+                    <img src="./img/star.svg" alt="star">
+                    <span>Комфорт</span>
+                </div>
+                <img src="./img/clinic-moscow2.png" alt="" class="clinic">
+                <img src="./img/mob-clinic.png" alt="" class="mob-clinic">
+                <div class="list__item-inner">
+                    <div class="list__item-city">г. Москва</div>
+                    <div class="list__item-address">ул. Большая Академическая, 13А</div>
+                    <div class="list__item-price"><strong>от 3000 ₽</strong><span>/ в сутки</span></div>
+                </div>
+            </div>
+            <div class="list__item">
+                <div class="list__item-type">
+                    <img src="./img/star.svg" alt="star">
+                    <span>Комфорт</span>
+                </div>
+                <img src="./img/clinic-moscow1.png" alt="" class="clinic">
+                <img src="./img/mob-clinic.png" alt="" class="mob-clinic">
+                <div class="list__item-inner">
+                    <div class="list__item-city">г. Москва</div>
+                    <div class="list__item-address">ул. Большая Академическая, 13А</div>
+                    <div class="list__item-price"><strong>от 3000 ₽</strong><span>/ в сутки</span></div>
+                </div>
+            </div>
+            <div class="list__item">
+                <div class="list__item-type">
+                    <img src="./img/star.svg" alt="star">
+                    <span>Стандарт</span>
+                </div>
+                <img src="./img/clinic-ecaterinburg.png" alt="" class="clinic">
+                <img src="./img/mob-clinic.png" alt="" class="mob-clinic">
+                <div class="list__item-inner">
+                    <div class="list__item-city">г. Екатеринбург</div>
+                    <div class="list__item-address">ул. Большая Академическая, 13А</div>
+                    <div class="list__item-price"><strong>от 3000 ₽</strong><span>/ в сутки</span></div>
+                </div>
+            </div>
+            <div class="list__item">
+                <div class="list__item-type">
+                    <img src="./img/star.svg" alt="star">
+                    <span>VIP</span>
+                </div>
+                <img src="./img/clinic-saint-petersburg.png" alt="" class="clinic">
+                <img src="./img/mob-clinic.png" alt="" class="mob-clinic">
+                <div class="list__item-inner">
+                    <div class="list__item-city">г. Санкт-Петербург</div>
+                    <div class="list__item-address">ул. Большая Академическая, 13А</div>
+                    <div class="list__item-price"><strong>от 3000 ₽</strong><span>/ в сутки</span></div>
+                </div>
+            </div>
+            <div class="list__item">
+                <div class="list__item-type">
+                    <img src="./img/star.svg" alt="star">
+                    <span>Комфорт</span>
+                </div>
+                <img src="./img/clinic-moscow2.png" alt="" class="clinic">
+                <img src="./img/mob-clinic.png" alt="" class="mob-clinic">
+                <div class="list__item-inner">
+                    <div class="list__item-city">г. Москва</div>
+                    <div class="list__item-address">ул. Большая Академическая, 13А</div>
+                    <div class="list__item-price"><strong>от 3000 ₽</strong><span>/ в сутки</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="pagination list__pagination">
+            <div class="pagination__left-arrow"><img src="./img/left-arrow.svg" alt="arrow"></div>
+            <div class="pagination__nums">
+                <div class="pagination__num">1</div>
+                <div class="pagination__num">2</div>
+                <div class="pagination__num">3</div>
+                <div class="pagination__num">4</div>
+                <div class="pagination__num">...</div>
+                <div class="pagination__num">15</div>
+            </div>
+            <div class="pagination__right-arrow"><img src="./img/right-arrow.svg" alt="arrow"></div>
+        </div>
+    </section>
+    <section class="about-block">
+        <img src="./img/about.png" alt="about">
+        <div class="about-block__info">
+            <div class="about-block__subtitle">Анонимно и бесплатно</div>
+            <div class="about-block__title">Поможем выбрать клинику по соотношению цены, качества и комфорта</div>
+            <div class="about-block__description">Выбирая клинику, вы выбираете врачей, которым готовы доверить
+                судьбу
+                своего близкого. Мы поможем вам в этом решении!
+            </div>
+            <div class="article__diagnostic-block-call">
+                <a class="article__diagnostic-block-our-number" href="">
+                    8 (800) 636-54-12
+                </a>
+                <form class="b__tel-form" method="POST" action=".php">
+                    <input class="b__tel btn btn--tel js-phone-mask" type="tel" name="PHONE" placeholder="+7 ( ___ ) ___ - __ - __" required="">
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="price-block">
+        <div class="price-block__subtitle">Размещение в клинике</div>
+        <div class="price-block__title">Стоимость детоксикации</div>
+        <div class="price-block__cards">
+            <div class="price-block__card">
+                <div class="price-block__card-title">Палата эконом</div>
+                <div class="price-block__card-price">5 000</div>
+                <div class="price-block__card-reg">в сутки</div>
+                <div class="price-block__card-description">
+                    <span>4х разовое питание</span>
+                    <span>3-6 мест в палате</span>
+                    <span>2 капельницы в день</span>
+                </div>
+            </div>
+            <div class="price-block__card">
+                <div class="price-block__card-title">Палата комфорт</div>
+                <div class="price-block__card-price">8 000</div>
+                <div class="price-block__card-reg">в сутки</div>
+                <div class="price-block__card-description">
+                    <span>4х разовое питание</span>
+                    <span>двухместная палата</span>
+                    <span>2 капельницы в день</span>
+                </div>
+                <img src="images/plus_(1)_копия_5.png" id="price-block__plus" alt=""/>
+            </div>
+            <div class="price-block__card">
+                <div class="price-block__card-title">Палата VIP</div>
+                <div class="price-block__card-price">14 000</div>
+                <div class="price-block__card-reg">в сутки</div>
+                <div class="price-block__card-description">
+                    <span>5ти разовое питание</span>
+                    <span>одноместная палата</span>
+                    <span>2 капельницы в день</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="detox-info">
+        <div class="detox-info__title">
+            Детоксикация организма в клинике
+        </div>
+        <div class="detox-info__text">Важно помнить, что детоксикация наркозависимого – первый шаг. Родственники
+            больного должны знать, что после
+            проведения медицинских манипуляций, когда организм зависимого полностью очищен, его тяга к наркотикам
+            усиливается в разы. Поэтому после детокса сразу отправить наркомана на лечение, для того чтобы следующая
+            доза не стала для него губительной. Детоксикация при наркомании возможна как в домашних условиях, так и
+            в
+            стационаре. При сильной передозировке, бригада специалистов может выехать на дом к больному и там
+            провести
+            необходимые инъекции. Однако, детоксикация организма зависимого в стационаре дает лучшие результаты.
+        </div>
+        <div class="detox-info__subtitle">
+            Последовательность очищения организма
+        </div>
+        <ul>
+            <li>в первую очередь необходимо позвонить в клинику,</li>
+            <li>ознакомление нарколога с историей болезни человека и его состоянием,</li>
+            <li>назначение и применение специальных медикаментозных препаратов,</li>
+            <li>назначение лекарств для общего укрепления и успокоения психики.</li>
+        </ul>
+        <div class="detox-info__subtitle">
+            Всем ли помогает детоксикация
+        </div>
+        <div class="detox-info__text">Детоксикация наркозависимого – действенный метод очистки организма, который
+            применяется в рамках лечения
+            наркомании. Метод эффективен как для устранения последствий превышения дозы наркотиков, так и для полной
+            очистки от психотропных веществ. Но не стоит надеяться, что детоксикация от наркотиков избавит близкого
+            человека от зависимости. Даже если на следующий день после детокса, наркоман обещает больше не
+            употреблять
+            наркотики и радуется своему хорошему самочувствию – это большая ложь. Через несколько часов
+            восторженного
+            состояния, наркоман побежит за новой порцией дурмана и опять начнет губить свой организм. Поэтому, если
+            наркоман сам или по принуждению прошел детокс, важно немедленно направить его на лечение. Только полный
+            курс
+            психологической
+        </div>
+    </section>
+</div>
+<div class="background">
+    <footer class="container">
+        <div class="footer__request">
+            <div class="footer__request-text">
+                <strong>Оставьте заявку прямо сейчас!</strong>
+                <span>Мы на связи 24/7, бесплатная горячая линия</span>
+            </div>
+            <div class="footer__button">
+                <a><span>Оставить заявку</span>
+                    <div><img src="img/svg/arrow-short-green.svg" alt=">"/></div>
+                </a>
+            </div>
+            <div class="footer__social">
+                <div>
+                    <svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0)">
+                            <path d="M493.973 296.384C509.248 167.808 486.635 86.6347 445.845 49.92L445.867 49.8987C380.032 -12.8 157.696 -22.08 78.9333 52.7147C43.5627 89.3013 31.104 142.997 29.7387 209.472C28.3733 275.968 26.752 400.533 142.827 434.325H142.933L142.827 485.931C142.827 485.931 142.037 506.837 155.392 511.04C170.667 515.989 177.579 506.283 225.088 449.536C304.533 456.427 365.547 440.64 372.48 438.336C388.523 432.96 479.296 420.949 493.973 296.384ZM232.917 413.227C232.917 413.227 182.635 475.925 166.997 492.203C161.877 497.493 156.267 497.003 156.352 486.507C156.352 479.616 156.736 400.832 156.736 400.832C58.3253 372.629 64.128 266.56 65.1947 211.072C66.2613 155.563 76.416 110.101 106.368 79.488C175.467 14.6987 370.389 29.184 420.053 75.8613C480.768 129.685 459.157 281.749 459.285 286.933C446.805 390.912 373.248 397.504 359.723 402.005C353.941 403.925 300.288 417.728 232.917 413.227V413.227Z" />
+                            <path d="M260.736 91.6693C252.523 91.6693 252.523 104.469 260.736 104.576C324.459 105.067 376.939 149.483 377.515 230.955C377.515 239.552 390.101 239.445 389.995 230.848H389.973C389.291 143.061 331.989 92.16 260.736 91.6693V91.6693Z" />
+                            <path d="M344.555 217.451C344.363 225.941 356.928 226.347 357.035 217.749C358.08 169.344 328.235 129.472 272.149 125.269C263.936 124.672 263.083 137.579 271.275 138.176C319.915 141.867 345.536 175.061 344.555 217.451V217.451Z" />
+                            <path d="M331.115 272.512C320.576 266.411 309.845 270.208 305.408 276.203L296.128 288.213C291.413 294.315 282.603 293.504 282.603 293.504C218.304 276.501 201.109 209.216 201.109 209.216C201.109 209.216 200.32 200.107 206.208 195.221L217.813 185.621C223.616 181.013 227.285 169.92 221.376 159.019C205.589 130.496 194.987 120.661 189.589 113.109C183.915 106.005 175.381 104.405 166.507 109.205H166.315C147.861 120 127.659 140.203 134.123 161.003C145.152 182.933 165.419 252.843 230.016 305.664C260.373 330.645 308.416 356.245 328.811 362.155L329.003 362.453C349.099 369.152 368.64 348.16 379.072 329.152V329.003C383.701 319.808 382.165 311.104 375.403 305.408C363.413 293.717 345.323 280.811 331.115 272.512Z" />
+                            <path d="M280.939 172.885C301.44 174.08 311.381 184.789 312.448 206.784C312.832 215.381 325.312 214.784 324.928 206.187C323.563 177.472 308.587 161.472 281.621 159.979C273.408 159.488 272.64 172.395 280.939 172.885V172.885Z" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0">
+                                <rect width="512" height="512" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </div>
+                <div>
+                    <svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0)">
+                            <path d="M373.483 305.216L373.291 306.816C326.379 283.435 321.472 280.32 315.413 289.408C311.211 295.701 298.965 309.973 295.275 314.197C291.541 318.357 287.829 318.677 281.493 315.797C275.093 312.597 254.549 305.877 230.229 284.117C211.285 267.157 198.571 246.357 194.816 239.957C188.565 229.163 201.643 227.627 213.547 205.099C215.68 200.619 214.592 197.099 213.013 193.92C211.413 190.72 198.677 159.36 193.344 146.859C188.224 134.4 182.955 135.979 179.008 135.979C166.72 134.912 157.739 135.083 149.824 143.317C115.392 181.163 124.075 220.203 153.536 261.717C211.435 337.493 242.283 351.445 298.688 370.816C313.92 375.659 327.808 374.976 338.795 373.397C351.04 371.456 376.491 358.016 381.803 342.976C387.243 327.936 387.243 315.456 385.643 312.576C384.064 309.696 379.883 308.096 373.483 305.216V305.216Z" />
+                            <path d="M437.76 73.5787C273.728 -84.992 2.26133 30.016 2.15467 253.717C2.15467 298.432 13.8667 342.037 36.1813 380.544L0 512L135.147 476.757C303.787 567.851 511.915 446.891 512 253.845C512 186.091 485.547 122.325 437.44 74.4107L437.76 73.5787ZM469.376 253.141C469.248 415.979 290.496 517.675 149.12 434.56L141.44 429.995L61.44 450.795L82.88 373.035L77.7813 365.035C-10.1973 224.981 90.88 41.9413 257.536 41.9413C314.155 41.9413 367.296 64.0213 407.317 104.021C447.317 143.68 469.376 196.821 469.376 253.141V253.141Z" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0">
+                                <rect width="512" height="512" fill="white"/>
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </div>
+                <div>
+                    <svg height="512pt" viewBox="0 -39 512.00011 512" width="512pt" xmlns="http://www.w3.org/2000/svg" ><path d="m504.09375 11.859375c-6.253906-7.648437-15.621094-11.859375-26.378906-11.859375-5.847656 0-12.042969 1.230469-18.410156 3.664062l-433.398438 165.441407c-23 8.777343-26.097656 21.949219-25.8984375 29.019531s4.0390625 20.046875 27.4999995 27.511719c.140626.042969.28125.085937.421876.125l89.898437 25.726562 48.617187 139.023438c6.628907 18.953125 21.507813 30.726562 38.835938 30.726562 10.925781 0 21.671875-4.578125 31.078125-13.234375l55.605469-51.199218 80.652344 64.941406c.007812.007812.019531.011718.027343.019531l.765625.617187c.070313.054688.144532.113282.214844.167969 8.964844 6.953125 18.75 10.625 28.308594 10.628907h.003906c18.675781 0 33.546875-13.824219 37.878906-35.214844l71.011719-350.640625c2.851563-14.074219.460937-26.667969-6.734375-35.464844zm-356.191406 234.742187 173.441406-88.605468-107.996094 114.753906c-1.769531 1.878906-3.023437 4.179688-3.640625 6.683594l-20.824219 84.351562zm68.132812 139.332032c-.71875.660156-1.441406 1.25-2.164062 1.792968l19.320312-78.25 35.144532 28.300782zm265.390625-344.566406-71.011719 350.644531c-.683593 3.355469-2.867187 11.164062-8.480468 11.164062-2.773438 0-6.257813-1.511719-9.824219-4.257812l-91.390625-73.585938c-.011719-.011719-.027344-.023437-.042969-.03125l-54.378906-43.789062 156.175781-165.949219c5-5.3125 5.453125-13.449219 1.074219-19.285156-4.382813-5.835938-12.324219-7.671875-18.820313-4.351563l-256.867187 131.226563-91.121094-26.070313 433.265625-165.390625c3.660156-1.398437 6.214844-1.691406 7.710938-1.691406.917968 0 2.550781.109375 3.15625.855469.796875.972656 1.8125 4.289062.554687 10.511719zm0 0"/></svg>
+
+                </div>
+            </div>
+        </div>
+        <div class="footer__info">
+            <div class="footer__logo">
+                <a class="footer__logo-img">
+                    <img src="img/svg/logo-white.svg" alt="logo"/>
+                </a>
+                <div>
+                    <img class="logo__title-img logo__title-img-footer" src="img/svg/logo-title-white.svg"
+                         alt="Очищение" width="190"
+                         height="32">
+                    <span>детоксикация при любых </span>
+                    <span> видах зависимости</span>
+                </div>
+            </div>
+            <div class="footer__about-blocks">
+                <div class="footer__about">
+                    <p>Услуги</p>
+                    <span>Лечение наркомании</span>
+                    <span>Лечение алкоголизма</span>
+                    <span>УБОД</span>
+                </div>
+                <div class="footer__about">
+                    <p>Информация</p>
+                    <span>Клиники</span>
+                    <span>Подросткам</span>
+                    <span>Онлайн консульнация</span>
+                </div>
+                <div class="footer__about">
+                    <p>База знаний</p>
+                    <span>Лечение наркомании</span>
+                    <span>Лечение алкоголизма</span>
+                    <span>Другие виды зависимости</span>
+                </div>
+                <div class="footer__about">
+                    <p>Контакты</p>
+                    <span>8 800 565 12 34</span>
+                    <span>mail@detox.ru</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+<script src="js/libs/jquery-3.4.1.min.js"></script>
+<script src="js/libs/jquery.maskedinput.min.js"></script>
+<script src="js/libs/jquery.fancybox.min.js"></script>
+
+<script src="js/main.js"></script>
+<svg style="position: absolute; z-index: -100; width: 0; height: 0; visibility: hidden; opacity: 0;"
+     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- X -->
+    <symbol id="ruffle-x" viewBox="0 0 448 448">
+        <path d="m408 184h-136c-4.417969 0-8-3.582031-8-8v-136c0-22.089844-17.910156-40-40-40s-40 17.910156-40 40v136c0 4.417969-3.582031 8-8 8h-136c-22.089844 0-40 17.910156-40 40s17.910156 40 40 40h136c4.417969 0 8 3.582031 8 8v136c0 22.089844 17.910156 40 40 40s40-17.910156 40-40v-136c0-4.417969 3.582031-8 8-8h136c22.089844 0 40-17.910156 40-40s-17.910156-40-40-40zm0 0"/>
+    </symbol>
+
+    <!-- O-green -->
+    <symbol id="ruffle-o-green">
+        <circle cx="14" cy="14" r="10" stroke="url(#g-green)" stroke-width="4.4px" fill="none"></circle>
+    </symbol>
+
+    <!-- O-blue -->
+    <symbol id="ruffle-o-blue">
+        <circle cx="14" cy="14" r="10" stroke="url(#g-blue)" stroke-width="4.4px" fill="none"></circle>
+    </symbol>
+
+    <defs>
+        <linearGradient id="g-blue" x1="0%" x2="0%" y1="100%" y2="0%">
+            <stop offset="0%" stop-color="#8598d4" stop-opacity="1"/>
+            <stop offset="100%" stop-color="#65d6c4" stop-opacity="1"/>
+        </linearGradient>
+        <linearGradient id="g-green" x1="0%" x2="0%" y1="100%" y2="0%">
+            <stop offset="0%" stop-color="#48d883" stop-opacity="1"/>
+            <stop offset="100%" stop-color="#1d974e" stop-opacity="1"/>
+        </linearGradient>
+    </defs>
+</svg>
+<svg style="position: absolute; z-index: -100; width: 0; height: 0; visibility: hidden; opacity: 0;"
+     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- X -->
+    <symbol id="ruffle-x" viewBox="0 0 448 448">
+        <path d="m408 184h-136c-4.417969 0-8-3.582031-8-8v-136c0-22.089844-17.910156-40-40-40s-40 17.910156-40 40v136c0 4.417969-3.582031 8-8 8h-136c-22.089844 0-40 17.910156-40 40s17.910156 40 40 40h136c4.417969 0 8 3.582031 8 8v136c0 22.089844 17.910156 40 40 40s40-17.910156 40-40v-136c0-4.417969 3.582031-8 8-8h136c22.089844 0 40-17.910156 40-40s-17.910156-40-40-40zm0 0"/>
+    </symbol>
+
+    <!-- O-green -->
+    <symbol id="ruffle-o-green">
+        <circle cx="14" cy="14" r="10" stroke="url(#g-green)" stroke-width="4.4px" fill="none"></circle>
+    </symbol>
+
+    <!-- O-blue -->
+    <symbol id="ruffle-o-blue">
+        <circle cx="14" cy="14" r="10" stroke="url(#g-blue)" stroke-width="4.4px" fill="none"></circle>
+    </symbol>
+
+    <defs>
+        <linearGradient id="g-blue" x1="0%" x2="0%" y1="100%" y2="0%">
+            <stop offset="0%" stop-color="#8598d4" stop-opacity="1"/>
+            <stop offset="100%" stop-color="#65d6c4" stop-opacity="1"/>
+        </linearGradient>
+        <linearGradient id="g-green" x1="0%" x2="0%" y1="100%" y2="0%">
+            <stop offset="0%" stop-color="#48d883" stop-opacity="1"/>
+            <stop offset="100%" stop-color="#1d974e" stop-opacity="1"/>
+        </linearGradient>
+    </defs>
+</svg>
+</body>

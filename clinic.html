@@ -1,0 +1,1008 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="css/libs/swiper.min.css">
+    <link rel="stylesheet" href="css/libs/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/styleindex.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/clinic.css">
+    <link rel="stylesheet" href="css/normalise.css">
+    <link rel="stylesheet" href="css/clinicsbackground.css"/>
+    <link rel="stylesheet" href="css/clinicbackground.css"/>
+    <link rel="stylesheet" href="css/footer.css"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="HandheldFriendly" content="true"/>
+    <link rel="preload" href="fonts/FuturaPT/book/FuturaPT-Book.woff2" as="font" type="font/woff2" crossorigin="">
+</head>
+<body>
+<header class="header">
+    <div class="header__container container-outside">
+        <div class="header__wrapper">
+            <div class="header__mobile-top">
+                <button class="header__menu-toggle menu-toggle">
+                    <span>Открыть меню</span>
+                </button>
+
+                <a class="header__logo logo" href="index.html">
+                    <h2 class="logo__title visually-hidden">Очищение</h2>
+                    <img class="logo__title-img" src="img/svg/logo-title.svg" alt="Очищение" width="190" height="32">
+                    <img class="logo__title-img logo__title-img--white" src="img/svg/logo-title-white.svg" alt="Очищение" width="190" height="32">
+                    <p class="logo__description">детоксикация при любых видах зависимости</p>
+                </a>
+
+                <a class="header__link-call-back js-modal-callback" href="#">
+                    <img class="header__link-call-back-img" src="img/svg/phone.svg" alt="Обратный звонок" width="32" height="32">
+                </a>
+            </div>
+
+            <nav class="header__main-nav main-nav">
+                <form class="main-nav__search search" action=".php" method='POST'>
+                    <input class="search__input" type="search" name="SEARCH" placeholder="Поиск по сайту...">
+                </form>
+                <ul class="main-nav__list main-nav__list--primary">
+                    <li class="main-nav__item--primary">
+                        <ul class="main-nav__list--secondary">
+                            <li class="main-nav__item">
+                                <a class="main-nav__link" href="clinics.html">Клиники</a>
+                            </li>
+                            <li class="main-nav__item">
+                                <a class="main-nav__link" href="services.html">Наркомания</a>
+                            </li>
+                            <li class="main-nav__item">
+                                <a class="main-nav__link main-nav-sub" href="alco.html">Алкоголизм</a>
+                                <ul class="main-nav__sublist">
+                                    <li class="main-nav__subitem">
+                                        <a class="main-nav__sublink" href="articles.html">Детоксикация от героиновой наркомании</a>
+                                    </li>
+                                    <li class="main-nav__subitem">
+                                        <a class="main-nav__sublink" href="service.html">Детоксикация от спайсовой наркомании</a>
+                                    </li>
+                                    <li class="main-nav__subitem">
+                                        <a class="main-nav__sublink" href="clinic.html">Детоксикация от солевой наркомании</a>
+                                    </li>
+                                    <li class="main-nav__subitem">
+                                        <a class="main-nav__sublink" href="service-detail.html">Детоксикация от Альфа-ПВП</a>
+                                    </li>
+                                    <li class="main-nav__subitem">
+                                        <a class="main-nav__sublink" href="service-detail.html">УБОД</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="main-nav__item--primary">
+                        <ul class="main-nav__list--secondary">
+                            <li class="main-nav__item">
+                                <a class="main-nav__link" href="clinics.html">Подросткам</a>
+                            </li>
+                            <li class="main-nav__item">
+                                <a class="main-nav__link" href="publishes.html">Публикации</a>
+                            </li>
+                            <li class="main-nav__item">
+                                <a class="main-nav__link" href="contacts.html">Контакты</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <div id="nav-decoration" class="main-nav__decoration"></div>
+                <button class="main-nav__btn-search js-modal-search" title="Поиск">Поиск</button>
+            </nav>
+
+            <div class="header__phone-wrapper">
+                <a class="header__phone" href="tel:+78009009090">8 (800) 636-54-12</a>
+                <p class="header__phone-text">Круглосуточно, анонимно</p>
+            </div>
+        </div>
+    </div>
+</header>
+<main class="main">
+    <div class="clinic-section container">
+        <div class="clinic-section__content">
+            <div class="clinic-section__subtitle">НАРКОЛОГИЧЕСКАЯ КЛИНИКА</div>
+            <div class="clinic-section__title">
+                <div>г. Москва</div>
+                <div>ул. Рижский проезд, 43</div>
+            </div>
+            <div class="clinic-section__info">
+                <div class="clinic-section__price-block">
+                    <div class="clinic-section__price-title">Стоимость лечения</div>
+                    <div class="clinic-section__price">8 500 Р</div>
+                </div>
+                <div class="clinic-section__info-description">
+                    <div class="clinic-section__info-help">Помощь 24/7</div>
+                    <div class="clinic-section__info-text">Составление индивидуальной программы лечения</div>
+                </div>
+            </div>
+            <div class="title-block__buttons">
+                <div class=" footer__button title-block__button">
+                    <a><span>Оставить заявку</span>
+                        <div><img src="img/svg/arrow-short-green.svg" alt=">"/></div>
+                    </a>
+                </div>
+                <div class="title-block__number__button number__button">
+                    <a><img src="img/svg/phone-1.svg" alt=">"/>
+                        <span>8 (800) 636-54-12</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <picture class="clinic-section__img">
+            <source srcset="img/background.png" type="image/png" media="(min-width: 768px)"/>
+            <source srcset="img/mob-background.png" type="image/png" media="(max-width: 768px)"/>
+            <img src="img/background.png"/>
+        </picture>
+        <div class="main-info__figure figure figure-1" aria-hidden="true"></div>
+        <div class="contraindications__figure figure figure-5" aria-hidden="true"></div>
+        <div class=" figure figure-k" aria-hidden="true"></div>
+        <svg class="main-info__ruffles-d main-info__ruffles-d-2 ruffles r-45 r-45-k" width="30" height="30" aria-hidden="true" role="presentation">
+            <use xlink:href="#ruffle-o-green">
+                <svg id="ruffle-o-green">
+                    <circle cx="14" cy="14" r="10" stroke="url(#g-green)" stroke-width="4.4px" fill="none"></circle>
+                </svg>
+            </use>
+        </svg>
+        <svg class="main-info__ruffles-d main-info__ruffles-d-2 ruffles r-45-c" width="30" height="30" aria-hidden="true" role="presentation">
+            <use xlink:href="#ruffle-o-green">
+                <svg id="ruffle-o-green">
+                    <circle cx="14" cy="14" r="10" stroke="url(#g-green)" stroke-width="4.4px" fill="none"></circle>
+                </svg>
+            </use>
+        </svg>
+        <svg class="main-info__ruffles-d main-info__ruffles-d-2 ruffles r-45" width="30" height="30" aria-hidden="true" role="presentation">
+            <use xlink:href="#ruffle-o-green">
+                <svg id="ruffle-o-green">
+                    <circle cx="14" cy="14" r="10" stroke="url(#g-green)" stroke-width="4.4px" fill="none"></circle>
+                </svg>
+            </use>
+        </svg>
+        <svg class="main-info__ruffles-d main-info__ruffles-d-2 ruffles r-45-c3" width="30" height="30" aria-hidden="true" role="presentation">
+            <use xlink:href="#ruffle-o-green">
+                <svg id="ruffle-o-green">
+                    <circle cx="14" cy="14" r="10" stroke="url(#g-green)" stroke-width="4.4px" fill="none"></circle>
+                </svg>
+            </use>
+        </svg>
+        <div class=" figure figure-k" aria-hidden="true"></div>
+        <svg class="main-info__ruffles-d main-info__ruffles-d-2 ruffles r-45 r-45-k" width="30" height="30" aria-hidden="true" role="presentation">
+            <use xlink:href="#ruffle-o-green">
+                <svg id="ruffle-o-green">
+                    <circle cx="14" cy="14" r="10" stroke="url(#g-green)" stroke-width="4.4px" fill="none"></circle>
+                </svg>
+            </use>
+        </svg>
+        <svg class=" main-info__ruffles-m-2 ruffles ruffles--blue-1 ri37 r-20 r-20-k" width="15" height="15" aria-hidden="true" role="presentation">
+            <use xlink:href="#ruffle-x"></use>
+        </svg>
+        <svg class=" main-info__ruffles-m-2 ruffles ruffles--blue-1 ri37 r-20 r-20-c" width="15" height="15" aria-hidden="true" role="presentation">
+            <use xlink:href="#ruffle-x"></use>
+        </svg>
+        <svg class=" main-info__ruffles-m-2 ruffles ruffles--blue-1 ri37 r-20 r-20-c2" width="15" height="15" aria-hidden="true" role="presentation">
+            <use xlink:href="#ruffle-x"></use>
+        </svg>
+        <svg class=" main-info__ruffles-m-2 ruffles ruffles--blue-1 ri37 r-20 r-20-c3" width="15" height="15" aria-hidden="true" role="presentation">
+            <use xlink:href="#ruffle-x"></use>
+        </svg>
+        <svg class=" main-info__ruffles-m-2 ruffles ruffles--blue-1 ri37 r-20 r-222 r-222-k" width="15" height="15" aria-hidden="true" role="presentation">
+            <use xlink:href="#ruffle-x"></use>
+        </svg>
+        <svg class=" main-info__ruffles-m-2 ruffles ruffles--blue-1 ri37 r-20 r-2223 r-2223-k" width="15" height="15" aria-hidden="true" role="presentation">
+            <use xlink:href="#ruffle-x"></use>
+        </svg>
+        <svg class=" main-info__ruffles-m-2 ruffles ruffles--blue-1 ri37 r-20 r-2223 r-2223-k2" width="15" height="15" aria-hidden="true" role="presentation">
+            <use xlink:href="#ruffle-x"></use>
+        </svg>
+        <svg class=" main-info__ruffles-m-2 ruffles ruffles--blue-1 ri37 r-20 r-2223 r-2223-k3" width="15" height="15" aria-hidden="true" role="presentation">
+            <use xlink:href="#ruffle-x"></use>
+        </svg>
+        <svg class=" main-info__ruffles-m-2 ruffles ruffles--blue-1 ri37 r-20 r-2223 r-2223-k4" width="15" height="15" aria-hidden="true" role="presentation">
+            <use xlink:href="#ruffle-x"></use>
+        </svg>
+        <svg class=" main-info__ruffles-m-2 ruffles ruffles--blue-1 ri37 r-20 r-2223 r-2223-k5" width="15" height="15" aria-hidden="true" role="presentation">
+            <use xlink:href="#ruffle-x"></use>
+        </svg>
+
+        <svg class="ruffles ruffles--dark-blue t829 x-224 r-6022" width="20" height="20" aria-hidden="true" role="presentation">
+            <use xlink:href="#ruffle-x"></use>
+        </svg>
+        <svg class="ruffles ruffles--dark-blue t829 x-224 r-6024" width="20" height="20" aria-hidden="true" role="presentation">
+            <use xlink:href="#ruffle-x"></use>
+        </svg>
+        <svg class="ruffles ruffles--dark-blue t829 x-224 r-6023" width="20" height="20" aria-hidden="true" role="presentation">
+            <use xlink:href="#ruffle-x"></use>
+        </svg>
+        <svg class="ruffles ruffles--dark-blue t829 x-224 r-602c" width="20" height="20" aria-hidden="true" role="presentation">
+            <use xlink:href="#ruffle-x"></use>
+        </svg>
+        <svg class="main-info__ruffles-m-4 ruffles ri23 r-60 s07 s07-k" width="30" height="30" aria-hidden="true" role="presentation">
+            <use xlink:href="#ruffle-o-blue"></use>
+        </svg>
+        <svg class="main-info__ruffles-m-4 ruffles ri23 r-60 s07 s07-k2" width="30" height="30" aria-hidden="true" role="presentation">
+            <use xlink:href="#ruffle-o-blue"></use>
+        </svg>
+        <svg class="ruffles ruffles--dark-blue t829 x-224 r-60 r-60-k" width="20" height="20" aria-hidden="true" role="presentation">
+            <use xlink:href="#ruffle-x"></use>
+        </svg>
+        <div class="tariffs__figure-dots figure-dots figure-dits-a1" aria-hidden="true"></div>
+    </div>
+
+
+    <section class="rehabs-swiper gallery-swiper">
+        <svg class="rehabs-swiper__ruffles-m rehabs-swiper__ruffles-m-1 ruffles ri70 r-60 s05" width="30" height="30" aria-hidden="true" role="presentation">
+            <use xlink:href="#ruffle-o-green"></use>
+        </svg>
+        <svg class="rehabs-swiper__ruffles-m rehabs-swiper__ruffles-m-2 ruffles ruffles--blue-2 ri37 r-20" width="8" height="8" aria-hidden="true" role="presentation">
+            <use xlink:href="#ruffle-x"></use>
+        </svg>
+
+        <div class="rehabs-swiper__container container gallery-swiper">
+            <div class="rehabs-swiper__text-wrap">
+                <p class="rehabs-swiper__title title">
+                    Галерея клиники
+                </p>
+            </div>
+            <div class="swiper-buttons-wrap rehabs-swiper__buttons-wrap">
+
+                <div id="clinic-swiper" class="swiper-container rehabs-swiper__swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide rehabs-swiper__slide">
+                            <a class="rehabs-swiper__link" href="rehab-detail.html">
+                                <img src="img/gallery-1.png" alt="gallery">
+                            </a>
+                        </div>
+                        <div class="swiper-slide rehabs-swiper__slide">
+                            <a class="rehabs-swiper__link" href="rehab-detail.html">
+                                <img src="img/gallery-2.png" alt="gallery">
+                            </a>
+                        </div>
+                        <div class="swiper-slide rehabs-swiper__slide">
+                            <a class="rehabs-swiper__link" href="rehab-detail.html">
+                                <img src="img/gallery-3.png" alt="gallery">
+                            </a>
+                        </div>
+                        <div class="swiper-slide rehabs-swiper__slide">
+                            <a class="rehabs-swiper__link" href="rehab-detail.html">
+                                <img src="img/gallery-2.png" alt="gallery">
+                            </a>
+                        </div>
+                        <div class="swiper-slide rehabs-swiper__slide">
+                            <a class="rehabs-swiper__link" href="rehab-detail.html">
+                                <img src="img/gallery-2.png" alt="gallery">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-button swiper-button-prev rehabs-swiper__button-prev"></div>
+
+                <div class="swiper-button swiper-button-next rehabs-swiper__button-next"></div>
+            </div>
+
+
+        </div>
+    </section>
+    <div class="map-section container">
+        <div class="map">
+            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A21722e1d3d8c384af8c88b79637ac52a83e171cb93eea2b47e0259a8868c3c19&amp;width=780&amp;height=445&amp;lang=ru_RU&amp;scroll=true"></script>
+        </div>
+        <div class="map-section__content">
+            <div class="map-section__subtitle">ДОКУМЕНТЫ КЛИНИКИ</div>
+            <div class="map-section__title">Реквизиты</div>
+            <div class="map-section__info">
+                <div class="map-section__info-item">
+                    <strong>Адрес</strong>
+                    <span>г. Москва, ул. Рижский проезд, 43</span>
+                </div>
+                <div class="map-section__info-item">
+                    <strong>Индекс</strong>
+                    <span>123987</span>
+                </div>
+                <div class="map-section__info-item">
+                    <strong>Телефон</strong>
+                    <span>8 (800) 636-52-12</span>
+                </div>
+                <div class="map-section__info-item">
+                    <strong>ИНН</strong>
+                    <span>1776554376</span>
+                </div>
+                <div class="map-section__info-item">
+                    <strong>КПП</strong>
+                    <span>15354376</span>
+                </div>
+                <div class="map-section__info-item">
+                    <strong>ОРГН</strong>
+                    <span>1877653564848</span>
+                </div>
+            </div>
+            <div class="map-section__actions">
+                <div class="map-section__download"><span>ОГРН лицензия</span></div>
+                <div class="map-section__download"><span>ИНН лицензия</span></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="about-section container">
+        <div class="about-section__info">
+            <div class="about-section__info-subtitle">ЛЕЧЕНИЕ НА АНОНИМНОЙ ОСНОВЕ</div>
+            <div class="about-section__info-title">О клинике</div>
+            <div class="about-section__info-text">Лечение любой зависимости производится в комплексе, оно обязательно
+                включает в себя не только очистку организма, прием назначенных медикаментозных средств, но и
+                обязательную работу доктора-психиатра, а также физиотерапию, психотерапию, работу с родственниками и другие методы
+            </div>
+            <div class=" footer__button title-block__button">
+                <a><span>Оставить заявку</span>
+                    <div><img src="img/svg/arrow-short-green.svg" alt=">"/></div>
+                </a>
+            </div>
+        </div>
+        <div class="about-section__cards">
+            <div class="about-section__license">
+                <div class="about-section__license-title">
+                    <div>Лицензии</div>
+                    <div class="about-section__license-arrows">
+                        <div><svg  viewBox="0 0 367 168" fill="#000" xmlns="http://www.w3.org/2000/svg" style="transform: rotate(180deg);">
+                            <rect y="74" width="360" height="20" rx="10"/>
+                            <rect x="278" width="121.796" height="20" rx="10" transform="rotate(43.3468 278 0)"/>
+                            <rect width="121.796" height="20" rx="10" transform="matrix(0.727212 -0.686413 -0.686413 -0.727212 278 168)"/>
+                        </svg>
+                        </div>
+                        <div><svg width="367" height="168" viewBox="0 0 367 168" fill="#000" xmlns="http://www.w3.org/2000/svg">
+                            <rect y="74" width="360" height="20" rx="10"/>
+                            <rect x="278" width="121.796" height="20" rx="10" transform="rotate(43.3468 278 0)"/>
+                            <rect width="121.796" height="20" rx="10" transform="matrix(0.727212 -0.686413 -0.686413 -0.727212 278 168)"/>
+                        </svg></div>
+                    </div>
+                </div>
+                <img src="img/license.png" alt="">
+            </div>
+            <div class="about-section__includes">
+                <div class="about-section__includes-title">Что включено:</div>
+                <div class="about-section__includes-items">
+                    <div class="about-section__includes-item">Бесплатная консультация</div>
+                    <div class="about-section__includes-item">Транспортировка в клинику</div>
+                    <div class="about-section__includes-item">4-х разовое питание</div>
+                    <div class="about-section__includes-item">Размещение в 2х местной палате</div>
+                    <div class="about-section__includes-item">2 капельницы в день</div>
+                    <div class="about-section__includes-item">3 раза в день медикаменты</div>
+                    <div class="about-section__includes-item">2 раза в день групповая психотерапия</div>
+                    <div class="about-section__includes-item">Круглосуточный дежурный врач</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <article class="b article__padding-top container">
+
+        <svg class="b__ruffles-m b__ruffles-m-2 ruffles ruffles--dark-blue l78 r-45" width="16" height="16" aria-hidden="true" role="presentation">
+            <use xlink:href="#ruffle-x"></use>
+        </svg>
+
+        <div class="b__container container klinics-article__container">
+            <div class="b__wrap">
+                <div class="b__img-wrap b__figure-dots figure-dots">
+                    <img class="b__img" src="img/b/3.jpg" alt="Самолечение опасно для вашего здоровья!">
+                </div>
+                <div class="b__content-wrap">
+                    <p class="b__caption caption">
+                        жизнь вашего близкого под угрозой
+                    </p>
+                    <p class="b__title title">
+                        Уговорим на лечение!
+                    </p>
+                    <p class="b__desc desc">
+                        Детоксикация - первый шаг в лечени зависимости! Обратитесь прямо сейчас, и наши специалисты гарантированно убедят начать лечение. Круглосуточная бесплатная горячая линия!
+                    </p>
+                    <div class="b__btn-wrap">
+                        <a class="b__btn-link btn btn--icon-tel" href="tel:+78006365412">
+                            8 (800) 636-54-12
+                        </a>
+                        <form class="b__tel-form" method="POST" action=".php">
+                            <input class="b__tel btn btn--tel js-phone-mask" type="tel" name="PHONE" placeholder="+7 ( ___ ) ___ - __ - __" required="">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <section class="doctors-swiper">
+        <div class="doctors-swiper__figure figure figure-7" aria-hidden="true"></div>
+        <div class="doctors-swiper__container container">
+            <div class="doctors-swiper__text-wrap">
+                <p class="doctors-swiper__caption caption">
+                    квалифицированный персонал
+                </p>
+                <p class="doctors-swiper__title title">
+                    Наши специалисты
+                </p>
+            </div>
+        </div>
+        <div class="swiper-buttons-wrap swiper-buttons-wrap-big doctors-swiper__buttons-wrap">
+            <div class="swiper-container-big">
+                <div id="doctors-swiper" class="swiper-container doctors-swiper__swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide doctors-swiper__slide">
+                            <a class="doctors-swiper__link" href="doctor-detail.html">
+                                <div class="doctors-swiper__img-wrap">
+                                    <img class="doctors-swiper__img" src="img/swiper/1.jpg" alt="Доктор 1">
+                                </div>
+
+                                <p class="doctors-swiper__name">
+                                    Аксенов Максим Юрьевич
+                                </p>
+                                <p class="doctors-swiper__desc desc">
+                                    Консультант по химической зависимости, координатор амбулаторной программы
+                                </p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide doctors-swiper__slide">
+                            <a class="doctors-swiper__link" href="doctor-detail.html">
+                                <div class="doctors-swiper__img-wrap">
+                                    <img class="doctors-swiper__img" src="img/swiper/2.jpg" alt="Доктор 2">
+                                </div>
+
+                                <p class="doctors-swiper__name">
+                                    Аксенов Максим Юрьевич
+                                </p>
+                                <p class="doctors-swiper__desc desc">
+                                    Консультант по химической зависимости, координатор амбулаторной программы
+                                </p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide doctors-swiper__slide">
+                            <a class="doctors-swiper__link" href="doctor-detail.html">
+                                <div class="doctors-swiper__img-wrap">
+                                    <img class="doctors-swiper__img" src="img/swiper/3.jpg" alt="Доктор 3">
+                                </div>
+
+                                <p class="doctors-swiper__name">
+                                    Аксенов Максим Юрьевич
+                                </p>
+                                <p class="doctors-swiper__desc desc">
+                                    Консультант по химической зависимости, координатор амбулаторной программы
+                                </p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide doctors-swiper__slide">
+                            <a class="doctors-swiper__link" href="doctor-detail.html">
+                                <div class="doctors-swiper__img-wrap">
+                                    <img class="doctors-swiper__img" src="img/swiper/1.jpg" alt="Доктор 1">
+                                </div>
+
+                                <p class="doctors-swiper__name">
+                                    Аксенов Максим Юрьевич
+                                </p>
+                                <p class="doctors-swiper__desc desc">
+                                    Консультант по химической зависимости, координатор амбулаторной программы
+                                </p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide doctors-swiper__slide">
+                            <a class="doctors-swiper__link" href="doctor-detail.html">
+                                <div class="doctors-swiper__img-wrap">
+                                    <img class="doctors-swiper__img" src="img/swiper/1.jpg" alt="Доктор 1">
+                                </div>
+
+                                <p class="doctors-swiper__name">
+                                    Аксенов Максим Юрьевич
+                                </p>
+                                <p class="doctors-swiper__desc desc">
+                                    Консультант по химической зависимости, координатор амбулаторной программы
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-button swiper-button-prev doctors-swiper__button-prev"></div>
+
+            <div class="swiper-button swiper-button-next doctors-swiper__button-next"></div>
+        </div>
+
+        <svg class="doctors-swiper__ruffles-d doctors-swiper__ruffles-d-1 ruffles r50" width="30" height="30" aria-hidden="true" role="presentation">
+            <use xlink:href="#ruffle-o-green"></use>
+        </svg>
+        <svg class="doctors-swiper__ruffles-d doctors-swiper__ruffles-d-2 ruffles ruffles--blue-2 r-5" width="14" height="14" aria-hidden="true" role="presentation">
+            <use xlink:href="#ruffle-x"></use>
+        </svg>
+    </section>
+
+    <section class="rehabs-swiper feedback-swiper">
+        <svg class="rehabs-swiper__ruffles-m rehabs-swiper__ruffles-m-1 ruffles ri70 r-60 s05" width="30" height="30" aria-hidden="true" role="presentation">
+            <use xlink:href="#ruffle-o-green"></use>
+        </svg>
+        <svg class="rehabs-swiper__ruffles-m rehabs-swiper__ruffles-m-2 ruffles ruffles--blue-2 ri37 r-20" width="8" height="8" aria-hidden="true" role="presentation">
+            <use xlink:href="#ruffle-x"></use>
+        </svg>
+
+        <div class="rehabs-swiper__container container">
+            <div class="feedback-section__subtitle">ОПЫТ НАШИХ ПАЦИЕНТОВ</div>
+            <div class="feedback-section__title">Отзывы о клинике</div>
+            <div class="swiper-buttons-wrap rehabs-swiper__buttons-wrap">
+
+                <div id="feedback-swiper" class="swiper-container rehabs-swiper__swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide rehabs-swiper__slide">
+                            <a class="rehabs-swiper__link" href="rehab-detail.html">
+
+                                <div class="feedback-section__card">
+                                    <div class="feedback-section__card-info">
+                                        <img src="img/avatar.png" class="feedback-section__card-avatar"/>
+                                        <div class="feedback-section__card-wrapper">
+                                            <div class="feedback-section__card-time">13.04.2020</div>
+                                            <div class="feedback-section__card-name">Ольга Емельяненко</div>
+                                        </div>
+                                    </div>
+                                    <div class="feedback-section__card-text">
+                                        Спасибо центру за помощь нашей семье! Прошли все 12 шагов, алкоголь теперь для мужа забыт, как страшный сон. Во многом помогла творческая реабилитация, муж ушел целиком в музыку, играет на гитаре и пишет песни! Не может нарадоваться. Спасибо!
+                                    </div>
+                                    <div class="article__mark">
+                                        <div class="article__star">
+                                            <img src="images/articles/star%20(3).svg" alt="star">
+                                        </div>
+                                        <div class="article__star">
+                                            <img src="images/articles/star%20(2).svg" alt="star emty">
+                                        </div>
+                                        <div class="article__star">
+                                            <img src="images/articles/star%20(2).svg" alt="star emty">
+                                        </div>
+                                        <div class="article__star">
+                                            <img src="images/articles/star%20(2).svg" alt="star emty">
+                                        </div>
+                                        <div class="article__star">
+                                            <img src="images/articles/star%20(2).svg" alt="star emty">
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </a>
+                        </div>
+                        <div class="swiper-slide rehabs-swiper__slide">
+                            <a class="rehabs-swiper__link" href="rehab-detail.html">
+                                <div class="feedback-section__card">
+                                    <div class="feedback-section__card-info">
+                                        <img src="img/avatar.png" class="feedback-section__card-avatar"/>
+                                        <div class="feedback-section__card-wrapper">
+                                            <div class="feedback-section__card-time">13.04.2020</div>
+                                            <div class="feedback-section__card-name">Ольга Емельяненко</div>
+                                        </div>
+                                    </div>
+                                    <div class="feedback-section__card-text">
+                                        Спасибо центру за помощь нашей семье! Прошли все 12 шагов, алкоголь теперь для мужа забыт, как страшный сон. Во многом помогла творческая реабилитация, муж ушел целиком в музыку, играет на гитаре и пишет песни! Не может нарадоваться. Спасибо!
+                                    </div>
+                                    <div class="article__mark">
+                                        <div class="article__star">
+                                            <img src="images/articles/star%20(3).svg" alt="star">
+                                        </div>
+                                        <div class="article__star">
+                                            <img src="images/articles/star%20(2).svg" alt="star emty">
+                                        </div>
+                                        <div class="article__star">
+                                            <img src="images/articles/star%20(2).svg" alt="star emty">
+                                        </div>
+                                        <div class="article__star">
+                                            <img src="images/articles/star%20(2).svg" alt="star emty">
+                                        </div>
+                                        <div class="article__star">
+                                            <img src="images/articles/star%20(2).svg" alt="star emty">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide rehabs-swiper__slide">
+                            <a class="rehabs-swiper__link" href="rehab-detail.html">
+                                <div class="feedback-section__card">
+                                    <div class="feedback-section__card-info">
+                                        <img src="images/фото.png" class="feedback-section__card-avatar" alt="default-photo"/>
+                                        <div class="feedback-section__card-wrapper">
+                                            <div class="feedback-section__card-time">13.04.2020</div>
+                                            <div class="feedback-section__card-name">Ольга Емельяненко</div>
+                                        </div>
+                                    </div>
+                                    <div class="feedback-section__card-text">
+                                        Спасибо центру за помощь нашей семье! Прошли все 12 шагов, алкоголь теперь для мужа забыт, как страшный сон. Во многом помогла творческая реабилитация, муж ушел целиком в музыку, играет на гитаре и пишет песни! Не может нарадоваться. Спасибо!
+                                    </div>
+                                    <div class="article__mark">
+                                        <div class="article__star">
+                                            <img src="images/articles/star%20(3).svg" alt="star">
+                                        </div>
+                                        <div class="article__star">
+                                            <img src="images/articles/star%20(2).svg" alt="star emty">
+                                        </div>
+                                        <div class="article__star">
+                                            <img src="images/articles/star%20(2).svg" alt="star emty">
+                                        </div>
+                                        <div class="article__star">
+                                            <img src="images/articles/star%20(2).svg" alt="star emty">
+                                        </div>
+                                        <div class="article__star">
+                                            <img src="images/articles/star%20(2).svg" alt="star emty">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide rehabs-swiper__slide">
+                            <a class="rehabs-swiper__link" href="rehab-detail.html">
+                                <div class="feedback-section__card">
+                                    <div class="feedback-section__card-info">
+                                        <img src="img/avatar.png" class="feedback-section__card-avatar"/>
+                                        <div class="feedback-section__card-wrapper">
+                                            <div class="feedback-section__card-time">13.04.2020</div>
+                                            <div class="feedback-section__card-name">Ольга Емельяненко</div>
+                                        </div>
+                                    </div>
+                                    <div class="feedback-section__card-text">
+                                        Спасибо центру за помощь нашей семье! Прошли все 12 шагов, алкоголь теперь для мужа забыт, как страшный сон. Во многом помогла творческая реабилитация, муж ушел целиком в музыку, играет на гитаре и пишет песни! Не может нарадоваться. Спасибо!
+                                    </div>
+                                    <div class="article__mark">
+                                        <div class="article__star">
+                                            <img src="images/articles/star%20(3).svg" alt="star">
+                                        </div>
+                                        <div class="article__star">
+                                            <img src="images/articles/star%20(2).svg" alt="star emty">
+                                        </div>
+                                        <div class="article__star">
+                                            <img src="images/articles/star%20(2).svg" alt="star emty">
+                                        </div>
+                                        <div class="article__star">
+                                            <img src="images/articles/star%20(2).svg" alt="star emty">
+                                        </div>
+                                        <div class="article__star">
+                                            <img src="images/articles/star%20(2).svg" alt="star emty">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide rehabs-swiper__slide">
+                            <a class="rehabs-swiper__link" href="rehab-detail.html">
+                                <div class="feedback-section__card">
+                                    <div class="feedback-section__card-info">
+                                        <img src="img/avatar.png" class="feedback-section__card-avatar"/>
+                                        <div class="feedback-section__card-wrapper">
+                                            <div class="feedback-section__card-time">13.04.2020</div>
+                                            <div class="feedback-section__card-name">Ольга Емельяненко</div>
+                                        </div>
+                                    </div>
+                                    <div class="feedback-section__card-text">
+                                        Спасибо центру за помощь нашей семье! Прошли все 12 шагов, алкоголь теперь для мужа забыт, как страшный сон. Во многом помогла творческая реабилитация, муж ушел целиком в музыку, играет на гитаре и пишет песни! Не может нарадоваться. Спасибо!
+                                    </div>
+                                    <div class="article__mark">
+                                        <div class="article__star">
+                                            <img src="images/articles/star%20(3).svg" alt="star">
+                                        </div>
+                                        <div class="article__star">
+                                            <img src="images/articles/star%20(2).svg" alt="star emty">
+                                        </div>
+                                        <div class="article__star">
+                                            <img src="images/articles/star%20(2).svg" alt="star emty">
+                                        </div>
+                                        <div class="article__star">
+                                            <img src="images/articles/star%20(2).svg" alt="star emty">
+                                        </div>
+                                        <div class="article__star">
+                                            <img src="images/articles/star%20(2).svg" alt="star emty">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-button swiper-button-prev rehabs-swiper__button-prev"></div>
+
+                <div class="swiper-button swiper-button-next rehabs-swiper__button-next"></div>
+            </div>
+
+            <div class="rehabs-swiper__mobile-list">
+                <a class="rehabs-swiper__link" href="rehab-detail.html">
+                    <div class="feedback-section__card">
+                        <div class="feedback-section__card-info">
+                            <img src="img/avatar.png" class="feedback-section__card-avatar"/>
+                            <div class="feedback-section__card-wrapper">
+                                <div class="feedback-section__card-time">13.04.2020</div>
+                                <div class="feedback-section__card-name">Ольга Емельяненко</div>
+                            </div>
+                        </div>
+                        <div class="feedback-section__card-text">
+                            Спасибо центру за помощь нашей семье! Прошли все 12 шагов, алкоголь теперь для мужа забыт, как страшный сон. Во многом помогла творческая реабилитация, муж ушел целиком в музыку, играет на гитаре и пишет песни! Не может нарадоваться. Спасибо!
+                        </div>
+                        <div class="article__mark">
+                            <div class="article__star">
+                                <img src="images/articles/star%20(3).svg" alt="star">
+                            </div>
+                            <div class="article__star">
+                                <img src="images/articles/star%20(2).svg" alt="star emty">
+                            </div>
+                            <div class="article__star">
+                                <img src="images/articles/star%20(2).svg" alt="star emty">
+                            </div>
+                            <div class="article__star">
+                                <img src="images/articles/star%20(2).svg" alt="star emty">
+                            </div>
+                            <div class="article__star">
+                                <img src="images/articles/star%20(2).svg" alt="star emty">
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="rehabs-swiper__link" href="rehab-detail.html">
+                    <div class="feedback-section__card">
+                        <div class="feedback-section__card-info">
+                            <img src="img/avatar.png" class="feedback-section__card-avatar"/>
+                            <div class="feedback-section__card-wrapper">
+                                <div class="feedback-section__card-time">13.04.2020</div>
+                                <div class="feedback-section__card-name">Ольга Емельяненко</div>
+                            </div>
+                        </div>
+                        <div class="feedback-section__card-text">
+                            Спасибо центру за помощь нашей семье! Прошли все 12 шагов, алкоголь теперь для мужа забыт, как страшный сон. Во многом помогла творческая реабилитация, муж ушел целиком в музыку, играет на гитаре и пишет песни! Не может нарадоваться. Спасибо!
+                        </div>
+                        <div class="article__mark">
+                            <div class="article__star">
+                                <img src="images/articles/star%20(3).svg" alt="star">
+                            </div>
+                            <div class="article__star">
+                                <img src="images/articles/star%20(2).svg" alt="star emty">
+                            </div>
+                            <div class="article__star">
+                                <img src="images/articles/star%20(2).svg" alt="star emty">
+                            </div>
+                            <div class="article__star">
+                                <img src="images/articles/star%20(2).svg" alt="star emty">
+                            </div>
+                            <div class="article__star">
+                                <img src="images/articles/star%20(2).svg" alt="star emty">
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <div class="swiper-slide rehabs-swiper__slide">
+                    <a class="rehabs-swiper__link" href="rehab-detail.html">
+                        <div class="feedback-section__card">
+                            <div class="feedback-section__card-info">
+                                <img src="images/фото.png" class="feedback-section__card-avatar" alt="default-photo"/>
+                                <div class="feedback-section__card-wrapper">
+                                    <div class="feedback-section__card-time">13.04.2020</div>
+                                    <div class="feedback-section__card-name">Ольга Емельяненко</div>
+                                </div>
+                            </div>
+                            <div class="feedback-section__card-text">
+                                Спасибо центру за помощь нашей семье! Прошли все 12 шагов, алкоголь теперь для мужа забыт, как страшный сон. Во многом помогла творческая реабилитация, муж ушел целиком в музыку, играет на гитаре и пишет песни! Не может нарадоваться. Спасибо!
+                            </div>
+                            <div class="article__mark">
+                                <div class="article__star">
+                                    <img src="images/articles/star%20(3).svg" alt="star">
+                                </div>
+                                <div class="article__star">
+                                    <img src="images/articles/star%20(2).svg" alt="star emty">
+                                </div>
+                                <div class="article__star">
+                                    <img src="images/articles/star%20(2).svg" alt="star emty">
+                                </div>
+                                <div class="article__star">
+                                    <img src="images/articles/star%20(2).svg" alt="star emty">
+                                </div>
+                                <div class="article__star">
+                                    <img src="images/articles/star%20(2).svg" alt="star emty">
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Если больше 3 - остальные скрывать, выводить ссылку .btn-more -->
+            </div>
+            <a class="rehabs-swiper__btn-more btn-more" href="feedbacks.html">
+                Другие отзывы
+            </a>
+        </div>
+    </section>
+    <article class="b article__padding-top container">
+        <svg class="b__ruffles-m b__ruffles-m-1 ruffles ruffles--blue-1 l40" width="8" height="8" aria-hidden="true" role="presentation">
+            <use xlink:href="#ruffle-x"></use>
+        </svg>
+        <svg class="b__ruffles-m b__ruffles-m-2 ruffles ruffles--dark-blue l78 r-45" width="16" height="16" aria-hidden="true" role="presentation">
+            <use xlink:href="#ruffle-x"></use>
+        </svg>
+
+        <div class="b__container container klinics-article__container">
+            <div class="b__wrap">
+                <div class="b__img-wrap b__figure-dots figure-dots">
+                    <img class="b__img" src="img/b/3.jpg" alt="Самолечение опасно для вашего здоровья!">
+                </div>
+                <div class="b__content-wrap">
+                    <p class="b__caption caption">
+                        жизнь вашего близкого под угрозой
+                    </p>
+                    <p class="b__title title">
+                        Уговорим на лечение!
+                    </p>
+                    <p class="b__desc desc">
+                        Детоксикация - первый шаг в лечени зависимости! Обратитесь прямо сейчас, и наши специалисты гарантированно убедят начать лечение. Круглосуточная бесплатная горячая линия!
+                    </p>
+                    <div class="b__btn-wrap">
+                        <a class="b__btn-link btn btn--icon-tel" href="tel:+78006365412">
+                            8 (800) 636-54-12
+                        </a>
+                        <form class="b__tel-form" method="POST" action=".php">
+                            <input class="b__tel btn btn--tel js-phone-mask" type="tel" name="PHONE" placeholder="+7 ( ___ ) ___ - __ - __" required="">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+</main>
+<div class="background">
+    <footer class="container">
+        <div class="footer__request">
+            <div class="footer__request-text">
+                <strong>Оставьте заявку прямо сейчас!</strong>
+                <span>Мы на связи 24/7, бесплатная горячая линия</span>
+            </div>
+            <div class="footer__button">
+                <a><span>Оставить заявку</span>
+                    <div><img src="img/svg/arrow-short-green.svg" alt=">"/></div>
+                </a>
+            </div>
+            <div class="footer__social">
+                <div>
+                    <svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0)">
+                            <path d="M493.973 296.384C509.248 167.808 486.635 86.6347 445.845 49.92L445.867 49.8987C380.032 -12.8 157.696 -22.08 78.9333 52.7147C43.5627 89.3013 31.104 142.997 29.7387 209.472C28.3733 275.968 26.752 400.533 142.827 434.325H142.933L142.827 485.931C142.827 485.931 142.037 506.837 155.392 511.04C170.667 515.989 177.579 506.283 225.088 449.536C304.533 456.427 365.547 440.64 372.48 438.336C388.523 432.96 479.296 420.949 493.973 296.384ZM232.917 413.227C232.917 413.227 182.635 475.925 166.997 492.203C161.877 497.493 156.267 497.003 156.352 486.507C156.352 479.616 156.736 400.832 156.736 400.832C58.3253 372.629 64.128 266.56 65.1947 211.072C66.2613 155.563 76.416 110.101 106.368 79.488C175.467 14.6987 370.389 29.184 420.053 75.8613C480.768 129.685 459.157 281.749 459.285 286.933C446.805 390.912 373.248 397.504 359.723 402.005C353.941 403.925 300.288 417.728 232.917 413.227V413.227Z" />
+                            <path d="M260.736 91.6693C252.523 91.6693 252.523 104.469 260.736 104.576C324.459 105.067 376.939 149.483 377.515 230.955C377.515 239.552 390.101 239.445 389.995 230.848H389.973C389.291 143.061 331.989 92.16 260.736 91.6693V91.6693Z" />
+                            <path d="M344.555 217.451C344.363 225.941 356.928 226.347 357.035 217.749C358.08 169.344 328.235 129.472 272.149 125.269C263.936 124.672 263.083 137.579 271.275 138.176C319.915 141.867 345.536 175.061 344.555 217.451V217.451Z" />
+                            <path d="M331.115 272.512C320.576 266.411 309.845 270.208 305.408 276.203L296.128 288.213C291.413 294.315 282.603 293.504 282.603 293.504C218.304 276.501 201.109 209.216 201.109 209.216C201.109 209.216 200.32 200.107 206.208 195.221L217.813 185.621C223.616 181.013 227.285 169.92 221.376 159.019C205.589 130.496 194.987 120.661 189.589 113.109C183.915 106.005 175.381 104.405 166.507 109.205H166.315C147.861 120 127.659 140.203 134.123 161.003C145.152 182.933 165.419 252.843 230.016 305.664C260.373 330.645 308.416 356.245 328.811 362.155L329.003 362.453C349.099 369.152 368.64 348.16 379.072 329.152V329.003C383.701 319.808 382.165 311.104 375.403 305.408C363.413 293.717 345.323 280.811 331.115 272.512Z" />
+                            <path d="M280.939 172.885C301.44 174.08 311.381 184.789 312.448 206.784C312.832 215.381 325.312 214.784 324.928 206.187C323.563 177.472 308.587 161.472 281.621 159.979C273.408 159.488 272.64 172.395 280.939 172.885V172.885Z" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0">
+                                <rect width="512" height="512" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </div>
+                <div>
+                    <svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0)">
+                            <path d="M373.483 305.216L373.291 306.816C326.379 283.435 321.472 280.32 315.413 289.408C311.211 295.701 298.965 309.973 295.275 314.197C291.541 318.357 287.829 318.677 281.493 315.797C275.093 312.597 254.549 305.877 230.229 284.117C211.285 267.157 198.571 246.357 194.816 239.957C188.565 229.163 201.643 227.627 213.547 205.099C215.68 200.619 214.592 197.099 213.013 193.92C211.413 190.72 198.677 159.36 193.344 146.859C188.224 134.4 182.955 135.979 179.008 135.979C166.72 134.912 157.739 135.083 149.824 143.317C115.392 181.163 124.075 220.203 153.536 261.717C211.435 337.493 242.283 351.445 298.688 370.816C313.92 375.659 327.808 374.976 338.795 373.397C351.04 371.456 376.491 358.016 381.803 342.976C387.243 327.936 387.243 315.456 385.643 312.576C384.064 309.696 379.883 308.096 373.483 305.216V305.216Z" />
+                            <path d="M437.76 73.5787C273.728 -84.992 2.26133 30.016 2.15467 253.717C2.15467 298.432 13.8667 342.037 36.1813 380.544L0 512L135.147 476.757C303.787 567.851 511.915 446.891 512 253.845C512 186.091 485.547 122.325 437.44 74.4107L437.76 73.5787ZM469.376 253.141C469.248 415.979 290.496 517.675 149.12 434.56L141.44 429.995L61.44 450.795L82.88 373.035L77.7813 365.035C-10.1973 224.981 90.88 41.9413 257.536 41.9413C314.155 41.9413 367.296 64.0213 407.317 104.021C447.317 143.68 469.376 196.821 469.376 253.141V253.141Z" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0">
+                                <rect width="512" height="512" fill="white"/>
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </div>
+                <div>
+                    <svg height="512pt" viewBox="0 -39 512.00011 512" width="512pt" xmlns="http://www.w3.org/2000/svg" ><path d="m504.09375 11.859375c-6.253906-7.648437-15.621094-11.859375-26.378906-11.859375-5.847656 0-12.042969 1.230469-18.410156 3.664062l-433.398438 165.441407c-23 8.777343-26.097656 21.949219-25.8984375 29.019531s4.0390625 20.046875 27.4999995 27.511719c.140626.042969.28125.085937.421876.125l89.898437 25.726562 48.617187 139.023438c6.628907 18.953125 21.507813 30.726562 38.835938 30.726562 10.925781 0 21.671875-4.578125 31.078125-13.234375l55.605469-51.199218 80.652344 64.941406c.007812.007812.019531.011718.027343.019531l.765625.617187c.070313.054688.144532.113282.214844.167969 8.964844 6.953125 18.75 10.625 28.308594 10.628907h.003906c18.675781 0 33.546875-13.824219 37.878906-35.214844l71.011719-350.640625c2.851563-14.074219.460937-26.667969-6.734375-35.464844zm-356.191406 234.742187 173.441406-88.605468-107.996094 114.753906c-1.769531 1.878906-3.023437 4.179688-3.640625 6.683594l-20.824219 84.351562zm68.132812 139.332032c-.71875.660156-1.441406 1.25-2.164062 1.792968l19.320312-78.25 35.144532 28.300782zm265.390625-344.566406-71.011719 350.644531c-.683593 3.355469-2.867187 11.164062-8.480468 11.164062-2.773438 0-6.257813-1.511719-9.824219-4.257812l-91.390625-73.585938c-.011719-.011719-.027344-.023437-.042969-.03125l-54.378906-43.789062 156.175781-165.949219c5-5.3125 5.453125-13.449219 1.074219-19.285156-4.382813-5.835938-12.324219-7.671875-18.820313-4.351563l-256.867187 131.226563-91.121094-26.070313 433.265625-165.390625c3.660156-1.398437 6.214844-1.691406 7.710938-1.691406.917968 0 2.550781.109375 3.15625.855469.796875.972656 1.8125 4.289062.554687 10.511719zm0 0"/></svg>
+
+                </div>
+            </div>
+        </div>
+        <div class="footer__info">
+            <div class="footer__logo">
+                <a class="footer__logo-img">
+                    <img src="img/svg/logo-white.svg" alt="logo"/>
+                </a>
+                <div>
+                    <img class="logo__title-img logo__title-img-footer" src="img/svg/logo-title-white.svg"
+                         alt="Очищение" width="190"
+                         height="32">
+                    <span>детоксикация при любых </span>
+                    <span> видах зависимости</span>
+                </div>
+            </div>
+            <div class="footer__about-blocks">
+                <div class="footer__about">
+                    <p>Услуги</p>
+                    <span>Лечение наркомании</span>
+                    <span>Лечение алкоголизма</span>
+                    <span>УБОД</span>
+                </div>
+                <div class="footer__about">
+                    <p>Информация</p>
+                    <span>Клиники</span>
+                    <span>Подросткам</span>
+                    <span>Онлайн консульнация</span>
+                </div>
+                <div class="footer__about">
+                    <p>База знаний</p>
+                    <span>Лечение наркомании</span>
+                    <span>Лечение алкоголизма</span>
+                    <span>Другие виды зависимости</span>
+                </div>
+                <div class="footer__about">
+                    <p>Контакты</p>
+                    <span>8 800 565 12 34</span>
+                    <span>mail@detox.ru</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+<script src="js/libs/jquery-3.4.1.min.js"></script>
+<script src="js/libs/jquery.maskedinput.min.js"></script>
+<script src="js/libs/jquery.fancybox.min.js"></script>
+
+<script src="js/main.js"></script>
+<svg style="position: absolute; z-index: -100; width: 0; height: 0; visibility: hidden; opacity: 0;"
+     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- X -->
+    <symbol id="ruffle-x" viewBox="0 0 448 448">
+        <path d="m408 184h-136c-4.417969 0-8-3.582031-8-8v-136c0-22.089844-17.910156-40-40-40s-40 17.910156-40 40v136c0 4.417969-3.582031 8-8 8h-136c-22.089844 0-40 17.910156-40 40s17.910156 40 40 40h136c4.417969 0 8 3.582031 8 8v136c0 22.089844 17.910156 40 40 40s40-17.910156 40-40v-136c0-4.417969 3.582031-8 8-8h136c22.089844 0 40-17.910156 40-40s-17.910156-40-40-40zm0 0"/>
+    </symbol>
+
+    <!-- O-green -->
+    <symbol id="ruffle-o-green">
+        <circle cx="14" cy="14" r="10" stroke="url(#g-green)" stroke-width="4.4px" fill="none"></circle>
+    </symbol>
+
+    <!-- O-blue -->
+    <symbol id="ruffle-o-blue">
+        <circle cx="14" cy="14" r="10" stroke="url(#g-blue)" stroke-width="4.4px" fill="none"></circle>
+    </symbol>
+
+    <defs>
+        <linearGradient id="g-blue" x1="0%" x2="0%" y1="100%" y2="0%">
+            <stop offset="0%" stop-color="#8598d4" stop-opacity="1"/>
+            <stop offset="100%" stop-color="#65d6c4" stop-opacity="1"/>
+        </linearGradient>
+        <linearGradient id="g-green" x1="0%" x2="0%" y1="100%" y2="0%">
+            <stop offset="0%" stop-color="#48d883" stop-opacity="1"/>
+            <stop offset="100%" stop-color="#1d974e" stop-opacity="1"/>
+        </linearGradient>
+    </defs>
+</svg>
+<svg style="position: absolute; z-index: -100; width: 0; height: 0; visibility: hidden; opacity: 0;"
+     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- X -->
+    <symbol id="ruffle-x" viewBox="0 0 448 448">
+        <path d="m408 184h-136c-4.417969 0-8-3.582031-8-8v-136c0-22.089844-17.910156-40-40-40s-40 17.910156-40 40v136c0 4.417969-3.582031 8-8 8h-136c-22.089844 0-40 17.910156-40 40s17.910156 40 40 40h136c4.417969 0 8 3.582031 8 8v136c0 22.089844 17.910156 40 40 40s40-17.910156 40-40v-136c0-4.417969 3.582031-8 8-8h136c22.089844 0 40-17.910156 40-40s-17.910156-40-40-40zm0 0"/>
+    </symbol>
+
+    <!-- O-green -->
+    <symbol id="ruffle-o-green">
+        <circle cx="14" cy="14" r="10" stroke="url(#g-green)" stroke-width="4.4px" fill="none"></circle>
+    </symbol>
+
+    <!-- O-blue -->
+    <symbol id="ruffle-o-blue">
+        <circle cx="14" cy="14" r="10" stroke="url(#g-blue)" stroke-width="4.4px" fill="none"></circle>
+    </symbol>
+
+    <defs>
+        <linearGradient id="g-blue" x1="0%" x2="0%" y1="100%" y2="0%">
+            <stop offset="0%" stop-color="#8598d4" stop-opacity="1"/>
+            <stop offset="100%" stop-color="#65d6c4" stop-opacity="1"/>
+        </linearGradient>
+        <linearGradient id="g-green" x1="0%" x2="0%" y1="100%" y2="0%">
+            <stop offset="0%" stop-color="#48d883" stop-opacity="1"/>
+            <stop offset="100%" stop-color="#1d974e" stop-opacity="1"/>
+        </linearGradient>
+    </defs>
+</svg>
+<div class="overlay"></div>
+
+<script src="js/libs/jquery-3.4.1.min.js"></script>
+<script src="js/libs/jquery.maskedinput.min.js"></script>
+<script src="js/libs/jquery.fancybox.min.js"></script>
+
+<script src="js/libs/swiper.min.js"></script>
+
+<script src="js/main.js"></script>
+<script src="js/slider.js"></script>
+<script src="js/feedback.js"></script>
+<script src="js/clinic.js"></script>
+</body>
+</html>

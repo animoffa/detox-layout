@@ -1,0 +1,1162 @@
+
+.container .map-section {
+    margin-top: 20rem;
+    padding: 0 5%;
+}
+
+.container .about-section {
+    margin-top: 20rem;
+}
+
+.container .feedback-section {
+    margin-top: 20rem;
+}
+
+body {
+    background: white;
+}
+
+.gallery-swiper .title {
+    text-align: center;
+}
+
+.rehabs-swiper__mobile-list {
+    display: none;
+}
+
+#clinic-swiper-mob {
+    display: none;
+}
+
+.gallery-swiper .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50rem;
+}
+
+.gallery-swiper .rehabs-swiper__link {
+    width: 70%;
+}
+
+.gallery-swiper .swiper-slide-next .rehabs-swiper__link {
+    width: 100%;
+}
+
+.gallery-swiper .rehabs-swiper__link img {
+    width: 100%;
+}
+
+.feedback-swiper .rehabs-swiper__link {
+    width: auto;
+}
+
+.clinic-section {
+    display: flex;
+    padding: 15rem 8rem 0 8rem;
+    width: 132rem;
+    justify-content: space-between;
+}
+
+.feedback-swiper .swiper-container {
+    -webkit-box-shadow: 26px 26px 47px 9px rgba(117, 117, 117, 0.06);
+    -moz-box-shadow: 26px 26px 47px 9px rgba(117, 117, 117, 0.06);
+    box-shadow: 26px 26px 47px 9px rgba(117, 117, 117, 0.06);
+}
+
+.title-block__buttons {
+    display: flex;
+    margin-top: 7rem;
+}
+
+.number__button {
+    display: flex;
+    color: #2aac5f;
+    background: #f3fbf4;
+    font-size: 1.7rem;
+    border-radius: 6rem;
+    padding: 1.7rem 2.5rem;
+    width: fit-content;
+    margin-left: 2rem;
+    font-weight: 500;
+}
+
+.number__button span {
+    margin-left: 1rem;
+    font-size: 2rem;
+    font-weight: 800;
+
+}
+
+
+.clinic-section__content {
+    padding: 14rem 0;
+}
+
+.clinic-section__img {
+    margin-right: -7.5rem;
+}
+
+.clinic-section__subtitle {
+    font-size: 1.65rem;
+    font-weight: 500;
+    color: #796e85;
+    text-transform: uppercase;
+    margin-top: -2.2rem;
+    margin-bottom: 1.6rem;
+}
+
+.clinic-section__title {
+    font-size: 4rem;
+    font-weight: 900;
+    margin-bottom: 4.6rem;
+}
+
+.clinic-section__price-block {
+    border-right: 2px solid #ede7f2;
+    padding-top: 1rem;
+    padding-right: 7rem;
+}
+
+.clinic-section__price-title {
+    font-size: 1.8rem;
+    margin-bottom: .8rem;
+}
+
+.clinic-section__price {
+    font-size: 3.2rem;
+    font-weight: 700;
+    position: relative;
+}
+
+.clinic-section__price:after {
+    position: absolute;
+    content: ' / сутки';
+    white-space: nowrap;
+    font-size: 1.7rem;
+    top: .6rem;
+    font-weight: 500;
+    left: 12rem;
+}
+
+.clinic-section__info {
+    display: inline-flex;
+}
+
+.clinic-section__info-description {
+    padding-left: 4rem;
+    padding-top: .6rem;
+    max-width: 30rem;
+}
+
+.clinic-section__info-help {
+    font-size: 1.9rem;
+    font-weight: 700;
+}
+
+.clinic-section__info-text {
+    font-size: 1.8rem;
+}
+
+.clinic-section__footer {
+    display: flex;
+}
+
+.clinic-section__img {
+    width: 50%;
+    position: relative;
+    z-index: 3;
+    margin-top: 1rem;
+    margin-left: 20rem;
+}
+
+.clinic-section__img > img {
+    width: 100%;
+    border-radius: 4rem;
+}
+
+.gallery-swiper .rehabs-swiper__text-wrap {
+    margin-bottom: 6rem;
+}
+
+.gallery-swiper {
+    padding-top: 8rem;
+}
+
+.gallery-section {
+    display: flex;
+    padding-top: 17rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery-section__title {
+    font-size: 5rem;
+    font-weight: 700;
+    margin-bottom: 6.2rem;
+}
+
+.gallery-section__slider {
+    width: 100%;
+}
+
+.gallery-section__images {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+}
+
+.gallery-section__images img:nth-child(2n + 1) {
+    width: 25%;
+}
+
+.gallery-section__images img:nth-child(2) {
+    width: 36%;
+}
+
+.slider {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.slider__arrow-left {
+    margin-left: -15rem;
+}
+
+.slider__arrow-right {
+    margin-right: -15rem;
+}
+
+.slider__counter, .slider__progress {
+    position: absolute;
+}
+
+.slider__counter {
+    left: .5rem;
+    top: .6rem;
+
+    font-size: 2.4rem;
+}
+
+.slider__counter:after {
+    content: '/ 03';
+    color: lightgrey;
+    margin-left: .5em;
+    font-size: 1.6rem;
+}
+
+.slider__progress {
+    bottom: 0;
+    right: 2rem;
+    display: flex;
+}
+
+.slider__progress-point {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: grey;
+}
+
+
+.map-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 21rem;
+}
+
+.map {
+    border-radius: 4rem;
+    overflow: hidden;
+    max-width: 100%;
+    z-index: 2;
+    height: 44.5rem;
+    width: 78rem;
+    -webkit-box-shadow: 26px 26px 47px 9px rgba(117, 117, 117, 0.07);
+    -moz-box-shadow: 26px 26px 47px 9px rgba(117, 117, 117, 0.07);
+    box-shadow: 26px 26px 47px 9px rgba(117, 117, 117, 0.07);
+}
+
+
+.map-section__content {
+    width: 35%;
+}
+
+.map-section__subtitle {
+    font-size: 1.8rem;
+    margin-bottom: 1.3rem;
+    font-weight: 500;
+}
+
+.map-section__title {
+    font-size: 5rem;
+    font-weight: 800;
+    margin-bottom: 3rem;
+}
+
+.map-section__info {
+    margin-bottom: 4.4rem;
+    font-size: 2rem;
+}
+
+.map-section__info-item {
+    display: flex;
+    width: 100%;
+    margin-bottom: 1.7rem;
+}
+
+.article__star {
+    width: 2.5rem;
+    margin: 0 0.5rem;
+}
+
+.article__star img {
+    width: 100%;
+}
+
+.article__padding-top {
+    padding-top: 25rem;
+}
+
+.article__mark {
+    display: flex;
+    align-items: center;
+}
+
+.map-section__info-item > strong {
+    width: 43%;
+}
+
+.map-section__info-item > span {
+    width: 100%;
+}
+
+.map-section__actions {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.b__wrap {
+    padding: 0 8rem 0 6rem;
+}
+
+.map-section__download {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    padding: 1.8rem 2rem;
+    color: #1a7c42;
+    background-color: #f3fbf4;
+    text-align: center;
+    border-radius: 1rem;
+    font-size: 2rem;
+}
+
+.map-section__download span {
+    margin-left: 2rem;
+    font-weight: 500;
+}
+
+.map-section__download:before {
+    background: url(../images/download.svg);
+    content: '';
+    width: 3rem;
+    height: 3rem;
+    display: inline-block;
+    background-size: 3rem;
+}
+
+.about-section {
+    display: flex;
+    margin-top: 22rem;
+    width: 134rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-section__info {
+    width: 35%;
+}
+
+.about-section__info-subtitle {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 1.2rem;
+}
+
+.about-section__info-title {
+    font-size: 5rem;
+    font-weight: 800;
+    margin-bottom: 2.3rem;
+}
+
+.about-section__info-text {
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    margin-bottom: 4rem;
+}
+
+.about-section__cards {
+    display: flex;
+    justify-content: space-between;
+    width: 47%;
+    height: fit-content;
+}
+
+.about-section__license,
+.about-section__includes {
+    width: 29%;
+    border-radius: 2rem;
+    padding: 3rem 5rem 2rem 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-section__license {
+    background-color: #f2f2f8;
+}
+
+.about-section__license > img {
+    width: 100%;
+}
+
+.about-section__includes {
+    background-color: #f3fbf4;
+}
+
+.about-section__license-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-section__license-arrows {
+    display: flex;
+    justify-content: space-between;
+    width: 7rem;
+}
+
+.about-section__license-arrows svg {
+    width: 2.5rem;
+    height: 2rem;
+    fill: #776c85;
+}
+
+.about-section__button {
+    height: 10rem;
+}
+
+.about-section__includes {
+    width: 45%;
+    padding: 3rem 2rem 2rem 3rem;
+}
+
+.about-section__includes-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.about-section__includes-items {
+    width: 100%;
+}
+
+.about-section__includes-item {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    line-height: 2.4rem;
+    font-weight: 500;
+    display: flex;
+}
+
+
+.about-section__includes-item:before {
+    padding-right: 2rem;
+    color: green;
+    display: block;
+    content: '';
+    background: url(../images/service/check.svg) no-repeat;
+    width: 2rem;
+    height: 2rem;
+    background-size: 1.8rem;
+}
+
+
+.feedback-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 8rem;
+}
+
+.b__caption {
+    font-size: 1.7rem;
+}
+
+.doctors-swiper__caption {
+    font-size: 1.8rem;
+}
+
+.feedback-section__subtitle {
+    font-size: 1.8rem;
+    margin-bottom: 1.2rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+.feedback-section__title {
+    font-size: 5rem;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 7rem;
+}
+
+.feedback-section__cards {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.feedback-section__card {
+    width: 80%;
+    -webkit-box-shadow: 26px 26px 47px 9px rgba(117, 117, 117, 0.07);
+    -moz-box-shadow: 26px 26px 47px 9px rgba(117, 117, 117, 0.07);
+    box-shadow: 26px 26px 47px 9px rgba(117, 117, 117, 0.07);
+    background: white;
+    border-radius: 2rem;
+    padding: 3rem 3.8rem 4.4rem 3.8rem;
+}
+
+.feedback-section__card-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.feedback-section__card-avatar {
+    width: 7rem;
+}
+
+.feedback-section__card-wrapper {
+    padding-left: 2rem;
+    font-size: 1.9rem;
+}
+
+.feedback-section__card-name {
+    font-weight: 700;
+}
+
+.feedback-section__card-text {
+    font-size: 1.8rem;
+    color: #91899a;
+    line-height: 2.2rem;
+    margin-bottom: 4rem;
+}
+
+.feedback-section__card-time {
+    color: #91899a
+}
+
+.feedback-section__stars {
+    display: flex;
+}
+
+.feedback-section__stars > div {
+    margin: 0 1.5rem;
+}
+
+.feedback-section__stars > div:first-child {
+    margin-left: 0;
+}
+
+
+@media (max-width: 768px) {
+    .rehabs-swiper__mobile-list {
+        display: initial;
+    }
+
+    #clinic-swiper-mob {
+        display: initial;
+    }
+
+    .clinic-section {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        margin-top: 7rem;
+        padding: 4rem 3rem 0 3rem;
+    }
+
+    .title-block__number__button {
+        display: none;
+    }
+
+    .clinic-section__content {
+        order: 1;
+    }
+
+    .clinic-section__img {
+        order: 0;
+        width: 100%;
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .clinic-section__img > img {
+        border-radius: 7rem;
+    }
+
+    .clinic-section__content {
+        padding: 11rem 0;
+    }
+
+    .clinic-section__subtitle {
+        font-size: 2.3rem;
+        margin-bottom: 2.8rem;
+    }
+
+    .clinic-section__title {
+        font-size: 5.5rem;
+        margin-bottom: 6rem;
+    }
+
+    .clinic-section__info {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .clinic-section__price-block {
+        width: 45%;
+        padding-right: 0;
+    }
+
+    .clinic-section__price-title {
+        font-size: 2.9rem;
+        margin-bottom: 3rem;
+    }
+
+    .clinic-section__price {
+        font-size: 4.7rem;
+    }
+
+    .clinic-section__price:after {
+        left: 18rem;
+        font-size: 2.4rem;
+    }
+
+    .clinic-section__info-description {
+        padding-top: 1rem;
+        padding-left: 3.3rem;
+        max-width: 100%;
+        width: 50%;
+    }
+
+    .clinic-section__info-help {
+        font-size: 3.8rem;
+        margin-bottom: .6rem;
+    }
+
+    .clinic-section__info-text {
+        font-size: 2.5rem;
+    }
+
+
+    .gallery-section__title {
+        font-size: 5.5rem;
+        margin-bottom: 8rem;
+    }
+
+    .slider__counter {
+        display: none;
+    }
+
+    .slider__progress {
+        left: 50%;
+        bottom: -9rem;
+        transform: translateX(-50%);
+        width: fit-content;
+    }
+
+    .slider__progress-point {
+        width: 1.5rem;
+        height: 1.5rem;
+        margin: 0 1rem;
+    }
+
+    .gallery-section__images {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .gallery-section__images img:nth-child(2) {
+        width: 78%;
+        margin: 0 4rem;
+
+    }
+
+    .gallery-section__images img:nth-child(2n + 1) {
+        width: 54%;
+    }
+
+    .rehabs-swiper__mobile-list .rehabs-swiper__buttons-wrap {
+        display: block;
+    }
+
+    .map-section {
+        display: flex;
+        flex-direction: column;
+        padding: 10rem 3rem 0 3rem;
+    }
+
+    .map-section__img {
+        order: -1;
+        width: 100%;
+        margin-bottom: 8.1rem;
+    }
+
+    .map-section__content {
+        width: 100%;
+        margin-top: 10rem;
+    }
+
+    .map-section__subtitle {
+        font-size: 2.3rem;
+        margin-bottom: 2rem;
+    }
+
+    .map-section__title {
+        margin-bottom: 6.5rem;
+    }
+
+    .map-section__info {
+        margin-bottom: 9.5rem;
+    }
+
+    .map-section__info-item {
+        font-size: 3.1rem;
+        margin-bottom: 4.5rem;
+    }
+
+    .map-section__info-item > strong {
+        width: 45%;
+    }
+
+    .map-section__actions {
+        flex-direction: column;
+    }
+
+    .map-section__download {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 3rem;
+        padding: 4rem 1rem;
+        font-size: 3.3rem;
+    }
+
+
+    .about-section {
+        flex-direction: column;
+        width: auto;
+        padding: 0 3rem;
+    }
+
+    .about-section__info {
+        width: 100%;
+    }
+
+    .about-section__info-subtitle {
+        font-size: 2.25rem;
+    }
+
+    .about-section__info-title {
+        font-size: 5rem;
+        margin-bottom: 2.6rem;
+    }
+
+    .about-section__info-text {
+        font-size: 3rem;
+        line-height: 4.4rem;
+    }
+
+    .about-section__cards {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 11rem;
+        height: fit-content;
+    }
+
+    .about-section__license {
+        width: 60%;
+        text-align: center;
+        padding: 5rem 13.5rem 5rem 13.5rem;
+        margin-bottom: 8rem;
+    }
+
+    .about-section__license > img {
+        height: auto;
+    }
+
+    .about-section__license-title {
+        width: fit-content;
+        font-size: 3.7rem;
+        margin-bottom: 5rem;
+    }
+
+    .about-section__license-arrows {
+        display: none;
+    }
+
+    .about-section__includes {
+        width: 90%;
+        padding: 6rem 4rem;
+        height: fit-content;
+    }
+
+    .doctors-swiper__caption {
+        font-size: 2.3rem;
+    }
+
+    .title {
+        font-size: 5rem;
+        margin-bottom: 10rem;
+    }
+
+    .doctors-swiper__name {
+
+        font-size: 4rem;
+    }
+
+    .doctors-swiper__text-wrap {
+        padding-left: 3rem;
+    }
+
+    .about-section__includes-title {
+        font-size: 3.7rem;
+        margin-bottom: 4rem;
+    }
+
+    .rehabs-swiper__mobile-list {
+        display: initial;
+    }
+
+    .about-section__includes-item {
+        font-size: 3rem;
+        line-height: 5.5rem;
+    }
+
+    .about-section__includes-item:before {
+        padding-right: 3.2rem;
+        position: relative;
+        top: 1rem;
+        width: 3rem;
+        height: 3rem;
+        background-size: 3rem;
+    }
+
+
+    .feedback-section {
+        align-items: flex-start;
+        padding: 20rem 3rem 0 3rem;
+
+    }
+
+    .feedback-section__subtitle {
+        font-size: 2.2rem;
+        margin-bottom: 1.8rem;
+    }
+
+    .feedback-section__cards {
+        flex-direction: column;
+    }
+
+    .feedback-section__card {
+        width: 92%;
+        margin-bottom: 3rem;
+        padding: 5.6rem 3.2rem;
+    }
+
+    .feedback-section__card-avatar {
+        width: 15rem;
+    }
+
+    .feedback-section__card-wrapper {
+        font-size: 3.4rem;
+        padding-left: 2.5rem;
+    }
+
+    .feedback-section__card-time {
+        margin-bottom: .5rem;
+    }
+
+    .feedback-section__card-info {
+        margin-bottom: 4.8rem;
+    }
+
+    .feedback-section__card-text {
+        font-size: 3rem;
+        line-height: unset;
+        margin-bottom: 6rem;
+    }
+
+
+    .menu-toggle {
+        width: 7rem;
+        height: 3.3rem;
+    }
+
+    .logo::before {
+        width: 5.5rem;
+        height: 5.5rem;
+    }
+
+    .logo__title-img {
+        left: 4.2rem;
+        width: 17.4rem;
+        height: 3.5rem;
+    }
+
+    .header__link-call-back-img {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .logo__title-img-footer {
+        left: -0.4rem;
+    }
+
+    .footer__logo-img {
+        width: 8rem;
+        margin-top: 0;
+    }
+
+    .footer__logo img {
+        width: 23rem;
+        height: auto;
+    }
+
+    .footer__logo span {
+        font-size: 2.1rem;
+    }
+
+    .footer__about p {
+        font-size: 3rem;
+    }
+
+    .footer__about span {
+        font-size: 2.3rem;
+    }
+
+    .footer__social img {
+        width: 3.8rem;
+    }
+
+    .footer__request-text strong {
+        font-size: 3.6rem;
+    }
+
+    .footer__request-text span {
+        font-size: 2.5rem;
+    }
+
+    .footer__button a span {
+        font-size: 2.5rem;
+        margin-right: 3rem;
+    }
+
+    .footer__button a div {
+        padding: 1.5rem 1.8rem;
+    }
+
+    .footer__button img {
+        width: 1.2rem;
+    }
+
+    .footer__button a {
+        margin-top: 2rem;
+        padding: 2rem 2rem 2rem 3rem;
+    }
+
+    .doctors-swiper {
+        padding: 10rem 1rem;
+    }
+
+    .article__padding-top {
+        width: 90%;
+        max-width: unset;
+        padding-top: 28rem;
+        padding-bottom: 20rem;
+    }
+
+    .padding-top-0 {
+        padding-top: 0;
+    }
+
+    .b__img-wrap {
+        height: auto;
+        margin-bottom: 13rem;
+    }
+
+    .klinics-article__container {
+        width: 100%;
+    }
+
+    .b__caption {
+        font-size: 2.4rem;
+        margin-bottom: 2rem;
+    }
+
+    .b__title {
+        font-size: 5.3rem;
+        margin-bottom: 3rem;
+    }
+
+    .desc {
+        font-size: 3rem;
+    }
+
+    .doctors-swiper__link {
+        min-height: 40rem;
+        background: white;
+
+    }
+
+    .doctors-swiper__slide {
+        width: 82% !important;
+    }
+
+    .doctors-swiper__img-wrap {
+        width: 25rem;
+        height: 25rem;
+    }
+
+    .doctors-swiper__slide.swiper-slide-visible .doctors-swiper__link {
+        padding-top: 20rem;
+    }
+
+    .btn {
+        width: 100%;
+        font-size: 3.7rem;
+        margin-bottom: 2rem;
+    }
+
+    .b__btn-wrap {
+        margin-top: 7.5rem;
+    }
+
+    .btn--tel {
+        background-size: 7rem 7rem;
+    }
+
+    .btn {
+        height: 10rem;
+        border-radius: 7rem;
+    }
+
+    .btn--icon {
+        padding-left: 3rem;
+        font-size: 3rem;
+    }
+
+    .b__wrap {
+        padding: 0;
+    }
+
+    .btn--icon::before {
+        width: 4.8rem;
+        right: 2rem;
+        height: 4.8rem;
+    }
+
+    .btn--icon::after {
+        right: 3.7rem;
+        width: 1.2rem;
+        height: 2.2rem;
+    }
+
+    section, article {
+        max-width: unset;
+    }
+
+    .article__star {
+        width: 4rem;
+        margin-left: 1.5rem;
+    }
+
+    .feedback-swiper .rehabs-swiper__container {
+        width: auto;
+        padding: 0 5.5%;
+    }
+
+    .gallery-swiper .swiper-slide {
+        width: 30rem !important;
+    }
+
+    .gallery-swiper .swiper-slide-next {
+        width: 50rem !important;
+    }
+
+    .gallery-swiper .rehabs-swiper__link {
+        width: 95%;
+    }
+
+    .feedback-swiper .rehabs-swiper__mobile-list {
+        grid-template-columns: 1fr;
+        width: 100%;
+        row-gap: 13rem;
+    }
+
+    .gallery-swiper .swiper-wrapper {
+        left: -20rem;
+    }
+
+    .feedback-swiper .rehabs-swiper__img-wrap {
+        height: 40rem;
+    }
+
+    .feedback-swiper .rehabs-swiper__subtitle {
+        font-size: 4.3rem;
+    }
+
+    .feedback-swiper .rehabs-swiper__link {
+        height: 60rem;
+        margin: 0 0 10rem 0;
+    }
+
+    .btn-more {
+        font-size: 4.3rem;
+    }
+
+    .feedback-swiper .rehabs-swiper__price-val {
+        font-size: 4rem;
+    }
+
+    .feedback-swiper .rehabs-swiper__price-icon {
+        font-size: 3rem;
+    }
+
+    .gallery-swiper .rehabs-swiper__buttons-wrap {
+        display: initial;
+    }
+
+    .gallery-swiper .swiper-buttons-wrap {
+        padding: 0;
+    }
+
+    .main {
+        overflow: hidden;
+    }
+}

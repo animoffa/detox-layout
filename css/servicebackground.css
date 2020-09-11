@@ -1,0 +1,135 @@
+.s07-k {
+    --scale: 0.8;
+    top: 23rem;
+    left: 56rem;
+}
+.r-45-k {
+    left: 159.5rem;
+}
+.r-20-k {
+    top: 21rem;
+    left: -3rem;
+}
+.r-60-k, .r-222-k {
+    display:none;
+}
+.figure-task{
+    transform: rotate(45deg);
+    right: 49rem;
+    top: 4rem;
+    position: relative;
+}
+.figure-2-task{
+    right: 83rem;
+    top: 35rem;
+    position: relative;
+}
+.r-45-s{
+    opacity:1;
+    left: 17rem;
+    top: -0.1rem;
+}
+.r-20-s{
+    top: -1rem;
+    left: 11rem;
+    width:1rem;
+}
+.r-2223-k {
+    top: 329rem;
+    left: 153rem;
+}
+.r-45-c{
+    top: 334rem;
+    left: 148rem;
+}
+.r-20-c{
+    top: 250rem;
+    left: -10rem;
+}
+.r-20-c2{
+    top: 455rem;
+    left: -10rem;
+}
+.r-6022{
+    top: 450rem;
+    left: 6rem;
+}
+.r-20-c3{
+    top: 543rem;
+    left: 150rem;
+}
+.r-6023{
+    top: 550rem;
+    left: 165rem;
+}
+.r-6021{
+    position: relative;
+    width: 1rem;
+    top: 12rem;
+    left: -13rem;
+}
+@media(max-width:48em){
+    .r-20-k {
+        top: 158rem;
+        left: 60rem;
+        --scale: 0.9rem;
+
+    }
+    .s07-k {
+        --scale: 0.85;
+        top: 82rem;
+        left: 65rem;
+    }
+    .r-6022 {
+        top: 167rem;
+        left: 53rem;
+        --scale: 0.9rem;
+    }
+    .r-20-s {
+        top: 35rem;
+        --scale: 1.7;
+        left: 11rem;
+        width: 1rem;
+    }
+    .r-45-s {
+        opacity: 1;
+        left: 20rem;
+        top: 44rem;
+        display: block;
+        --scale: 0.7;
+        z-index: 30;
+    }
+    .figure-task {
+        transform: rotate(45deg);
+        /* right: 49rem; */
+        top: -42rem;
+        left: 40rem;
+        width:4rem;
+        position: relative;
+    }
+    .r-602 {
+        left: 53rem;
+        top: 295rem;
+        z-index: 2;
+        --scale: 0.6;
+        --rotate: 30deg;
+    }
+    .b__ruffles-m-1 {
+        top: -733rem;
+        --scale: 1.7;
+    }
+    .b__ruffles-m-2 {
+        top: -723rem;
+        --scale: 1.5;
+        left: 10rem;
+    }
+    .rehabs-swiper__ruffles-m-2 {
+        top: 243rem;
+        --scale: 2;
+    }
+    .rehabs-swiper__ruffles-m-1 {
+        top: 248rem;
+        left: 54rem;
+        --scale: 1;
+    }
+}

@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Очищение</title>
+    <link rel="stylesheet" href="css/styleindex.css"/>
+    <link rel="stylesheet" href="css/header.css"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/fonts.css"/>
+    <link rel="stylesheet" href="css/services.css"/>
+    <link rel="stylesheet" href="css/footer.css"/>
+    <link href="index.js"/>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="index.js"></script>
+</head>
+<body>
+<header class="header">
+    <div class="header__container container-outside">
+        <div class="header__wrapper">
+            <div class="header__mobile-top">
+                <button class="header__menu-toggle menu-toggle">
+                    <span>Открыть меню</span>
+                </button>
+
+                <a class="header__logo logo" href="index.html">
+                    <h2 class="logo__title visually-hidden">Очищение</h2>
+                    <img class="logo__title-img" src="img/svg/logo-title.svg" alt="Очищение" width="190" height="32">
+                    <img class="logo__title-img logo__title-img--white" src="img/svg/logo-title-white.svg" alt="Очищение" width="190" height="32">
+                    <p class="logo__description">детоксикация при любых видах зависимости</p>
+                </a>
+
+                <a class="header__link-call-back js-modal-callback" href="#">
+                    <img class="header__link-call-back-img" src="img/svg/phone.svg" alt="Обратный звонок" width="32" height="32">
+                </a>
+            </div>
+
+            <nav class="header__main-nav main-nav">
+                <form class="main-nav__search search" action=".php" method='POST'>
+                    <input class="search__input" type="search" name="SEARCH" placeholder="Поиск по сайту...">
+                </form>
+                <ul class="main-nav__list main-nav__list--primary">
+                    <li class="main-nav__item--primary">
+                        <ul class="main-nav__list--secondary">
+                            <li class="main-nav__item">
+                                <a class="main-nav__link" href="clinics.html">Клиники</a>
+                            </li>
+                            <li class="main-nav__item">
+                                <a class="main-nav__link" href="services.html">Наркомания</a>
+                            </li>
+                            <li class="main-nav__item">
+                                <a class="main-nav__link main-nav-sub" href="alco.html">Алкоголизм</a>
+                                <ul class="main-nav__sublist">
+                                    <li class="main-nav__subitem">
+                                        <a class="main-nav__sublink" href="articles.html">Детоксикация от героиновой наркомании</a>
+                                    </li>
+                                    <li class="main-nav__subitem">
+                                        <a class="main-nav__sublink" href="service.html">Детоксикация от спайсовой наркомании</a>
+                                    </li>
+                                    <li class="main-nav__subitem">
+                                        <a class="main-nav__sublink" href="clinic.html">Детоксикация от солевой наркомании</a>
+                                    </li>
+                                    <li class="main-nav__subitem">
+                                        <a class="main-nav__sublink" href="service-detail.html">Детоксикация от Альфа-ПВП</a>
+                                    </li>
+                                    <li class="main-nav__subitem">
+                                        <a class="main-nav__sublink" href="service-detail.html">УБОД</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="main-nav__item--primary">
+                        <ul class="main-nav__list--secondary">
+                            <li class="main-nav__item">
+                                <a class="main-nav__link" href="clinics.html">Подросткам</a>
+                            </li>
+                            <li class="main-nav__item">
+                                <a class="main-nav__link" href="publishes.html">Публикации</a>
+                            </li>
+                            <li class="main-nav__item">
+                                <a class="main-nav__link" href="contacts.html">Контакты</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <div id="nav-decoration" class="main-nav__decoration"></div>
+                <button class="main-nav__btn-search js-modal-search" title="Поиск">Поиск</button>
+            </nav>
+
+            <div class="header__phone-wrapper">
+                <a class="header__phone" href="tel:+78009009090">8 (800) 636-54-12</a>
+                <p class="header__phone-text">Круглосуточно, анонимно</p>
+            </div>
+        </div>
+    </div>
+</header>
+<main class="services-block container">
+    <p class="h3">Наши услуги</p>
+    <div class="services-block__services">
+        <a class="services-block__service">
+            <img src="img/services/надом.png" alt="narcolog"/>
+            <div>
+                <strong>Нарколог на дом</strong>
+                <div>
+                <span>3000 ₽</span><span class="services-block__gray-text">/ 1 прием</span>
+                </div>
+                </div>
+        </a>
+        <a class="services-block__service">
+            <img src="img/services/pills.png" alt="lechenie"/>
+            <div>
+                <strong>Лечение наркомании</strong>
+                <div>
+                <span>от 3000 ₽</span><span class="services-block__gray-text">/ в сутки</span>
+                </div>
+            </div>
+        </a>
+        <a class="services-block__service">
+            <img src="img/services/уброд.png" alt="убод"/>
+            <div>
+                <strong>УБОД</strong>
+                <div>
+                <span>от 3000 ₽</span><span class="services-block__gray-text">/ в сутки</span>
+                </div>
+                </div>
+        </a>
+        <a class="services-block__service">
+            <img src="img/services/4.png" alt="амбулаторное лечение"/>
+            <div>
+                <strong>Амбулаторное лечение</strong>
+                <div>
+                <span>от 3000 ₽</span><span class="services-block__gray-text">/ в сутки</span>
+                </div>
+                </div>
+        </a>
+        <a class="services-block__service">
+            <img src="img/services/тин.png" alt="лечение подростков"/>
+            <div>
+                <strong>Лечение подростков</strong>
+                <div>
+                <span>по договоренности</span>
+                </div>
+                </div>
+        </a>
+        <a class="services-block__service">
+            <img src="img/services/крист.png" alt="Детоксикация от мефедрона"/>
+            <div>
+                <strong>Детоксикация от мефедрона</strong>
+                <div>
+                <span>от 3000 ₽</span><span class="services-block__gray-text">/ 1 прием</span>
+                </div> </div>
+        </a>
+        <a class="services-block__service">
+            <img src="img/services/инет.png" alt="Интернет зависимость"/>
+            <div>
+                <strong>Интернет зависимость</strong>
+                <div>
+                <span>от 3000 ₽</span><span class="services-block__gray-text">/ в сутки</span>
+                </div></div>
+        </a>
+        <a class="services-block__service">
+            <img src="img/services/игры.png" alt="игровая зависимость"/>
+            <div>
+                <strong>Игровая зависимость</strong>
+                <div>
+                <span>от 3000 ₽</span><span class="services-block__gray-text">/ в сутки</span>
+                </div></div>
+        </a>
+        <a class="services-block__service">
+            <img src="img/services/хелп.png" alt="Наркологическая помощь"/>
+            <div>
+                <strong>Наркологическая помощь</strong>
+                <div>
+                <span>от 3000 ₽</span><span class="services-block__gray-text">/ в сутки</span>
+                </div></div>
+        </a>
+        <a class="services-block__service">
+            <img src="img/services/группы.png" alt="Группы для зависимых"/>
+            <div>
+                <strong>Группы для зависимых</strong>
+                <div>
+                <span>бесплатно</span>
+                </div></div>
+        </a>
+        <a class="services-block__service">
+            <img src="img/services/ломка.png" alt="снятие ломки"/>
+            <div>
+                <strong>Снятие ломки</strong>
+                <div>
+                <span>от 3000 ₽</span><span class="services-block__gray-text">/ в сутки</span>
+                </div></div>
+        </a>
+        <a class="services-block__service">
+            <img src="img/services/7.png" alt="Детоксикация от героина"/>
+            <div>
+                <strong>Детоксикация от героина</strong>
+                <div>
+                <span>от 3000 ₽</span><span class="services-block__gray-text">/ в сутки</span>
+                </div>
+            </div>
+        </a>
+        <a class="services-block__service">
+            <img src="img/services/алко.png" alt="Детоксткация от алкоголя"/>
+            <div>
+                <strong>Детоксткация от алкоголя</strong>
+                <div>
+                <span>от 3000 ₽</span><span class="services-block__gray-text">/ в сутки</span>
+                    </div>
+                </div>
+        </a>
+        <a class="services-block__service">
+            <img src="img/services/амбулаторно.png" alt="Лечение алкоголизма амбулаторно"/>
+            <div>
+
+                <strong>Лечение алкоголизма амбулаторно</strong>
+                <div>
+                <span>от 3000 ₽</span><span class="services-block__gray-text">/ 1 прием</span>
+                    </div>
+            </div>
+        </a>
+        <a class="services-block__service">
+            <img src="img/services/жен.png" alt="Женский алкоголизм"/>
+            <div>
+                <strong>Женский алкоголизм</strong>
+                <div>
+                <span>от 3000 ₽</span><span class="services-block__gray-text">/ в сутки</span>
+                </div></div>
+        </a>
+        <a class="services-block__service">
+            <img src="img/services/лечение.png" alt="Лечение алкоголизма"/>
+            <div>
+                <strong>Лечение алкоголизма</strong>
+                <div>
+                <span>от 3000 ₽</span><span class="services-block__gray-text">/ в сутки</span>
+                </div></div>
+        </a>
+    </div>
+</main>
+<div class="background">
+    <footer class="container">
+        <div class="footer__request">
+            <div class="footer__request-text">
+                <strong>Оставьте заявку прямо сейчас!</strong>
+                <span>Мы на связи 24/7, бесплатная горячая линия</span>
+            </div>
+            <div class="footer__button">
+                <a><span>Оставить заявку</span>
+                    <div><img src="img/svg/arrow-short-green.svg" alt=">"/></div>
+                </a>
+            </div>
+            <div class="footer__social">
+                <div>
+                    <svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0)">
+                            <path d="M493.973 296.384C509.248 167.808 486.635 86.6347 445.845 49.92L445.867 49.8987C380.032 -12.8 157.696 -22.08 78.9333 52.7147C43.5627 89.3013 31.104 142.997 29.7387 209.472C28.3733 275.968 26.752 400.533 142.827 434.325H142.933L142.827 485.931C142.827 485.931 142.037 506.837 155.392 511.04C170.667 515.989 177.579 506.283 225.088 449.536C304.533 456.427 365.547 440.64 372.48 438.336C388.523 432.96 479.296 420.949 493.973 296.384ZM232.917 413.227C232.917 413.227 182.635 475.925 166.997 492.203C161.877 497.493 156.267 497.003 156.352 486.507C156.352 479.616 156.736 400.832 156.736 400.832C58.3253 372.629 64.128 266.56 65.1947 211.072C66.2613 155.563 76.416 110.101 106.368 79.488C175.467 14.6987 370.389 29.184 420.053 75.8613C480.768 129.685 459.157 281.749 459.285 286.933C446.805 390.912 373.248 397.504 359.723 402.005C353.941 403.925 300.288 417.728 232.917 413.227V413.227Z" />
+                            <path d="M260.736 91.6693C252.523 91.6693 252.523 104.469 260.736 104.576C324.459 105.067 376.939 149.483 377.515 230.955C377.515 239.552 390.101 239.445 389.995 230.848H389.973C389.291 143.061 331.989 92.16 260.736 91.6693V91.6693Z" />
+                            <path d="M344.555 217.451C344.363 225.941 356.928 226.347 357.035 217.749C358.08 169.344 328.235 129.472 272.149 125.269C263.936 124.672 263.083 137.579 271.275 138.176C319.915 141.867 345.536 175.061 344.555 217.451V217.451Z" />
+                            <path d="M331.115 272.512C320.576 266.411 309.845 270.208 305.408 276.203L296.128 288.213C291.413 294.315 282.603 293.504 282.603 293.504C218.304 276.501 201.109 209.216 201.109 209.216C201.109 209.216 200.32 200.107 206.208 195.221L217.813 185.621C223.616 181.013 227.285 169.92 221.376 159.019C205.589 130.496 194.987 120.661 189.589 113.109C183.915 106.005 175.381 104.405 166.507 109.205H166.315C147.861 120 127.659 140.203 134.123 161.003C145.152 182.933 165.419 252.843 230.016 305.664C260.373 330.645 308.416 356.245 328.811 362.155L329.003 362.453C349.099 369.152 368.64 348.16 379.072 329.152V329.003C383.701 319.808 382.165 311.104 375.403 305.408C363.413 293.717 345.323 280.811 331.115 272.512Z" />
+                            <path d="M280.939 172.885C301.44 174.08 311.381 184.789 312.448 206.784C312.832 215.381 325.312 214.784 324.928 206.187C323.563 177.472 308.587 161.472 281.621 159.979C273.408 159.488 272.64 172.395 280.939 172.885V172.885Z" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0">
+                                <rect width="512" height="512" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </div>
+                <div>
+                    <svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0)">
+                            <path d="M373.483 305.216L373.291 306.816C326.379 283.435 321.472 280.32 315.413 289.408C311.211 295.701 298.965 309.973 295.275 314.197C291.541 318.357 287.829 318.677 281.493 315.797C275.093 312.597 254.549 305.877 230.229 284.117C211.285 267.157 198.571 246.357 194.816 239.957C188.565 229.163 201.643 227.627 213.547 205.099C215.68 200.619 214.592 197.099 213.013 193.92C211.413 190.72 198.677 159.36 193.344 146.859C188.224 134.4 182.955 135.979 179.008 135.979C166.72 134.912 157.739 135.083 149.824 143.317C115.392 181.163 124.075 220.203 153.536 261.717C211.435 337.493 242.283 351.445 298.688 370.816C313.92 375.659 327.808 374.976 338.795 373.397C351.04 371.456 376.491 358.016 381.803 342.976C387.243 327.936 387.243 315.456 385.643 312.576C384.064 309.696 379.883 308.096 373.483 305.216V305.216Z" />
+                            <path d="M437.76 73.5787C273.728 -84.992 2.26133 30.016 2.15467 253.717C2.15467 298.432 13.8667 342.037 36.1813 380.544L0 512L135.147 476.757C303.787 567.851 511.915 446.891 512 253.845C512 186.091 485.547 122.325 437.44 74.4107L437.76 73.5787ZM469.376 253.141C469.248 415.979 290.496 517.675 149.12 434.56L141.44 429.995L61.44 450.795L82.88 373.035L77.7813 365.035C-10.1973 224.981 90.88 41.9413 257.536 41.9413C314.155 41.9413 367.296 64.0213 407.317 104.021C447.317 143.68 469.376 196.821 469.376 253.141V253.141Z" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0">
+                                <rect width="512" height="512" fill="white"/>
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </div>
+                <div>
+                    <svg height="512pt" viewBox="0 -39 512.00011 512" width="512pt" xmlns="http://www.w3.org/2000/svg" ><path d="m504.09375 11.859375c-6.253906-7.648437-15.621094-11.859375-26.378906-11.859375-5.847656 0-12.042969 1.230469-18.410156 3.664062l-433.398438 165.441407c-23 8.777343-26.097656 21.949219-25.8984375 29.019531s4.0390625 20.046875 27.4999995 27.511719c.140626.042969.28125.085937.421876.125l89.898437 25.726562 48.617187 139.023438c6.628907 18.953125 21.507813 30.726562 38.835938 30.726562 10.925781 0 21.671875-4.578125 31.078125-13.234375l55.605469-51.199218 80.652344 64.941406c.007812.007812.019531.011718.027343.019531l.765625.617187c.070313.054688.144532.113282.214844.167969 8.964844 6.953125 18.75 10.625 28.308594 10.628907h.003906c18.675781 0 33.546875-13.824219 37.878906-35.214844l71.011719-350.640625c2.851563-14.074219.460937-26.667969-6.734375-35.464844zm-356.191406 234.742187 173.441406-88.605468-107.996094 114.753906c-1.769531 1.878906-3.023437 4.179688-3.640625 6.683594l-20.824219 84.351562zm68.132812 139.332032c-.71875.660156-1.441406 1.25-2.164062 1.792968l19.320312-78.25 35.144532 28.300782zm265.390625-344.566406-71.011719 350.644531c-.683593 3.355469-2.867187 11.164062-8.480468 11.164062-2.773438 0-6.257813-1.511719-9.824219-4.257812l-91.390625-73.585938c-.011719-.011719-.027344-.023437-.042969-.03125l-54.378906-43.789062 156.175781-165.949219c5-5.3125 5.453125-13.449219 1.074219-19.285156-4.382813-5.835938-12.324219-7.671875-18.820313-4.351563l-256.867187 131.226563-91.121094-26.070313 433.265625-165.390625c3.660156-1.398437 6.214844-1.691406 7.710938-1.691406.917968 0 2.550781.109375 3.15625.855469.796875.972656 1.8125 4.289062.554687 10.511719zm0 0"/></svg>
+
+                </div>
+            </div>
+        </div>
+        <div class="footer__info">
+            <div class="footer__logo">
+                <a class="footer__logo-img">
+                    <img src="img/svg/logo-white.svg" alt="logo"/>
+                </a>
+                <div>
+                    <img class="logo__title-img logo__title-img-footer" src="img/svg/logo-title-white.svg"
+                         alt="Очищение" width="190"
+                         height="32">
+                    <span>детоксикация при любых </span>
+                    <span> видах зависимости</span>
+                </div>
+            </div>
+            <div class="footer__about-blocks">
+                <div class="footer__about">
+                    <p>Услуги</p>
+                    <span>Лечение наркомании</span>
+                    <span>Лечение алкоголизма</span>
+                    <span>УБОД</span>
+                </div>
+                <div class="footer__about">
+                    <p>Информация</p>
+                    <span>Клиники</span>
+                    <span>Подросткам</span>
+                    <span>Онлайн консульнация</span>
+                </div>
+                <div class="footer__about">
+                    <p>База знаний</p>
+                    <span>Лечение наркомании</span>
+                    <span>Лечение алкоголизма</span>
+                    <span>Другие виды зависимости</span>
+                </div>
+                <div class="footer__about">
+                    <p>Контакты</p>
+                    <span>8 800 565 12 34</span>
+                    <span>mail@detox.ru</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+</html>

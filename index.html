@@ -1,0 +1,1306 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="«Очищение»">
+    <title>Очищение</title>
+
+    <!-- <link rel="shortcut icon" type="image/x-icon" href="./fav.ico"> -->
+
+    <link rel="preload" href="fonts/FuturaPT/book/FuturaPT-Book.woff2" as="font" type="font/woff2" crossorigin="">
+
+    <link rel="stylesheet" href="css/normalise.css">
+    <link rel="stylesheet" href="css/libs/swiper.min.css">
+    <link rel="stylesheet" href="css/libs/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/styleindex.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container container-outside">
+        <div class="header__wrapper">
+          <div class="header__mobile-top">
+            <button class="header__menu-toggle menu-toggle">
+              <span>Открыть меню</span>
+            </button>
+
+            <a class="header__logo logo" href="index.html">
+              <h2 class="logo__title visually-hidden">Очищение</h2>
+              <img class="logo__title-img" src="img/svg/logo-title.svg" alt="Очищение" width="190" height="32">
+              <img class="logo__title-img logo__title-img--white" src="img/svg/logo-title-white.svg" alt="Очищение" width="190" height="32">
+              <p class="logo__description">детоксикация при любых видах зависимости</p>
+            </a>
+
+            <a class="header__link-call-back js-modal-callback" href="#">
+              <img class="header__link-call-back-img" src="img/svg/phone.svg" alt="Обратный звонок" width="32" height="32">
+            </a>
+          </div>
+
+          <nav class="header__main-nav main-nav">
+            <form class="main-nav__search search" action=".php" method='POST'>
+              <input class="search__input" type="search" name="SEARCH" placeholder="Поиск по сайту...">
+            </form>
+            <ul class="main-nav__list main-nav__list--primary">
+              <li class="main-nav__item--primary">
+                <ul class="main-nav__list--secondary">
+                  <li class="main-nav__item">
+                    <a class="main-nav__link" href="clinics.html">Клиники</a>
+                  </li>
+                  <li class="main-nav__item">
+                    <a class="main-nav__link" href="services.html">Наркомания</a>
+                  </li>
+                  <li class="main-nav__item">
+                    <a class="main-nav__link main-nav-sub" href="alco.html">Алкоголизм</a>
+                    <ul class="main-nav__sublist">
+                      <li class="main-nav__subitem">
+                        <a class="main-nav__sublink" href="articles.html">Детоксикация от героиновой наркомании</a>
+                      </li>
+                      <li class="main-nav__subitem">
+                        <a class="main-nav__sublink" href="service.html">Детоксикация от спайсовой наркомании</a>
+                      </li>
+                      <li class="main-nav__subitem">
+                        <a class="main-nav__sublink" href="clinic.html">Детоксикация от солевой наркомании</a>
+                      </li>
+                      <li class="main-nav__subitem">
+                        <a class="main-nav__sublink" href="service-detail.html">Детоксикация от Альфа-ПВП</a>
+                      </li>
+                      <li class="main-nav__subitem">
+                        <a class="main-nav__sublink" href="service-detail.html">УБОД</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="main-nav__item--primary">
+                <ul class="main-nav__list--secondary">
+                  <li class="main-nav__item">
+                    <a class="main-nav__link" href="clinics.html">Подросткам</a>
+                  </li>
+                  <li class="main-nav__item">
+                    <a class="main-nav__link" href="publishes.html">Публикации</a>
+                  </li>
+                  <li class="main-nav__item">
+                    <a class="main-nav__link" href="contacts.html">Контакты</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <div id="nav-decoration" class="main-nav__decoration"></div>
+            <button class="main-nav__btn-search js-modal-search" title="Поиск">Поиск</button>
+          </nav>
+
+          <div class="header__phone-wrapper">
+            <a class="header__phone" href="tel:+78009009090">8 (800) 636-54-12</a>
+            <p class="header__phone-text">Круглосуточно, анонимно</p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main-m">
+      <div class="mob mob__sticky-bottom">
+        <img src="img/svg/tel-circle-green.svg" alt="call"/>
+        <div class="mob__phone">
+          <span>Круглосуточноая помощь!</span>
+          <p>8 (800) 600-32-05</p>
+        </div>
+        <span>Анонимно и бесплатно.</span>
+
+
+
+      </div>
+      <section class="main-info main-bg">
+        <div class="main-bg__img-wrap">
+          <picture>
+            <source media="(max-width:768px)" srcset="img/main-bg/1-m.png">
+            <img class="main-bg__img" src="img/main-bg/1-d.png" alt="Декоративное изображение">
+          </picture>
+        </div>
+        <div class="main-info__container container">
+          <div class="main-info__wrap main-info__wrap--two-half">
+            <p class="main-info__caption caption caption--heavy caption--large">
+              бесплатная консультация
+            </p>
+            <p class="main-info__title title title--large">
+              Детоксикация наркозависимых и алкозависимых
+            </p>
+            <p class="main-info__desc desc desc--large">
+              Основной этап лечения и один из действенных способов очищения организма от наркотических веществ и алкоголя
+            </p>
+            <button class="main-info__btn btn btn--icon js-modal-callback">
+              Оставить заявку
+            </button>
+            <div class="modal-callback modal">
+<p class="modal-callback__title ">Оставьте ваш телефон, и мы перезвоним!</p>
+              <div class="b__btn-wrap">
+                <form class="b__tel-form" method="POST" action=".php">
+                  <input class="b__tel btn btn--tel js-phone-mask modal__input-phone" type="tel" name="PHONE" placeholder="+7 ( ___ ) ___ - __ - __" required="">
+                </form>
+                <button class="main-info__btn btn btn--icon js-modal-callback ">
+                  отправить
+                </button>
+              </div>
+              <img class="modal__x modal__close" src="images/x.png" alt="close"/>
+              <svg class="tariffs__ruffles-d tariffs__ruffles-d-1 ruffles r-60 s08-m" width="30" height="30" aria-hidden="true" role="presentation">
+                <use xlink:href="#ruffle-o-blue"></use>
+              </svg>
+              <svg class="goals__ruffles-d goals__ruffles-d-2 ruffles ruffles--blue-2 r-5-m" width="14" height="14" aria-hidden="true" role="presentation">
+                <use xlink:href="#ruffle-x"></use>
+              </svg>
+              <svg class="contraindications__ruffles-d contraindications__ruffles-d-3 ruffles r-60-m" width="30" height="30" aria-hidden="true" role="presentation">
+                <use xlink:href="#ruffle-o-green"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="main-info__figure figure figure-1" aria-hidden="true"></div>
+
+        <svg class="main-info__ruffles-d main-info__ruffles-d-1 ruffles ruffles--blue-1 r-20" width="17" height="16" aria-hidden="true" role="presentation">
+          <use xlink:href="#ruffle-x"></use>
+        </svg>
+
+        <svg class="main-info__ruffles-d main-info__ruffles-d-2 ruffles r-45" width="30" height="30" aria-hidden="true" role="presentation">
+          <use xlink:href="#ruffle-o-green"></use>
+        </svg>
+
+        <svg class="main-info__ruffles-d main-info__ruffles-d-3 ruffles ruffles--blue-2 r-20" width="14" height="14" aria-hidden="true" role="presentation">
+          <use xlink:href="#ruffle-x"></use>
+        </svg>
+
+        <svg class="main-info__ruffles-d main-info__ruffles-d-4 ruffles ruffles--dark-blue r-60" width="20" height="20" aria-hidden="true" role="presentation">
+          <use xlink:href="#ruffle-x"></use>
+        </svg>
+
+        <svg class="main-info__ruffles-m main-info__ruffles-m-1 ruffles ruffles--dark-blue ri60 r-60" width="14" height="14" aria-hidden="true" role="presentation">
+          <use xlink:href="#ruffle-x"></use>
+        </svg>
+        <svg class="main-info__ruffles-m main-info__ruffles-m-2 ruffles ruffles--blue-1 ri37 r-20" width="8" height="8" aria-hidden="true" role="presentation">
+          <use xlink:href="#ruffle-x"></use>
+        </svg>
+        <svg class="main-info__ruffles-m main-info__ruffles-m-3 ruffles l15 r-45 s05" width="30" height="30" aria-hidden="true" role="presentation">
+          <use xlink:href="#ruffle-o-green"></use>
+        </svg>
+        <svg class="main-info__ruffles-m main-info__ruffles-m-4 ruffles ri23 r-60 s07" width="30" height="30" aria-hidden="true" role="presentation">
+          <use xlink:href="#ruffle-o-blue"></use>
+        </svg>
+      </section>
+
+      <section class="service-preview">
+        <div class="service-preview__container container">
+          <div class="service-preview__text-wrap">
+            <p class="service-preview__caption caption">
+              обратитесь за помощью прямо сейчас!
+            </p>
+            <p class="service-preview__title title">
+              Очищение от веществ
+            </p>
+            <p class="service-preview__desc desc">
+              Степень и особенности токсического влияния на организм вещества зависят от пути его введения, количества и состава
+            </p>
+          </div>
+          <ul class="service-preview__list">
+            <li class="service-preview__item">
+              <a class="service-preview__link" href="service-detail.html">
+                <p class="service-preview__img-wrap">
+                  <img class="service-preview__img" src="img/svg/icons/heroin.svg" alt="героин" width="50" height="50">
+                </p>
+                <span class="service-preview__item-title">
+                  героин
+                </span>
+              </a>
+            </li>
+            <li class="service-preview__item">
+              <a class="service-preview__link" href="service-detail.html">
+                <p class="service-preview__img-wrap">
+                  <img class="service-preview__img" src="img/svg/icons/crystal-1.svg" alt="мефедрон" width="50" height="50">
+                </p>
+                <span class="service-preview__item-title">
+                  мефедрон
+                </span>
+              </a>
+            </li>
+            <li class="service-preview__item">
+              <a class="service-preview__link" href="service-detail.html">
+                <p class="service-preview__img-wrap">
+                  <img class="service-preview__img" src="img/svg/icons/crystal-2.svg" alt="альфа-пвп" width="50" height="50">
+                </p>
+                <span class="service-preview__item-title">
+                  альфа-пвп
+                </span>
+              </a>
+            </li>
+            <li class="service-preview__item">
+              <a class="service-preview__link" href="service-detail.html">
+                <p class="service-preview__img-wrap">
+                  <img class="service-preview__img" src="img/svg/icons/dust.svg" alt="метамфетамин" width="50" height="50">
+                </p>
+                <span class="service-preview__item-title">
+                  метамфетамин
+                </span>
+              </a>
+            </li>
+            <li class="service-preview__item">
+              <a class="service-preview__link" href="service-detail.html">
+                <p class="service-preview__img-wrap">
+                  <img class="service-preview__img" src="img/svg/icons/cigarette.svg" alt="спайс" width="50" height="50">
+                </p>
+                <span class="service-preview__item-title">
+                  спайс
+                </span>
+              </a>
+            </li>
+            <li class="service-preview__item">
+              <a class="service-preview__link" href="service-detail.html">
+                <p class="service-preview__img-wrap">
+                  <img class="service-preview__img" src="img/svg/icons/tablet.svg" alt="метадон" width="50" height="50">
+                </p>
+                <span class="service-preview__item-title">
+                  метадон
+                </span>
+              </a>
+            </li>
+            <li class="service-preview__item">
+              <a class="service-preview__link" href="service-detail.html">
+                <p class="service-preview__img-wrap">
+                  <img class="service-preview__img" src="img/svg/icons/wine.svg" alt="алкоголь" width="50" height="50">
+                </p>
+                <span class="service-preview__item-title">
+                  алкоголь
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="service-preview__figure figure figure-2" aria-hidden="true"></div>
+      </section>
+
+      <section class="goals">
+        <svg class="goals__ruffles-d goals__ruffles-d-1 ruffles r-60" width="30" height="30" aria-hidden="true" role="presentation">
+          <use xlink:href="#ruffle-o-green"></use>
+        </svg>
+
+        <div class="goals__figure figure figure-3" aria-hidden="true"></div>
+        <div class="goals__container container">
+          <div class="goals__text-wrap">
+            <p class="goals__caption caption">
+              как это поможет организму?
+            </p>
+            <p class="goals__title title">
+              Цели проведения
+            </p>
+          </div>
+          <ul class="goals__list goals__figure-dots figure-dots">
+            <li class="goals__item">
+              <p class="goals__item-title subtitle">
+                Очистить организм от ядов
+              </p>
+              <p class="goals__img-wrap">
+                <img class="goals__img" src="img/svg/icons/toxic.svg" alt="Очистить организм от ядов" width="60" height="60">
+                <img class="goals__img goals__img--hide" src="img/svg/icons/toxic-w.svg" alt="Очистить организм от ядов" width="60" height="60">
+              </p>
+              <p class="goals__item-desc">
+                Восстановливает физическое состояния
+              </p>
+            </li>
+            <li class="goals__item">
+              <p class="goals__item-title subtitle">
+                Восстановить работу органов
+              </p>
+              <p class="goals__img-wrap">
+                <img class="goals__img" src="img/svg/icons/lung.svg" alt="Восстановить работу органов" width="60" height="60">
+                <img class="goals__img goals__img--hide" src="img/svg/icons/lung-w.svg" alt="Восстановить работу органов" width="60" height="60">
+              </p>
+              <p class="goals__item-desc">
+                Нормальзует деятельность всех внутренних систем
+              </p>
+            </li>
+            <li class="goals__item">
+              <p class="goals__item-title subtitle">
+                Нормальзовать обмен веществ
+              </p>
+              <p class="goals__img-wrap">
+                <img class="goals__img" src="img/svg/icons/molecule.svg" alt="Нормальзовать обмен веществ" width="60" height="60">
+                <img class="goals__img goals__img--hide" src="img/svg/icons/molecule-w.svg" alt="Нормальзовать обмен веществ" width="60" height="60">
+              </p>
+              <p class="goals__item-desc">
+                Налаживает метаболизм в организме
+              </p>
+            </li>
+            <li class="goals__item">
+              <p class="goals__item-title subtitle">
+                Наладить работу иммунитета
+              </p>
+              <p class="goals__img-wrap">
+                <img class="goals__img" src="img/svg/icons/immune-system.svg" alt="Наладить работу иммунитета" width="60" height="60">
+                <img class="goals__img goals__img--hide" src="img/svg/icons/immune-system-w.svg" alt="Наладить работу иммунитета" width="60" height="60">
+              </p>
+              <p class="goals__item-desc">
+                Восстанавливает защиту организма
+              </p>
+            </li>
+          </ul>
+        </div>
+
+        <svg class="goals__ruffles-d goals__ruffles-d-2 ruffles ruffles--blue-2 r-5" width="14" height="14" aria-hidden="true" role="presentation">
+          <use xlink:href="#ruffle-x"></use>
+        </svg>
+
+        <svg class="goals__ruffles-d goals__ruffles-d-3 ruffles ruffles--dark-blue r-45" width="20" height="20" aria-hidden="true" role="presentation">
+          <use xlink:href="#ruffle-x"></use>
+        </svg>
+
+        <svg class="goals__ruffles-m goals__ruffles-m-1 ruffles ruffles--blue-1 ri50 r-20" width="8" height="8" aria-hidden="true" role="presentation">
+          <use xlink:href="#ruffle-x"></use>
+        </svg>
+        <svg class="goals__ruffles-m goals__ruffles-m-2 ruffles ruffles--dark-blue ri85 r-45" width="16" height="16" aria-hidden="true" role="presentation">
+          <use xlink:href="#ruffle-x"></use>
+        </svg>
+      </section>
+
+      <article class="b">
+        <div class="b__container container">
+          <div class="b__wrap">
+            <div class="b__img-wrap b__figure-dots figure-dots">
+              <img class="b__img" src="img/b/1.jpg" alt="Самолечение опасно для вашего здоровья!">
+            </div>
+            <div class="b__content-wrap">
+              <p class="b__caption caption">
+                доверьтесь профессионалам
+              </p>
+              <p class="b__title title">
+                Самолечение опасно для вашего здоровья!
+              </p>
+              <p class="b__desc desc">
+                Все препараты и дозировка подбираются индвивидуально для каждого пациента, обращение в клинику значительно снизит риск побочных эффектов и аллергических реакций!
+              </p>
+              <div class="b__btn-wrap">
+                <a class="b__btn-link btn btn--icon-tel" href="tel:+78006365412">
+                  8 (800) 636-54-12
+                </a>
+                <form class="b__tel-form" method="POST" action=".php">
+                  <input class="b__tel btn btn--tel js-phone-mask" type="tel" name="PHONE" placeholder="+7 ( ___ ) ___ - __ - __" required="">
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <section class="methods">
+        <svg class="methods__ruffles methods__ruffles-d-1 ruffles ruffles--dark-blue r-15" width="23" height="23" aria-hidden="true" role="presentation">
+          <use xlink:href="#ruffle-x"></use>
+        </svg>
+
+        <svg class="methods__ruffles methods__ruffles-d-2 ruffles ruffles--blue-2 r-5" width="14" height="14" aria-hidden="true" role="presentation">
+          <use xlink:href="#ruffle-x"></use>
+        </svg>
+
+        <svg class="methods__ruffles-m methods__ruffles-m-1 ruffles ruffles--blue-2 l20 r-20" width="8" height="8" aria-hidden="true" role="presentation">
+          <use xlink:href="#ruffle-x"></use>
+        </svg>
+        <svg class="methods__ruffles-m methods__ruffles-m-2 ruffles ri23 r-60 s06" width="30" height="30" aria-hidden="true" role="presentation">
+          <use xlink:href="#ruffle-o-blue"></use>
+        </svg>
+        <div class="methods__container container">
+          <div class="methods__wrap">
+            <div class="methods__content-wrap">
+              <p class="methods__caption caption">
+                препараты и способы
+              </p>
+              <p class="methods__title title">
+                Методы детоксикации
+              </p>
+              <p class="methods__desc desc">
+                Способы очищения крови у зависимых могут различаться в зависимости от стадии абстинентного синдрома и общих условий
+              </p>
+
+              <a class="methods__btn btn btn--icon" href="rehabs.html">
+                Выбрать клинику
+              </a>
+            </div>
+            <ul class="methods__list">
+              <li class="methods__item">
+                <p class="methods__item-title subtitle">
+                  Форсированный диурез
+                </p>
+                <p class="methods__item-desc desc">
+                  Используются мочегонные препараты и большое количество жидкости, что помогает быстро выводить из организма наркотические вещества и продукты их распада
+                </p>
+              </li>
+              <li class="methods__item">
+                <p class="methods__item-title subtitle">
+                  Энтеросорбция
+                </p>
+                <p class="methods__item-desc desc">
+                  Наиболее эффективный метод, если вещество принималось перорально, в результате чего токсическому действию подвергалась пищеварительная система
+                </p>
+              </li>
+              <li class="methods__item">
+                <p class="methods__item-title subtitle">
+                  Аппаратная очистка крови
+                </p>
+                <p class="methods__item-desc desc">
+                  Данный метод практикуется в тяжелых случаях при длительном употребление или в случае передозироки, основные методы: плазмаферез и гемосорбция
+                </p>
+              </li>
+              <li class="methods__item">
+                <p class="methods__item-title subtitle">
+                  УБОД
+                </p>
+                <p class="methods__item-desc desc">
+                  Применяется при лечении наркозависимых с большим стажем употребления опиатов, проводится с помощью налоксона или налтрексона
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="methods__figure figure figure-4" aria-hidden="true"></div>
+      </section>
+
+      <section class="tariffs">
+        <svg class="tariffs__ruffles-d tariffs__ruffles-d-1 ruffles r-60 s08" width="30" height="30" aria-hidden="true" role="presentation">
+          <use xlink:href="#ruffle-o-blue"></use>
+        </svg>
+
+        <div class="tariffs__figure-dots figure-dots" aria-hidden="true"></div>
+        <div class="tariffs__container container">
+          <div class="tariffs__text-wrap">
+            <p class="tarrifs__caption caption">размещение в клинике</p>
+            <p class="tarrifs__title title">Стоимость детоксикации</p>
+          </div>
+          <ul class="tariffs__list">
+            <li class="tariffs__item">
+              <p class="tariffs__subtitle subtitle">Палата эконом</p>
+              <p class="tariffs__price">5 000 <span class="tariffs__price-icon">&#8381;</span></p>
+              <p class="tariffs__price-desc">в сутки</p>
+              <ul class="tariffs__include-list">
+                <li class="tariffs__include-item">4х разовое питание</li>
+                <li class="tariffs__include-item">3-6 мест в палате</li>
+                <li class="tariffs__include-item">2 капельницы в день</li>
+              </ul>
+            </li>
+            <li class="tariffs__item tariffs__item--middle">
+              <p class="tariffs__subtitle subtitle">Палата комфорт</p>
+              <p class="tariffs__price">8 000 <span class="tariffs__price-icon">&#8381;</span></p>
+              <p class="tariffs__price-desc">в сутки</p>
+              <ul class="tariffs__include-list">
+                <li class="tariffs__include-item">4х разовое питание</li>
+                <li class="tariffs__include-item">двухместная палата</li>
+                <li class="tariffs__include-item">2 капельницы в день</li>
+              </ul>
+            </li>
+            <li class="tariffs__item">
+              <p class="tariffs__subtitle subtitle">Палата VIP</p>
+              <p class="tariffs__price">14 000 <span class="tariffs__price-icon">&#8381;</span></p>
+              <p class="tariffs__price-desc">в сутки</p>
+              <ul class="tariffs__include-list">
+                <li class="tariffs__include-item">5ти разовое питание</li>
+                <li class="tariffs__include-item">одноместная палата</li>
+                <li class="tariffs__include-item">2 капельницы в день</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+        <svg class="tariffs__ruffles-d tariffs__ruffles-d-2 ruffles ruffles--blue-3 r-5" width="14" height="14" aria-hidden="true" role="presentation">
+          <use xlink:href="#ruffle-x"></use>
+        </svg>
+
+        <svg class="tariffs__ruffles-d tariffs__ruffles-d-3 ruffles r-60 s08" width="30" height="30" aria-hidden="true" role="presentation">
+          <use xlink:href="#ruffle-o-blue"></use>
+        </svg>
+      </section>
+
+      <article class="b">
+        <div class="b__container container">
+          <div class="b__wrap">
+            <div class="b__img-wrap b__figure-dots figure-dots">
+              <img class="b__img" src="img/b/2.jpg" alt="">
+            </div>
+            <div class="b__content-wrap">
+              <p class="b__caption caption">
+                скорая наркологическая помощь
+              </p>
+              <p class="b__title title title--small">
+                Срочная транспортировка в клинику
+              </p>
+              <p class="b__desc desc">
+                Самостоятельно и быстро доставим пациента в стационар с сопровождением врача. Помощь психотерапевта-нарколога в мотивации зависимого на лечение!
+              </p>
+              <div class="b__btn-wrap">
+                <a class="b__btn-link btn btn--icon-tel" href="tel:+78006365412">
+                  8 (800) 636-54-12
+                </a>
+                <form class="b__tel-form" method="POST" action=".php">
+                  <input class="b__tel btn btn--tel js-phone-mask" type="tel" name="PHONE" placeholder="+7 ( ___ ) ___ - __ - __" required="">
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <svg class="b__ruffles-d b__ruffles-d-1 ruffles ruffles--dark-blue r-25" width="23" height="23" aria-hidden="true" role="presentation">
+          <use xlink:href="#ruffle-x"></use>
+        </svg>
+      </article>
+
+      <section class="contraindications">
+        <svg class="contraindications__ruffles-d contraindications__ruffles-d-1 ruffles ruffles--blue-2 r-5" width="14" height="14" aria-hidden="true" role="presentation">
+          <use xlink:href="#ruffle-x"></use>
+        </svg>
+
+        <svg class="contraindications__ruffles-d contraindications__ruffles-d-2 ruffles ruffles--dark-blue r-45" width="20" height="20" aria-hidden="true" role="presentation">
+          <use xlink:href="#ruffle-x"></use>
+        </svg>
+
+        <svg class="contraindications__ruffles-m contraindications__ruffles-m-1 ruffles ruffles--blue-2 ri80 r-20" width="8" height="8" aria-hidden="true" role="presentation">
+          <use xlink:href="#ruffle-x"></use>
+        </svg>
+        <svg class="contraindications__ruffles-m contraindications__ruffles-m-2 ruffles ri23 r-60 s06" width="30" height="30" aria-hidden="true" role="presentation">
+          <use xlink:href="#ruffle-o-green"></use>
+        </svg>
+
+        <div class="contraindications__container container">
+          <div class="contraindications__wrap">
+            <div class="contraindications__content-wrap">
+              <p class="contraindications__caption caption">
+                требуется консультация специалиста
+              </p>
+              <p class="contraindications__title title">
+                Противопоказания
+              </p>
+              <p class="contraindications__desc desc">
+                Несмотря на то, что процедура представляет собой очищение от ядов, детокс создает серьезную нагрузку на нервную, сердечно-сосудистую и выделительную системы
+              </p>
+
+              <a class="contraindications__btn btn btn--icon btn--long" href="rehabs.html">
+                получить консультацию
+              </a>
+            </div>
+            <ul class="contraindications__list">
+              <li class="contraindications__item">
+                <p class="contraindications__img-wrap">
+                  <img class="contraindications__img" src="img/svg/icons/heart.svg" alt="героин" width="50" height="50">
+                </p>
+                <span class="contraindications__item-title">
+                  Хронические сердечно-сосудистые заболевания
+                </span>
+              </li>
+              <li class="contraindications__item">
+                <p class="contraindications__img-wrap">
+                  <img class="contraindications__img" src="img/svg/icons/boy.svg" alt="героин" width="50" height="50">
+                </p>
+                <span class="contraindications__item-title">
+                  Беременность
+                </span>
+              </li>
+              <li class="contraindications__item">
+                <p class="contraindications__img-wrap">
+                  <img class="contraindications__img" src="img/svg/icons/kidney.svg" alt="героин" width="50" height="50">
+                </p>
+                <span class="contraindications__item-title">
+                  Острые заболевания печени и почек
+                </span>
+              </li>
+              <li class="contraindications__item">
+                <p class="contraindications__img-wrap">
+                  <img class="contraindications__img" src="img/svg/icons/stomach.svg" alt="героин" width="50" height="50">
+                </p>
+                <span class="contraindications__item-title">
+                  Язва желудка и 12 перстной кишки
+                </span>
+              </li>
+              <li class="contraindications__item">
+                <p class="contraindications__img-wrap">
+                  <img class="contraindications__img" src="img/svg/icons/lung.svg" alt="героин" width="50" height="50">
+                </p>
+                <span class="contraindications__item-title">
+                  Легочная недостаточность
+                </span>
+              </li>
+              <li class="contraindications__item">
+                <p class="contraindications__img-wrap">
+                  <img class="contraindications__img" src="img/svg/icons/water.svg" alt="героин" width="50" height="50">
+                </p>
+                <span class="contraindications__item-title">
+                  Внутренние кровотечения
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="contraindications__figure figure figure-5" aria-hidden="true"></div>
+        <div class="contraindications__figure-2 figure figure-7" aria-hidden="true"></div>
+
+        <svg class="contraindications__ruffles-d contraindications__ruffles-d-3 ruffles r-60" width="30" height="30" aria-hidden="true" role="presentation">
+          <use xlink:href="#ruffle-o-green"></use>
+        </svg>
+      </section>
+
+      <section class="additionally">
+        <svg class="additionally__ruffles-d additionally__ruffles-d-1 ruffles r-60 s08" width="30" height="30" aria-hidden="true" role="presentation">
+          <use xlink:href="#ruffle-o-blue"></use>
+        </svg>
+
+        <svg class="additionally__ruffles-d additionally__ruffles-d-2 ruffles ruffles--blue-3 r-5" width="14" height="14" aria-hidden="true" role="presentation">
+          <use xlink:href="#ruffle-x"></use>
+        </svg>
+
+        <svg class="additionally__ruffles-d additionally__ruffles-d-3 ruffles ruffles--blue-3 r-5" width="14" height="14" aria-hidden="true" role="presentation">
+          <use xlink:href="#ruffle-x"></use>
+        </svg>
+
+
+        <div class="additionally__figure-2 figure figure-5" aria-hidden="true"></div>
+        <div class="additionally__container container">
+          <div class="additionally__text-wrap">
+            <p class="additionally__caption caption">
+              Ежегодно наркотики лишают жизни 70 000 человек
+            </p>
+            <p class="additionally__title title">
+              Лечение сопутствующих заболеваний
+            </p>
+          </div>
+          <ul class="additionally__list">
+            <li class="additionally__item">
+              <span class="additionally__item-icon" aria-hidden="true"></span>
+              <p class="additionally__item-title subtitle">
+                Нервно-психические расстройства
+              </p>
+              <p class="additionally__desc desc">
+                Избавление от психической зависимости, лечение приступов паники, депрессии, тоски, страха, психических отклонений и психозов
+              </p>
+            </li>
+            <li class="additionally__item">
+              <span class="additionally__item-icon" aria-hidden="true"></span>
+              <p class="additionally__item-title subtitle">
+                Заболевания желудочно-кишечного тракта
+              </p>
+              <p class="additionally__desc desc">
+                Лечение нарушений моторных функций кишечника, нормализация выработки желудочного сока и ферментов, улучшение процессов регуляции
+              </p>
+            </li>
+            <li class="additionally__item">
+              <span class="additionally__item-icon" aria-hidden="true"></span>
+              <p class="additionally__item-title subtitle">
+                Токсическое поражение печени
+              </p>
+              <p class="additionally__desc desc">
+                Медикаментозное лечение с целью предотвращение развития церроза печени, ожирения печени и гепатита
+              </p>
+            </li>
+            <li class="additionally__item">
+              <span class="additionally__item-icon" aria-hidden="true"></span>
+              <p class="additionally__item-title subtitle">
+                Сердечно-сосудистые заболевания
+              </p>
+              <p class="additionally__desc desc">
+                Нормализация работы частоты сердечных сокращений (пульса), артериального давления, предотвращение гипертонии и аритмии
+              </p>
+            </li>
+            <li class="additionally__item">
+              <span class="additionally__item-icon" aria-hidden="true"></span>
+              <p class="additionally__item-title subtitle">
+                Инфекционные поражения кожи
+              </p>
+              <p class="additionally__desc desc">
+                Из-за ослабленного иммунитета организм подвержен множеству инфекций, в том числе бактериальным: стрептококовым,  стафилакоковым, гнойным абсцессам и т.д.
+              </p>
+            </li>
+            <li class="additionally__item">
+              <span class="additionally__item-icon" aria-hidden="true"></span>
+              <p class="additionally__item-title subtitle">
+                Заболевания органов дыхания
+              </p>
+              <p class="additionally__desc desc">
+                Лечение инфекционных заболеваний: бронхита, пневмонии, нормализация привычного ритма работы легких
+              </p>
+            </li>
+          </ul>
+          <button class="additionally__btn-more btn-more">
+            Показать ещё
+          </button>
+        </div>
+        <div class="additionally__figure figure figure-6" aria-hidden="true"></div>
+
+        <svg class="additionally__ruffles-d additionally__ruffles-d-4 ruffles ruffles--blue-2 r-5" width="14" height="14" aria-hidden="true" role="presentation">
+          <use xlink:href="#ruffle-x"></use>
+        </svg>
+        <svg class="additionally__ruffles-d additionally__ruffles-d-5 ruffles ruffles--dark-blue r-45" width="26" height="26" aria-hidden="true" role="presentation">
+          <use xlink:href="#ruffle-x"></use>
+        </svg>
+      </section>
+
+      <section class="doctors-swiper">
+        <div class="doctors-swiper__figure figure figure-7" aria-hidden="true"></div>
+        <div class="doctors-swiper__container container">
+          <div class="doctors-swiper__text-wrap">
+            <p class="doctors-swiper__caption caption">
+              квалифицированный персонал
+            </p>
+            <p class="doctors-swiper__title title">
+              Наши специалисты
+            </p>
+          </div>
+        </div>
+        <div class="swiper-buttons-wrap swiper-buttons-wrap-big doctors-swiper__buttons-wrap">
+          <div class="swiper-container-big">
+            <div id="doctors-swiper" class="swiper-container doctors-swiper__swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide doctors-swiper__slide">
+                  <a class="doctors-swiper__link" href="doctor-detail.html">
+                    <div class="doctors-swiper__img-wrap">
+                      <img class="doctors-swiper__img" src="img/swiper/1.jpg" alt="Доктор 1">
+                    </div>
+
+                    <p class="doctors-swiper__name">
+                      Аксенов Максим Юрьевич
+                    </p>
+                    <p class="doctors-swiper__desc desc">
+                      Консультант по химической зависимости, координатор амбулаторной программы
+                    </p>
+                  </a>
+                </div>
+                <div class="swiper-slide doctors-swiper__slide">
+                  <a class="doctors-swiper__link" href="doctor-detail.html">
+                    <div class="doctors-swiper__img-wrap">
+                      <img class="doctors-swiper__img" src="img/swiper/2.jpg" alt="Доктор 2">
+                    </div>
+
+                    <p class="doctors-swiper__name">
+                      Аксенов Максим Юрьевич
+                    </p>
+                    <p class="doctors-swiper__desc desc">
+                      Консультант по химической зависимости, координатор амбулаторной программы
+                    </p>
+                  </a>
+                </div>
+                <div class="swiper-slide doctors-swiper__slide">
+                  <a class="doctors-swiper__link" href="doctor-detail.html">
+                    <div class="doctors-swiper__img-wrap">
+                      <img class="doctors-swiper__img" src="img/swiper/3.jpg" alt="Доктор 3">
+                    </div>
+
+                    <p class="doctors-swiper__name">
+                      Аксенов Максим Юрьевич
+                    </p>
+                    <p class="doctors-swiper__desc desc">
+                      Консультант по химической зависимости, координатор амбулаторной программы
+                    </p>
+                  </a>
+                </div>
+                <div class="swiper-slide doctors-swiper__slide">
+                  <a class="doctors-swiper__link" href="doctor-detail.html">
+                    <div class="doctors-swiper__img-wrap">
+                      <img class="doctors-swiper__img" src="img/swiper/1.jpg" alt="Доктор 1">
+                    </div>
+
+                    <p class="doctors-swiper__name">
+                      Аксенов Максим Юрьевич
+                    </p>
+                    <p class="doctors-swiper__desc desc">
+                      Консультант по химической зависимости, координатор амбулаторной программы
+                    </p>
+                  </a>
+                </div>
+                <div class="swiper-slide doctors-swiper__slide">
+                  <a class="doctors-swiper__link" href="doctor-detail.html">
+                    <div class="doctors-swiper__img-wrap">
+                      <img class="doctors-swiper__img" src="img/swiper/1.jpg" alt="Доктор 1">
+                    </div>
+
+                    <p class="doctors-swiper__name">
+                      Аксенов Максим Юрьевич
+                    </p>
+                    <p class="doctors-swiper__desc desc">
+                      Консультант по химической зависимости, координатор амбулаторной программы
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-button swiper-button-prev doctors-swiper__button-prev"></div>
+
+          <div class="swiper-button swiper-button-next doctors-swiper__button-next"></div>
+        </div>
+
+        <svg class="doctors-swiper__ruffles-d doctors-swiper__ruffles-d-1 ruffles r50" width="30" height="30" aria-hidden="true" role="presentation">
+          <use xlink:href="#ruffle-o-green"></use>
+        </svg>
+        <svg class="doctors-swiper__ruffles-d doctors-swiper__ruffles-d-2 ruffles ruffles--blue-2 r-5" width="14" height="14" aria-hidden="true" role="presentation">
+          <use xlink:href="#ruffle-x"></use>
+        </svg>
+      </section>
+
+      <article class="b">
+        <svg class="b__ruffles-m b__ruffles-m-1 ruffles ruffles--blue-1 l40" width="8" height="8" aria-hidden="true" role="presentation">
+          <use xlink:href="#ruffle-x"></use>
+        </svg>
+        <svg class="b__ruffles-m b__ruffles-m-2 ruffles ruffles--dark-blue l78 r-45" width="16" height="16" aria-hidden="true" role="presentation">
+          <use xlink:href="#ruffle-x"></use>
+        </svg>
+
+        <div class="b__container container">
+          <div class="b__wrap">
+            <div class="b__img-wrap b__figure-dots figure-dots">
+              <img class="b__img" src="img/b/3.jpg" alt="Самолечение опасно для вашего здоровья!">
+            </div>
+            <div class="b__content-wrap">
+              <p class="b__caption caption">
+                жизнь вашего близкого под угрозой
+              </p>
+              <p class="b__title title">
+                Уговорим на лечение!
+              </p>
+              <p class="b__desc desc">
+                Детоксикация - первый шаг в лечени зависимости! Обратитесь прямо сейчас, и наши специалисты гарантированно убедят начать лечение. Круглосуточная бесплатная горячая линия!
+              </p>
+              <div class="b__btn-wrap">
+                <a class="b__btn-link btn btn--icon-tel" href="tel:+78006365412">
+                  8 (800) 636-54-12
+                </a>
+                <form class="b__tel-form" method="POST" action=".php">
+                  <input class="b__tel btn btn--tel js-phone-mask" type="tel" name="PHONE" placeholder="+7 ( ___ ) ___ - __ - __" required="">
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <section class="rehabs-swiper">
+        <svg class="rehabs-swiper__ruffles-m rehabs-swiper__ruffles-m-1 ruffles ri70 r-60 s05" width="30" height="30" aria-hidden="true" role="presentation">
+          <use xlink:href="#ruffle-o-green"></use>
+        </svg>
+        <svg class="rehabs-swiper__ruffles-m rehabs-swiper__ruffles-m-2 ruffles ruffles--blue-2 ri37 r-20" width="8" height="8" aria-hidden="true" role="presentation">
+          <use xlink:href="#ruffle-x"></use>
+        </svg>
+
+        <div class="rehabs-swiper__container container">
+          <div class="rehabs-swiper__text-wrap">
+            <p class="rehabs-swiper__caption caption">
+              более 1000 наркологических клиник
+            </p>
+            <p class="rehabs-swiper__title title">
+              Наши клиники
+            </p>
+          </div>
+          <div class="swiper-buttons-wrap rehabs-swiper__buttons-wrap">
+
+            <div id="rehabs-swiper" class="swiper-container rehabs-swiper__swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide rehabs-swiper__slide">
+                  <a class="rehabs-swiper__link" href="rehab-detail.html">
+                    <figure class="rehabs-swiper__img-wrap">
+                      <img class="rehabs-swiper__img" src="img/swiper/4.jpg" alt="Центр 1">
+                      <figcaption class="rehabs-swiper__category">
+                        <span class="rehabs-swiper__category-item">
+                          Комфорт
+                        </span>
+                      </figcaption>
+                    </figure>
+                    <div class="rehabs-swiper__detail-wrap">
+                      <p class="rehabs-swiper__subtitle subtitle">
+                        г. Москва
+                      </p>
+                      <p class="rehabs-swiper__desc desc">
+                        ул. Большая Академическая, 13А
+                      </p>
+                      <p class="rehabs-swiper__price desc">
+                        <span class="rehabs-swiper__price-val">от 3000</span> <span class="rehabs-swiper__price-icon">&#8381;</span> / в сутки
+                      </p>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide rehabs-swiper__slide">
+                  <a class="rehabs-swiper__link" href="rehab-detail.html">
+                    <figure class="rehabs-swiper__img-wrap">
+                      <img class="rehabs-swiper__img" src="img/swiper/5.jpg" alt="Центр 2">
+                      <figcaption class="rehabs-swiper__category">
+                        <span class="rehabs-swiper__category-item">
+                          Стандарт
+                        </span>
+                      </figcaption>
+                    </figure>
+                    <div class="rehabs-swiper__detail-wrap">
+                      <p class="rehabs-swiper__subtitle subtitle">
+                        г. Москва
+                      </p>
+                      <p class="rehabs-swiper__desc desc">
+                        ул. Большая Академическая, 13А
+                      </p>
+                      <p class="rehabs-swiper__price desc">
+                        <span class="rehabs-swiper__price-val">от 3000</span> <span class="rehabs-swiper__price-icon">&#8381;</span> / в сутки
+                      </p>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide rehabs-swiper__slide">
+                  <a class="rehabs-swiper__link" href="rehab-detail.html">
+                    <figure class="rehabs-swiper__img-wrap">
+                      <img class="rehabs-swiper__img" src="img/swiper/6.jpg" alt="Центр 3">
+                      <figcaption class="rehabs-swiper__category">
+                        <span class="rehabs-swiper__category-item">
+                          VIP
+                        </span>
+                      </figcaption>
+                    </figure>
+                    <div class="rehabs-swiper__detail-wrap">
+                      <p class="rehabs-swiper__subtitle subtitle">
+                        г. Москва
+                      </p>
+                      <p class="rehabs-swiper__desc desc">
+                        ул. Большая Академическая, 13А
+                      </p>
+                      <p class="rehabs-swiper__price desc">
+                        <span class="rehabs-swiper__price-val">от 3000</span> <span class="rehabs-swiper__price-icon">&#8381;</span> / в сутки
+                      </p>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide rehabs-swiper__slide">
+                  <a class="rehabs-swiper__link" href="rehab-detail.html">
+                    <figure class="rehabs-swiper__img-wrap">
+                      <img class="rehabs-swiper__img" src="img/swiper/7.jpg" alt="Центр 3">
+                      <figcaption class="rehabs-swiper__category">
+                        <span class="rehabs-swiper__category-item">
+                          Комфорт
+                        </span>
+                      </figcaption>
+                    </figure>
+                    <div class="rehabs-swiper__detail-wrap">
+                      <p class="rehabs-swiper__subtitle subtitle">
+                        г. Москва
+                      </p>
+                      <p class="rehabs-swiper__desc desc">
+                        ул. Большая Академическая, 13А
+                      </p>
+                      <p class="rehabs-swiper__price desc">
+                        <span class="rehabs-swiper__price-val">от 3000</span> <span class="rehabs-swiper__price-icon">&#8381;</span> / в сутки
+                      </p>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide rehabs-swiper__slide">
+                  <a class="rehabs-swiper__link" href="rehab-detail.html">
+                    <figure class="rehabs-swiper__img-wrap">
+                      <img class="rehabs-swiper__img" src="img/swiper/2.jpg" alt="Центр 4">
+                      <figcaption class="rehabs-swiper__category">
+                        <span class="rehabs-swiper__category-item">
+                          Комфорт
+                        </span>
+                      </figcaption>
+                    </figure>
+                    <div class="rehabs-swiper__detail-wrap">
+                      <p class="rehabs-swiper__subtitle subtitle">
+                        г. Москва
+                      </p>
+                      <p class="rehabs-swiper__desc desc">
+                        ул. Большая Академическая, 13А
+                      </p>
+                      <p class="rehabs-swiper__price desc">
+                        <span class="rehabs-swiper__price-val">от 3000</span> <span class="rehabs-swiper__price-icon">&#8381;</span> / в сутки
+                      </p>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide rehabs-swiper__slide">
+                  <a class="rehabs-swiper__link" href="rehab-detail.html">
+                    <figure class="rehabs-swiper__img-wrap">
+                      <img class="rehabs-swiper__img" src="img/swiper/4.jpg" alt="Центр 1">
+                      <figcaption class="rehabs-swiper__category">
+                        <span class="rehabs-swiper__category-item">
+                          Комфорт
+                        </span>
+                      </figcaption>
+                    </figure>
+                    <div class="rehabs-swiper__detail-wrap">
+                      <p class="rehabs-swiper__subtitle subtitle">
+                        г. Москва
+                      </p>
+                      <p class="rehabs-swiper__desc desc">
+                        ул. Большая Академическая, 13А
+                      </p>
+                      <p class="rehabs-swiper__price desc">
+                        <span class="rehabs-swiper__price-val">от 3000</span> <span class="rehabs-swiper__price-icon">&#8381;</span> / в сутки
+                      </p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-button swiper-button-prev rehabs-swiper__button-prev"></div>
+
+            <div class="swiper-button swiper-button-next rehabs-swiper__button-next"></div>
+          </div>
+
+          <div class="rehabs-swiper__mobile-list">
+            <a class="rehabs-swiper__link" href="rehab-detail.html">
+              <figure class="rehabs-swiper__img-wrap">
+                <img class="rehabs-swiper__img" src="img/swiper/4.jpg" alt="Центр 1">
+                <figcaption class="rehabs-swiper__category">
+                  <span class="rehabs-swiper__category-item">
+                    Комфорт
+                  </span>
+                </figcaption>
+              </figure>
+              <div class="rehabs-swiper__detail-wrap">
+                <p class="rehabs-swiper__subtitle subtitle">
+                  г. Москва
+                </p>
+                <p class="rehabs-swiper__desc desc">
+                  ул. Большая Академическая, 13А
+                </p>
+                <p class="rehabs-swiper__price desc">
+                  <span class="rehabs-swiper__price-val">от 3000</span> <span class="rehabs-swiper__price-icon">&#8381;</span> / в сутки
+                </p>
+              </div>
+            </a>
+
+            <a class="rehabs-swiper__link" href="rehab-detail.html">
+              <figure class="rehabs-swiper__img-wrap">
+                <img class="rehabs-swiper__img" src="img/swiper/4.jpg" alt="Центр 1">
+                <figcaption class="rehabs-swiper__category">
+                  <span class="rehabs-swiper__category-item">
+                    Комфорт
+                  </span>
+                </figcaption>
+              </figure>
+              <div class="rehabs-swiper__detail-wrap">
+                <p class="rehabs-swiper__subtitle subtitle">
+                  г. Москва
+                </p>
+                <p class="rehabs-swiper__desc desc">
+                  ул. Большая Академическая, 13А
+                </p>
+                <p class="rehabs-swiper__price desc">
+                  <span class="rehabs-swiper__price-val">от 3000</span> <span class="rehabs-swiper__price-icon">&#8381;</span> / в сутки
+                </p>
+              </div>
+            </a>
+
+            <a class="rehabs-swiper__link" href="rehab-detail.html">
+              <figure class="rehabs-swiper__img-wrap">
+                <img class="rehabs-swiper__img" src="img/swiper/4.jpg" alt="Центр 1">
+                <figcaption class="rehabs-swiper__category">
+                  <span class="rehabs-swiper__category-item">
+                    Комфорт
+                  </span>
+                </figcaption>
+              </figure>
+              <div class="rehabs-swiper__detail-wrap">
+                <p class="rehabs-swiper__subtitle subtitle">
+                  г. Москва
+                </p>
+                <p class="rehabs-swiper__desc desc">
+                  ул. Большая Академическая, 13А
+                </p>
+                <p class="rehabs-swiper__price desc">
+                  <span class="rehabs-swiper__price-val">от 3000</span> <span class="rehabs-swiper__price-icon">&#8381;</span> / в сутки
+                </p>
+              </div>
+            </a>
+
+            <!-- Если больше 3 - остальные скрывать, выводить ссылку .btn-more -->
+          </div>
+          <a class="rehabs-swiper__btn-more btn-more" href="rehabs.html">
+            Все клиники
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <svg class="footer__ruffles-x ruffles ruffles--blue-3 x595 r10" width="14" height="14" aria-hidden="true" role="presentation">
+        <use xlink:href="#ruffle-x"></use>
+      </svg>
+
+      <svg class="footer__ruffles-o ruffles x530 r-60 s08" width="30" height="30" aria-hidden="true" role="presentation">
+        <use xlink:href="#ruffle-o-blue"></use>
+      </svg>
+
+      <div class="footer__decor" aria-hidden="true"></div>
+      <div class="footer__bg-wrap">
+        <div class="footer__container container">
+          <div class="footer__top">
+            <div class="footer__text-wrap">
+              <p class="footer__title">Оставьте заявку прямо сейчас!</p>
+              <p class="footer__desc">Мы на связи 24/7, бесплатная горячая линия</p>
+            </div>
+            <button class="footer__btn btn btn--icon js-modal-callback">
+              Оставить заявку
+            </button>
+            <div class="footer__social social">
+              <ul class="social__list">
+                <li class="social__item">
+                  <a class="social__link" href="#" title="Наш Viber" target="_blank">
+                    <p class="social__img-wrap">
+                      <img class="social__img" src="img/svg/social-vb.svg" alt="Наш Viber" width="26" height="26">
+                    </p>
+                    <span class="visually-hidden">Наш Viber</span>
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a class="social__link" href="#" title="Наш WhatsApp" target="_blank">
+                    <p class="social__img-wrap">
+                      <img class="social__img" src="img/svg/social-whts.svg" alt="Наш WhatsApp" width="26" height="26">
+                    </p>
+                    <span class="visually-hidden">Наш WhatsApp</span>
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a class="social__link" href="#" title="Наш Telegram" target="_blank">
+                    <p class="social__img-wrap">
+                      <img class="social__img" src="img/svg/social-tg.svg" alt="Наш Telegram" width="26" height="26">
+                    </p>
+                    <span class="visually-hidden">Наш Telegram</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__bottom">
+            <a class="footer__logo logo logo--small logo--white" href="index.html">
+              <h2 class="logo__title visually-hidden">Очищение</h2>
+              <img class="logo__title-img" src="img/svg/logo-title-white.svg" alt="Очищение" width="190" height="32">
+              <p class="logo__description">детоксикация при любых видах зависимости</p>
+            </a>
+            <ul class="footer__list-column-wrap">
+              <li class="footer__list-column">
+                <ul class="footer__list">
+                  <li class="footer__item">
+                    <span class="footer__link footer__link-caption">
+                      Услуги
+                    </span>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="service-detail.html">
+                      Лечение наркомании
+                    </a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="service-detail.html">
+                      Лечение алкоголизма
+                    </a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="service-detail.html">
+                      УБОД
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="footer__list-column">
+                <ul class="footer__list">
+                  <li class="footer__item">
+                    <span class="footer__link footer__link-caption">
+                      Информация
+                    </span>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="rehabs.html">
+                      Клиники
+                    </a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="teenagers.html">
+                      Подросткам
+                    </a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="service-detail.html">
+                      Онлайн-консультация
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="footer__list-column">
+                <ul class="footer__list">
+                  <li class="footer__item">
+                    <a class="footer__link footer__link-caption" href="database.html">
+                      База знаний
+                    </a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="article-detail.html">
+                      Лечение наркомании
+                    </a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="article-detail.html">
+                      Лечение алкоголизма
+                    </a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="database.html">
+                      Другие виды зависимости
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="footer__list-column">
+                <ul class="footer__list">
+                  <li class="footer__item">
+                    <a class="footer__link footer__link-caption" href="contacts.html">
+                      Контакты
+                    </a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="tel:+78005651234">
+                      8 800 565 12 34
+                    </a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="mailto:mail@detox.ru">
+                      mail@detox.ru
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <svg style="position: absolute; z-index: -100; width: 0; height: 0; visibility: hidden; opacity: 0;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <!-- X -->
+      <symbol id="ruffle-x" viewBox="0 0 448 448">
+        <path d="m408 184h-136c-4.417969 0-8-3.582031-8-8v-136c0-22.089844-17.910156-40-40-40s-40 17.910156-40 40v136c0 4.417969-3.582031 8-8 8h-136c-22.089844 0-40 17.910156-40 40s17.910156 40 40 40h136c4.417969 0 8 3.582031 8 8v136c0 22.089844 17.910156 40 40 40s40-17.910156 40-40v-136c0-4.417969 3.582031-8 8-8h136c22.089844 0 40-17.910156 40-40s-17.910156-40-40-40zm0 0" />
+      </symbol>
+
+      <!-- O-green -->
+      <symbol id="ruffle-o-green">
+        <circle cx="14" cy="14" r="10" stroke="url(#g-green)" stroke-width="4.4px" fill="none" ></circle>
+      </symbol>
+
+      <!-- O-blue -->
+      <symbol id="ruffle-o-blue">
+        <circle cx="14" cy="14" r="10" stroke="url(#g-blue)" stroke-width="4.4px" fill="none" ></circle>
+      </symbol>
+
+      <defs>
+        <linearGradient id="g-blue" x1="0%" x2="0%" y1="100%" y2="0%">
+          <stop offset="0%" stop-color="#8598d4" stop-opacity="1" />
+          <stop offset="100%" stop-color="#65d6c4" stop-opacity="1" />
+        </linearGradient>
+        <linearGradient id="g-green" x1="0%" x2="0%" y1="100%" y2="0%">
+          <stop offset="0%" stop-color="#48d883" stop-opacity="1" />
+          <stop offset="100%" stop-color="#1d974e" stop-opacity="1" />
+        </linearGradient>
+      </defs>
+    </svg>
+
+    <div class="overlay"></div>
+
+    <script src="js/libs/jquery-3.4.1.min.js"></script>
+    <script src="js/libs/jquery.maskedinput.min.js"></script>
+    <script src="js/libs/jquery.fancybox.min.js"></script>
+
+    <script src="js/libs/swiper.min.js"></script>
+
+    <script src="js/main.js"></script>
+    <script src="js/slider.js"></script>
+  </body>
+</html>

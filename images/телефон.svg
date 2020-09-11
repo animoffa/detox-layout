@@ -1,0 +1,44 @@
+<svg id="Группа_21" data-name="Группа 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="562.5" height="168.421" viewBox="0 0 375 112.281">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #aba6cc;
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-3 {
+        opacity: 0.13;
+      }
+
+      .cls-4 {
+        opacity: 0.25;
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient-3);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="-26" y1="669.11" x2="411.125" y2="669.11" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#483f86"/>
+      <stop offset="0.99" stop-color="#403777"/>
+      <stop offset="1" stop-color="#403777"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="35.156" y1="101.312" x2="35.156" y2="65.031" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1a954c"/>
+      <stop offset="1" stop-color="#2bae60"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="35.156" y1="97.531" x2="35.156" y2="68.812" xlink:href="#linear-gradient-2"/>
+  </defs>
+  <path id="Фигура_15" data-name="Фигура 15" class="cls-1" d="M157.977,648.1s161.863,38.3,221.167-22.888c70.216-72.445,3.648,38.936,3.648,38.936L214.044,699.2Z" transform="translate(0 -600.719)"/>
+  <path id="Фигура_14" data-name="Фигура 14" class="cls-2" d="M-26,665s83.034-23,132-23,103.6,20,179,20c91.62,0,120.053-50.884,125-33s-8,84-8,84H-7Z" transform="translate(0 -600.719)"/>
+  <image id="plus_1_копия_5" data-name="plus (1) копия 5" class="cls-3" x="333" y="65.281" width="12" height="12" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA3klEQVQ4jY2T2wqCQBCGPztYZkWnm3p/uulVepIoLJI2O2AszMAyreXAos7hG+cfTXbbPS2sC6zlegCclnTaVANzoC/5kzDQBtADxsGzs8EMWABP4Aw8DGAGJHL/AkoL8AmpnBy4CaiKdPf+2gLuwDDwjeQ4SW7sroBCIF6oQRDLTO7FdleACuOkyILUchmrigHUFDQFlibmx9xIvFCQBailDX4dLRPQMQawyp9kxTGNVjGA3ftVxItpVFvAv72HYvtPu7QAL97PvRvQ17+gxbHuUbNv4Nfji94y+28DPgNwOX5o+GBYAAAAAElFTkSuQmCC"/>
+
+</svg>

@@ -1,0 +1,69 @@
+.r-45 {
+    --rotate: -45deg;
+    left: -13rem;
+    top: 44rem;
+}
+.r-20 {
+    --rotate: -20deg;
+    left: -11rem;
+    top: 21.5rem;
+}
+.s07 {
+    --scale: 0.85;
+    top: 23.5rem;
+    left: 48rem;
+}
+.r-222 {
+    left: 62rem;
+    top: 72rem;
+}
+.r-60-k{
+    top: 80rem;
+    left: 75rem;
+}
+.r-6023{
+    top:360rem;
+    left:18rem;
+}
+.r-2223-k2{
+    top:354rem;
+    left:-10rem;
+}
+.r-45-c{
+    top: 281rem;
+    left: 152rem;
+}
+.r-2223-k4{
+    top: 302rem;
+    left: 137rem;
+}
+.r-45-c2{
+    top: 436rem;
+    left: 140rem;
+    --scale: 0.8;
+    z-index: 100;
+}
+.r-2223-k3{
+    top: 427rem;
+    left: 146rem;
+    --scale: 0.8;
+    z-index: 100;
+}
+.r-45-c3{
+    top: 421rem;
+    left: 54rem;
+    z-index: 100;
+}
+.r-6022 {
+
+    display: none;
+
+}
+@media (max-width:48em){
+    .s07-k{
+        display: none;
+    }
+    .r-60-k {
+        display: none;
+    }
+}

@@ -1,0 +1,58 @@
+.r-20r{
+    left:-3rem;
+    top:21rem;
+}
+.r-45{
+    left:-5rem;
+}
+.s07{
+    --scale: 0.8;
+    top: 23.5rem;
+    left: 56rem;
+}
+.r-60-k{
+    top: 79rem;
+    left: 102rem;
+}
+.r-222{
+    left: 88.7rem;
+    top: 70.5rem;
+}
+.figure-1{
+    left: 3rem;
+    top: 70rem;
+}
+.figure-dits-a1{
+    top: 83rem;
+    right: -18rem;
+}
+.r-602 {
+    top: 243rem;
+    left: 14rem;
+    z-index: 2;
+    --scale: 1;
+}
+@media(max-width:48em){
+    .r-60-k {
+        top: 72rem;
+        right: 20%;
+    }
+    .r-6021, .r-2224, .r-2222{
+        display: none;
+    }
+    .r-2223{
+        display: none;
+    }
+    .r-602{
+        display: none;
+    }
+    .main-info__ruffles-m-2{
+        top:4%;
+        right: 10%;
+    }
+    .main-info__ruffles-m-4 {
+        right: 80%;
+        top: 125.5rem;
+        display: none;
+    }
+}

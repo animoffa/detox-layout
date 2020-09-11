@@ -1,0 +1,161 @@
+.r-20 {
+    left: -3rem;
+}
+.figure-k{
+    width: 100%;
+    height: 140%;
+    background: url("../images/Фигура_550.svg") no-repeat;
+    z-index: 0;
+    left: 73rem;
+    top: -7rem;
+}
+
+.r-45 {
+    left: -7rem;
+    top: 45rem;
+}
+.r-45-k {
+    left: 158.5rem;
+    top: 56.5rem;
+    --scale: 0.78;
+    opacity: 0.4;
+}
+.r-222-k{
+    top: 156rem;
+    left: -7rem;
+}
+.s07 {
+    top: 21rem;
+    left: 60rem;
+}
+.r-60-k {
+    top: 163rem;
+    left: 24rem;
+}
+.tariffs__figure-dots::before {
+    top: 153rem;
+    right: -40rem;
+    width: 23rem;
+    position: absolute;
+    content: '';
+    background-image: url(../img/svg/figures/dots.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 22rem;
+    border-radius: 50%;
+}
+.s07-k2{
+    top: 149rem;
+    left:155rem;
+}
+.r-45-c {
+    top: 240rem;
+    left: 158rem;
+}
+.r-2223-k4{
+    left: 150rem;
+    top: 250rem;
+}
+.r-2223-k3{
+    left: 60rem;
+    top: 296rem;
+}
+.r-6023{
+    left: 65rem;
+    top: 301rem;
+}
+.r-45-c3 {
+    top: 380rem;
+    left: -4rem;
+}
+.r-2223-k2 {
+    top: 387rem;
+    left: 1rem;
+}
+.r-6022 {
+    top: 410rem;
+    left: 168rem;
+    --scale: 1.3;
+    --rotate: 25deg;
+}
+.doctors-swiper__ruffles-d-2 {
+    left: 161.2rem;
+    top: 24rem;
+}
+.r-6024{
+ top:575rem;
+    left:170rem;
+}
+.r-2223-k5 {
+    top: 565rem;
+    left: 141rem;
+}
+.figure-1::before {
+    width: 23.7rem;
+    height: 26.2rem;
+    z-index: 1;
+    top: 61.6rem;
+    left: -44rem;
+    background-image: url(../img/svg/figures/purple-2.svg);
+    position: absolute;
+    content: '';
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.figure-5::before {
+    width: 96.3rem;
+    height: 102.8rem;
+    top: 240rem;
+    left: 130rem;
+    transform: scaleX(-1);
+    background-image: url(../img/svg/figures/gray-pink-stroke-1.svg);
+}
+.r-602c{
+    display: none;
+}
+@media (max-width:48em){
+    .figure-k{
+      display: none;
+    }
+    .s07{
+        display: none;
+    }
+    .r-60-k {
+        top: 140rem;
+        left: 60rem;
+    }
+    .r-222-k {
+        top: 129rem;
+        left: 65rem;
+    }
+    .s05{
+        top: 100rem;
+        left: 65rem;
+        --scale:0.8;
+    }
+    .r-2223-k3 {
+        left: 60rem;
+        top: 246rem;
+    }
+    .r-6023 {
+        left: 65rem;
+        top: 418rem;
+        --scale:0.9;
+    }
+    .r-2223-k2 {
+        top: 425rem;
+        left: 58rem;
+    }
+    .r-602c{
+        top:822rem;
+        left:63rem;
+        display:initial;
+        --scale:0.8;
+    }
+    .l40{
+        top: -340rem;
+        left: 50rem;
+    }
+}

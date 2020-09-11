@@ -1,0 +1,392 @@
+body {
+    background: url("../images/услуги.png") !important;
+}
+
+header .container {
+    display: flex;
+    padding: 0 0.5rem;
+}
+
+nav {
+    margin: 0 0 0 3.5rem !important;
+}
+
+.header-side {
+    display: flex;
+}
+
+.nav__right-side {
+    margin: 0 1.3rem 0 0 !important;
+    width:75rem;
+}
+
+.services-block__services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 6rem 0;
+}
+
+.services-block {
+    padding-top: 22.7rem;
+}
+
+.h3 {
+    color: #4f405f;
+    font-weight: bold;
+    font-size: 4.7rem;
+    padding-left: 7.8rem;
+}
+
+.services-block__service {
+    color: #4f405f;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 31rem;
+    height: 42rem;
+    border-radius: 8rem;
+    font-size: 1.9rem;
+    -webkit-box-shadow: 26px 26px 47px 9px rgba(117, 117, 117, 0.07);
+    -moz-box-shadow: 26px 26px 47px 9px rgba(117, 117, 117, 0.07);
+    box-shadow: 26px 26px 47px 9px rgba(117, 117, 117, 0.07);
+    margin: 1.5rem 1.5rem 6.9rem 1.5rem;
+}
+
+.services-block__services strong {
+    display: block;
+    font-size: 2.1rem;
+    position: relative;
+    top: -2.3rem;
+}
+
+.services-block__gray-text {
+    color: #92879c;
+}
+
+.services-block__services span {
+    position: relative;
+    top: -1rem;
+}
+
+.background {
+    background: url("../images/ф.png");
+    background-size: cover;
+}
+
+footer {
+    padding: 30rem 0 10rem 0;
+    color: white;
+}
+
+.footer__request {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__request-text strong {
+    font-size: 3.15rem;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.footer__request-text span {
+    color: #938ebc;
+    font-size: 1.93rem;
+}
+
+.footer__button a {
+    background: linear-gradient(to right, #1b944b, #2bad5f);
+    color: white;
+    padding: 1.55rem 1.3rem 1.55rem 2.6rem;
+    border-radius: 60px;
+    display: flex;
+    width: fit-content;
+    align-items: center;
+}
+
+.footer__button a span {
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    margin-right: 2.1rem;
+}
+
+.footer__button a div {
+    background: white;
+    color: #1f9c52;
+    border-radius: 50%;
+    padding: 0.75rem 1.05rem;
+}
+
+.footer__social div {
+    background: #352f5a;
+    padding: 1.5rem;
+    border-radius: 50%;
+    height: fit-content;
+    width: fit-content;
+    margin: 1.2rem;
+}
+
+.footer__social {
+    display: flex;
+}
+
+.footer__social img {
+    width: 2.7rem;
+}
+
+.footer__logo {
+    display: flex;
+}
+
+.footer__logo img {
+    height: fit-content;
+    margin-right: 2rem;
+}
+
+.footer__logo div {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__logo strong {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.footer__logo span {
+    color: #938ebc;
+    font-size: 1.6rem;
+}
+
+.footer__info {
+    display: flex;
+    padding-top: 10rem;
+    justify-content: space-between;
+}
+
+.footer__about p {
+    font-size: 2.33rem;
+    margin-bottom: 2.2rem;
+}
+
+.footer__about span {
+    font-size: 1.93rem;
+    display: block;
+    margin-bottom: 1rem;
+    color: #938ebc;
+}
+
+.header__third-side__mobile {
+    display: none;
+}
+
+.header__second-side__mobile {
+    display: none;
+}
+
+.footer__about-blocks {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 5rem;
+    width: 75%;
+}
+
+.footer__button img {
+    width: 0.8rem;
+}
+
+@media (max-width: 48em) {
+    .header__first-side span, .header__third-side {
+        display: none;
+    }
+body{
+    background:white !important;
+}
+    .header__third-side__mobile {
+        display: initial;
+    }
+header .container{
+    padding:0 3rem;
+}
+    .header__second-side__mobile {
+        display: initial;
+    }
+
+    .services-block__service > div{
+        height: 7rem;
+        position: relative;
+        padding:0 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .services-block {
+        padding-top: 15rem;
+    }
+
+    .header__third-side__mobile, .header__second-side__mobile {
+        width: 5rem;
+    }
+
+    .header__third-side__mobile img, .header__second-side__mobile img {
+        width: 100%;
+    }
+    .footer__logo img {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .services-block__service {
+        width: 44%;
+        padding-bottom: 5%;
+        height: fit-content;
+        margin: 1.5rem 3% 6% 3%;
+    }
+    .services-block__service img{
+        width:38rem;
+    }
+    .services-block__service strong{
+        top: -2.5rem;
+        font-size:2.7rem;
+    }
+    .services-block__service span{
+        top:-1.5rem;
+        font-size:2.4rem;
+    }
+    .services-block__service .services-block__gray-text{
+        font-size:2.1rem;
+    }
+    .h3 {
+        padding-left: 3%;
+    }
+
+    .header__second-side {
+        top: -40rem;
+        position: absolute;
+    }
+
+    footer.container {
+        display: flex;
+        flex-direction: column;
+        padding: 15rem 5rem 5rem 5rem;
+    }
+
+    .footer__request {
+        order: 1;
+    }
+
+    .footer__info {
+        order: 0;
+    }
+
+    .footer__about {
+        flex-wrap: wrap;
+    }
+
+    .footer__request {
+        flex-direction: column;
+    }
+
+    .footer__social {
+        order: -1;
+    }
+
+    .footer__about {
+        width: 40%;
+    }
+
+    .footer__about-blocks {
+        margin: 5rem 0;
+        width: auto;
+    }
+
+    .footer__info {
+        flex-direction: column;
+    }
+
+    .footer__request-text {
+        margin: 3rem 0;
+    }
+
+    .footer__about {
+        margin-bottom: 3rem;
+    }
+
+    .background {
+        background: url(../images/footermob.png) no-repeat;
+        background-size: cover;
+    }
+    .menu-toggle {
+        width: 7rem;
+        height: 3.3rem;
+    }
+
+    .logo::before {
+        width: 5.5rem;
+        height: 5.5rem;
+    }
+
+    .logo__title-img {
+        left: 4.2rem;
+        width: 17.4rem;
+        height: 3.5rem;
+    }
+
+    .header__link-call-back-img {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .logo__title-img-footer {
+        left: -0.4rem;
+    }
+
+    .footer__logo-img {
+        width: 8rem;
+        margin-top: 0;
+    }
+
+    .footer__logo img {
+        width: 23rem;
+    }
+
+    .footer__logo span {
+        font-size: 2.1rem;
+    }
+
+    .footer__about p {
+        font-size: 3rem;
+    }
+
+    .footer__about span {
+        font-size: 2.3rem;
+    }
+
+    .footer__social img {
+        width: 3.8rem;
+    }
+
+    .footer__request-text strong {
+        font-size: 3.6rem;
+    }
+
+    .footer__request-text span {
+        font-size: 2.5rem;
+    }
+
+    .footer__button a span {
+        font-size: 2.2rem;
+    }
+
+    .footer__button a div {
+        padding: 1.5rem 1.8rem;
+    }
+    .footer__button img {
+        width: 1.2rem;
+    }
+    .footer__button a{
+        margin-top: 2rem;
+    }
+}

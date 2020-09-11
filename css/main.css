@@ -1,0 +1,116 @@
+#first-block__photo {
+    position: absolute;
+    z-index: 2;
+    right: -5.5rem;
+    top: -3.9rem;
+    width: 105.2rem;
+    height:100%;
+}
+
+.first-block__text {
+    color: #4f405f;
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    font-size: 2rem;
+    width: 52rem;
+    font-weight: 600;
+}
+
+.h1 {
+    margin: 1.8rem 0 3.44rem 0;
+    font-size: 5.95rem;
+    text-transform: none;
+    font-weight: bold;
+    line-height: 6.5rem;
+
+}
+.first-block{
+    padding:20rem 10rem;
+}
+.first-block__text span {
+    font-size: 2.035rem;
+    text-transform: none;
+    font-weight: 500;
+}
+
+.first-block__text a {
+    background: linear-gradient(to right,#1b944b,#2bae60);
+    color: white;
+    padding: 1.25rem 1rem 1.25rem 2.2rem;
+    border-radius: 60px;
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    margin-top: 5.6rem;
+}
+
+.first-block__text a span {
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    margin-right: 2.1rem;
+}
+
+.first-block__text a div {
+    background: white;
+    color: #1f9c52;
+    border-radius: 50%;
+    padding: 0.2rem 1.2rem 0.55rem 1.2rem;
+}
+
+.title {
+    text-transform: uppercase;
+    font-size: 1.78rem;
+    text-align: center;
+}
+
+.h3 {
+    font-size: 4.95rem;
+    text-transform: none;
+    margin: 0.7rem 0 1.8rem 0;
+    font-weight: 800;
+}
+
+.title span {
+    font-size: 1.85rem;
+    text-transform: none;
+    display: block;
+}
+
+
+.cleansing-block {
+    margin-top: 29.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #4f405f;
+}
+
+.cleansing-block__drugs {
+    margin-top: 6.3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.cleansing-block__drugs div {
+    -webkit-box-shadow: 26px 26px 47px 9px rgba(117, 117, 117, 0.09);
+    -moz-box-shadow: 26px 26px 47px 9px rgba(117, 117, 117, 0.09);
+    box-shadow: 26px 26px 47px 9px rgba(117, 117, 117, 0.09);
+    width: 16.65rem;
+    height: 17rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin: 0 1.2rem;
+
+}
+
+.cleansing-block__drugs img{
+    margin-bottom:2.5rem;
+}
